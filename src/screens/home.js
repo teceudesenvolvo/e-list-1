@@ -7,15 +7,19 @@ import '../App.css'
 // Icones
 
 // Components
+import Menu from '../componets/menu';
 
 //mudança de páginas
 
 class Home extends Component{
   render(){  
-    return (      
+    return (   
+
         <div className='App-header' >
-            <h1>facebook</h1>
-            <p>from <b>Meta</b></p>
+            <Menu/>
+            <h1>Home</h1>
+            <a href='/login' className='linkLogin'>login</a>
+            <a href='/register' className='linkRegister'>register</a>
         </div>
     );
   }
