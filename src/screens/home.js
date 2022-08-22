@@ -31,9 +31,7 @@ class Home extends Component {
             <div className='carrosselItem'>
               <img src={camera} alt='camera' className='camera' />  
             </div>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
-            </div>
+            
           </div>
           <p className='textoDestaques'>Categorias</p>
           <div className='categoriasHome'>
@@ -43,7 +41,7 @@ class Home extends Component {
             <img src={categorias} alt='categorias' className='categorias' />
             <img src={categorias} alt='categorias' className='categorias' />
             <img src={categorias} alt='categorias' className='categorias' />
-            <img src={categorias} alt='categorias' className='categorias' />
+            
            
            </div> 
            <p className='textoDestaques'>Ultimos Vistos</p>
