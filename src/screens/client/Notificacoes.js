@@ -16,7 +16,6 @@ class Notificacoes extends Component{
     return (   
 
         <div className='App-header' >
-            <Menu/>
             <p>Notificações</p>
             <div className='notificacoes'>
                 <div className='notificacoesItem'>

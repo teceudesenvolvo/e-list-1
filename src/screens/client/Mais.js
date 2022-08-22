@@ -16,7 +16,6 @@ class Mais extends Component{
     return (   
 
         <div className='App-header' >
-            <Menu/>
             <p>Mais</p>
             <a href='/login' className='linkLogin'>login</a>
             <a href='/register' className='linkRegister'>register</a>

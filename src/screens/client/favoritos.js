@@ -16,7 +16,7 @@ class favoritos extends Component {
     return (
 
       <div className='App-header' >
-        <Menu />
+
         <p>Favoritos</p>
         <div className='favoritos'>
           <div className='favoritosItem'>

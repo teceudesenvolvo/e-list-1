@@ -13,6 +13,8 @@ import Minhas_Compras from './screens/client/Minhas_Compras';
 import Notificacoes from './screens/client/Notificacoes';
 import Mais from './screens/client/Mais';
 
+import Menu from './componets/menu'
+
 
 
 function App() {
@@ -29,6 +31,7 @@ function App() {
           
 
       </Switch>
+      <Menu/>
     </div>
   );
 }

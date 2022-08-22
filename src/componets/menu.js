@@ -9,6 +9,13 @@ import alarm from '../assets/alarm.png';
 import menuLogo from '../assets/menu.png';
 
 // Icones
+import { 
+  FaHome,
+  FaHeart,
+  FaShoppingBag,
+  FaBell,
+  FaBars
+} from "react-icons/fa";
 
 // Components
 
@@ -19,11 +26,11 @@ class menu extends Component{
     return (      
         <nav className='menu'>
             
-            <a href='/' className='linkMenu'> <img src={home}  /></a>
-            <a href='/favoritos' className='linkMenu'> <img src={love}  /></a>
-            <a href='/Compras' className='linkMenu'> <img src={shopping}  /></a>
-            <a href='/Notificacoes' className='linkMenu'> <img src={alarm}  /></a>
-            <a href='/Mais' className='linkMenu'> <img src={menuLogo}  /></a>
+            <a href='/' className='linkMenu active'> <FaHome /> </a>
+            <a href='/favoritos' className='linkMenu'> <FaHeart /> </a>
+            <a href='/Compras' className='linkMenu'> <FaShoppingBag /> </a>
+            <a href='/Notificacoes' className='linkMenu'> <FaBell /> </a>
+            <a href='/Mais' className='linkMenu'> <FaBars /> </a>
                
         </nav>
 

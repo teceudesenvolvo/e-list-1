@@ -16,7 +16,7 @@ class Minhas_Compras extends Component{
     return (   
 
         <div className='App-header' >
-            <Menu/>
+
             <p>Minhas Compras</p>
             <div className='minhasCompras'>
                 

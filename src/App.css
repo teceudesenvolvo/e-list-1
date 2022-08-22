@@ -212,11 +212,13 @@ p {
   white-space: nowrap;
   -webkit-top-highlight-color: transparent;
   transition: background-color 0.1s ease-in-out;
+  color: #b7b7b7;
 }
 
-.linkMenu:hover {
-  background-color: #FF7A00;
+.linkMenu:hover{
+  color: #FF7A00;
 }
+
 
 /* favoritos  */
 .favoritos {
@@ -282,4 +284,32 @@ p {
 
 .notificationItem:hover {
   background-color: #FF7A00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Screnn for desktop */
+
+
+@media (min-width: 1000px)
+{
+  .menu {
+    display: none;
+  }
 }

@@ -8,6 +8,11 @@ import barbearia from '../assets/Barbearia.png';
 import lavajato from '../assets/Lava-jato.png';
 import fotebol from '../assets/Fotebol.png';
 // Icones
+import { 
+  FaCamera,
+  FaCar,
+  FaVolleyballBall
+} from "react-icons/fa";
 
 // Components
 import Menu from '../componets/menu';
@@ -19,9 +24,12 @@ class Home extends Component {
     return (
 
       <div className='App-header' >
-        <Menu />
+        
+        {/* Search */}
         <input type="text" className='inputPesquisar' placeholder="Pesquisar" />
         <div className='conteinerHome'>
+        
+        {/* Carrosel */}
           <p className='textoDestaques'>Destaques</p>
           <div className='carrosselHome'>
             <div className='carrosselItem'>
@@ -35,6 +43,10 @@ class Home extends Component {
             </div>
 
           </div>
+
+
+          {/* Categories */}
+          
           <p className='textoDestaques'>Categorias</p>
           <div className='categoriasHome'>
 
@@ -60,6 +72,10 @@ class Home extends Component {
             </div>
 
           </div>
+
+
+
+          {/* View Latest */}
           <p className='textoDestaques'>Ultimos Vistos</p>
           <div className=' vistosHome'>
             <div className='carrosselItem'>
