@@ -2,11 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom'
 
 //Imagens
-import home from '../assets/home.png';
-import love from '../assets/love.png';
-import shopping from '../assets/shopping.png';
-import alarm from '../assets/alarm.png';
-import menuLogo from '../assets/menu.png';
+
 
 // Icones
 import { 
