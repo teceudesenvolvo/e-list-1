@@ -4,7 +4,9 @@ import '../App.css'
 
 //Imagens
 import camera from '../assets/Camera.png';
-import categorias from '../assets/Categorias.png';
+import barbearia from '../assets/Barbearia.png';
+import lavajato from '../assets/Lava-jato.png';
+import fotebol from '../assets/Fotebol.png';
 // Icones
 
 // Components
@@ -23,58 +25,72 @@ class Home extends Component {
           <p className='textoDestaques'>Destaques</p>
           <div className='carrosselHome'>
             <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
+              <img src={camera} alt='camera' className='camera' />
             </div>
             <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
+              <img src={camera} alt='camera' className='camera' />
             </div>
             <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
+              <img src={camera} alt='camera' className='camera' />
             </div>
-            
+
           </div>
           <p className='textoDestaques'>Categorias</p>
           <div className='categoriasHome'>
-            <img src={categorias} alt='categorias' className='categorias' />
-            <img src={categorias} alt='categorias' className='categorias' />
-            <img src={categorias} alt='categorias' className='categorias' />
-            <img src={categorias} alt='categorias' className='categorias' />
-            <img src={categorias} alt='categorias' className='categorias' />
-            <img src={categorias} alt='categorias' className='categorias' />
-            
-           
-           </div> 
-           <p className='textoDestaques'>Ultimos Vistos</p>
-           <div className=' vistosHome'>
-           <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
+
+            <div className='categoriasItem'>
+              <img src={barbearia} alt='barbearia' />
+
+            </div>
+            <div className='categoriasItem'>
+              <img src={lavajato } alt='lavajato ' />
+            </div>
+            <div className='categoriasItem'>
+              <img src={fotebol} alt='Fotebol' />
+            </div>
+            <div className='categoriasItem'>
+              <img src={barbearia} alt='barbearia' />
+
+            </div>
+            <div className='categoriasItem'>
+              <img src={barbearia} alt='barbearia' />
+            </div>
+            <div className='categoriasItem'>
+              <img src={barbearia} alt='barbearia' />
+            </div>
+
+          </div>
+          <p className='textoDestaques'>Ultimos Vistos</p>
+          <div className=' vistosHome'>
+            <div className='carrosselItem'>
+              <img src={camera} alt='camera' className='camera' />
             </div>
             <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
+              <img src={camera} alt='camera' className='camera' />
             </div>
             <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
+              <img src={camera} alt='camera' className='camera' />
             </div>
             <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
+              <img src={camera} alt='camera' className='camera' />
             </div>
             <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
+              <img src={camera} alt='camera' className='camera' />
             </div>
             <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
+              <img src={camera} alt='camera' className='camera' />
             </div>
             <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
+              <img src={camera} alt='camera' className='camera' />
             </div>
             <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
+              <img src={camera} alt='camera' className='camera' />
             </div>
             <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />  
+              <img src={camera} alt='camera' className='camera' />
             </div>
-           
-           </div> 
+
+          </div>
         </div>
       </div>
     );
