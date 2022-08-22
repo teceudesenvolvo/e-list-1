@@ -45,6 +45,36 @@ class Home extends Component {
            
            </div> 
            <p className='textoDestaques'>Ultimos Vistos</p>
+           <div className=' vistosHome'>
+           <div className='carrosselItem'>
+              <img src={camera} alt='camera' className='camera' />  
+            </div>
+            <div className='carrosselItem'>
+              <img src={camera} alt='camera' className='camera' />  
+            </div>
+            <div className='carrosselItem'>
+              <img src={camera} alt='camera' className='camera' />  
+            </div>
+            <div className='carrosselItem'>
+              <img src={camera} alt='camera' className='camera' />  
+            </div>
+            <div className='carrosselItem'>
+              <img src={camera} alt='camera' className='camera' />  
+            </div>
+            <div className='carrosselItem'>
+              <img src={camera} alt='camera' className='camera' />  
+            </div>
+            <div className='carrosselItem'>
+              <img src={camera} alt='camera' className='camera' />  
+            </div>
+            <div className='carrosselItem'>
+              <img src={camera} alt='camera' className='camera' />  
+            </div>
+            <div className='carrosselItem'>
+              <img src={camera} alt='camera' className='camera' />  
+            </div>
+           
+           </div> 
         </div>
       </div>
     );
