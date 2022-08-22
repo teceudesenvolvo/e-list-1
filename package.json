@@ -34,7 +34,8 @@
     "request": "^2.88.2",
     "stripe": "^8.131.1",
     "web-vitals": "^2.1.4",
-    "yarn": "^1.22.10"
+    "yarn": "^1.22.10",
+    "react-native-vector-icons": "^6.6.0"
   },
   "scripts": {
     "start": "react-scripts start",
