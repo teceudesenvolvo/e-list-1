@@ -19,8 +19,6 @@ class Minhas_Compras extends Component{
 
             <p>Minhas Compras</p>
             <div className='minhasCompras'>
-                
-                  <p>Você é liso</p>
                   <p>Não Tem Compras!</p>
             </div>
            
