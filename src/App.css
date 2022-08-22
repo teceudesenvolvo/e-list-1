@@ -219,3 +219,31 @@ p {
 .favoritosItem:hover {
   background-color: #FF7A00;
 }
+
+/* Notification */
+
+.notificacoes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 100%;
+}
+
+.notificacoesItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #4D4D4D;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  margin: 1px;
+  -webkit-top-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.notificationItem:hover {
+  background-color: #FF7A00;
+}

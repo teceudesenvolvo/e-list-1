@@ -18,7 +18,26 @@ class Notificacoes extends Component{
         <div className='App-header' >
             <Menu/>
             <p>Notificações</p>
-          
+            <div className='notificacoes'>
+                <div className='notificacoesItem'>
+                  <p>Notificações</p>
+                </div>
+                <div className='notificacoesItem'>
+                  <p>Notificações</p>
+                </div>
+                <div className='notificacoesItem'>
+                  <p>Notificações</p>
+                </div>
+                <div className='notificacoesItem'>
+                  <p>Notificações</p>
+                </div>
+                <div className='notificacoesItem'>
+                  <p>Notificações</p>
+                </div>
+                <div className='notificacoesItem'>
+                  <p>Notificações</p>
+                </div>
+            </div>        
         </div>
     );
   }
