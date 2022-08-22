@@ -23,7 +23,7 @@ class menu extends Component{
         <nav className='menu'>
             
             <a href='/' className='linkMenu active'> <FaHome /> </a>
-            <a href='/favoritos' className='linkMenu'> <FaHeart /> </a>
+            <a href='/favoritos' className='linkMenu'> <FaHeart /> </a> 
             <a href='/Compras' className='linkMenu'> <FaShoppingBag /> </a>
             <a href='/Notificacoes' className='linkMenu'> <FaBell /> </a>
             <a href='/Mais' className='linkMenu'> <FaBars /> </a>
