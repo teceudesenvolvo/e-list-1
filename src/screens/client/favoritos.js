@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 
 
 //Imagens
-
+import camera from '../../assets/Camera.png';
 // Icones
 
 // Components
@@ -11,16 +11,34 @@ import Menu from '../../componets/menu';
 
 //mudança de páginas
 
-class favoritos extends Component{
-  render(){  
-    return (   
+class favoritos extends Component {
+  render() {
+    return (
 
-        <div className='App-header' >
-            <Menu/>
-            <h1>Favoritos</h1>
-            <a href='/login' className='linkLogin'>login</a>
-            <a href='/register' className='linkRegister'>register</a>
+      <div className='App-header' >
+        <Menu />
+        <p>Favoritos</p>
+        <div className='favoritos'>
+          <div className='favoritosItem'>
+            <img src={camera} alt='camera' className='camera' />
+          </div>
+          <div className='favoritosItem'>
+            <img src={camera} alt='camera' className='camera' />
+          </div>
+          <div className='favoritosItem'>
+            <img src={camera} alt='camera' className='camera' />
+          </div>
+          <div className='favoritosItem'>
+            <img src={camera} alt='camera' className='camera' />
+          </div>
+          <div className='favoritosItem'>
+            <img src={camera} alt='camera' className='camera' />
+          </div>
+          <div className='favoritosItem'>
+            <img src={camera} alt='camera' className='camera' />
+          </div>
         </div>
+      </div>
     );
   }
 }

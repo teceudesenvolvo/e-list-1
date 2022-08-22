@@ -25,10 +25,10 @@ class loginClient extends Component{
             </form>
             <p>Entre com sua conta:</p>
             <div className='divLogin'>
-                <a href='#' className='loginGoogle'>
+                <a href='#' className='logoGoogle'>
                     <img src={google} alt="google" className='imgLogin'/>
                 </a>
-                <a href='#' className='loginFace'>
+                <a href='#' className='logoFace'>
                     <img src={face} alt="face" className='imgLogin'/>
                 </a>
             </div>

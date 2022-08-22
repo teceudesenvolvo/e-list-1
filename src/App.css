@@ -24,7 +24,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -32,6 +31,59 @@
 .App-link {
   color: #fb61a4;
 }
+
+.inputPesquisar{
+  width: 80%;
+  margin-top: 20px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #333;
+  background-color: #D8D8D8;
+}
+
+.ContainerHome{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+ 
+}
+
+.textoDestaques{
+  font-size: 14px;
+  color: #BCBCBC;
+  display: flex;
+  
+  
+}
+
+.carrosselHome{
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+.carrosselItem{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+
 
 @keyframes App-logo-spin {
   from {
@@ -103,6 +155,14 @@ p {
   
 }
 
+.logoGoogle {
+  margin: 20px;
+}
+
+.logoFace{
+  margin: 20px;
+}
+
 /* Menu */
 
 .menu {
@@ -130,5 +190,32 @@ p {
 }
 
 .linkMenu:hover {
+  background-color: #FF7A00;
+}
+
+/* favoritos  */
+.favoritos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.favoritosItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #E1E1E1;
+  justify-content: center;
+  width: 70%;
+  height: 150px;
+  border-radius: 12px;
+  margin: 10px;
+  -webkit-top-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.favoritosItem:hover {
   background-color: #FF7A00;
 }

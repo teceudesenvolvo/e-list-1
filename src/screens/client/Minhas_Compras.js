@@ -17,9 +17,8 @@ class Minhas_Compras extends Component{
 
         <div className='App-header' >
             <Menu/>
-            <h1>Compras</h1>
-            <a href='/login' className='linkLogin'>login</a>
-            <a href='/register' className='linkRegister'>register</a>
+            <p>Minhas Compras</p>
+           
         </div>
     );
   }

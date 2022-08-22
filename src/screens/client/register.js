@@ -29,7 +29,8 @@ class register extends Component{
                 <input type="text" placeholder="Número da casa" className='inputLogin'/>
                 <input type="checkbox" placeholder="Complemento" className='inputLogin'/>
                 <button className='buttonLogin'>Cadastrar</button>
-            </form>
+
+            </form> <p>já tem uma conta? <a href='/login' className='linkLogin'>Fazer login</a></p>
             
         </div>
     );
