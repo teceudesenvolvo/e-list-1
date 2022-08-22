@@ -245,6 +245,17 @@ p {
   background-color: #FF7A00;
 }
 
+/*  Minhas Compras */
+.minhasCompras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+
+
 /* Notification */
 
 .notificacoes{

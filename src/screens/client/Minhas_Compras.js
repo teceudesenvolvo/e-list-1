@@ -18,6 +18,10 @@ class Minhas_Compras extends Component{
         <div className='App-header' >
             <Menu/>
             <p>Minhas Compras</p>
+            <div className='minhasCompras'>
+                
+                  <p>Não Tem Compras!</p>
+            </div>
            
         </div>
     );
