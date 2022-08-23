@@ -93,6 +93,7 @@ class slideFeactures extends Component {
                 options={{
                     perPage: 3,
                     focus  : 'center',
+                    drag: 'free'
                 }}   
                 aria-label="My Favorite Images">
                     {listServicos}

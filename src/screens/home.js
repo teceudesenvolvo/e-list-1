@@ -66,7 +66,7 @@ class Home extends Component {
 
           {/* View Latest */}
           <p className='textoDestaques'>Ultimos Vistos</p>
-          <div className=' vistosHome'>
+          <div className='vistosHome'>
             <div className='carrosselItem'>
               <img src={camera} alt='camera' className='camera' />
             </div>
