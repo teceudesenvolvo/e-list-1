@@ -240,20 +240,27 @@ p {
   background: #FF7A00 !important;
 }
 
+.splide__track {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  width: 151%;
+  margin-left: -50px;
+}
+
 .splide.is-initialized, .splide.is-rendered {
-  
+
 }
 
 .slidesFeacture{
   display: flex !important;
   flex-direction: column;
   align-items: center;
-
   width: 132px !important;
   height: 123px !important;
-   background-color: #e1e1e1;
-   border-radius: 12px !important;
-   margin: 2px !important;
+  background-color: #e1e1e1;
+  border-radius: 12px !important;
+  margin-right: 10px !important;
    
  
  }
@@ -267,12 +274,18 @@ p {
 }
 
 .DestaquesDescricao{
-  width: 100%;
-  height: 50%;
+  padding: 0 0 0 10px;
+  text-align: left;
+  width: 93%;
+  height: 38%;
   margin-top: 18px;
   background-color: #545454 !important;
   font-size: 15px;
-  border-radius: 0 0 12px 12px;
+  border-radius: 0 0 12px 12px !important;
+}
+
+.DestaquesDescricao p{
+  margin-top: 1px;
 }
 
 /* favoritos  */

@@ -29,7 +29,7 @@ class slideFeactures extends Component {
             {
                 id: '1',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
-                desc: '1'
+                desc: 'Descrição do produto um'
             }, 
             {
                 id: '2',
