@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom'
 // Icones
 
 // Components
-import Teste from '../../componets/teste';
+import SlideFeactures from '../../componets/slideFeactures';
 
 //mudança de páginas
 
@@ -20,7 +20,7 @@ class Minhas_Compras extends Component{
             <p>Minhas Compras</p>
             <div className='minhasCompras'>
                   <p>Não Tem Compras!</p>
-                  <Teste/>
+                  <SlideFeactures/>
             </div>
            
         </div>

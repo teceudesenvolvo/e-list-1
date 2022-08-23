@@ -220,6 +220,17 @@ p {
 }
 
 
+
+/* Slides */
+
+.splide__arrow svg{
+  fill: #FF7A00 !important;
+}
+.splide__pagination__page.is-active{
+  background: #FF7A00 !important;
+}
+
+
 /* favoritos  */
 .favoritos {
   display: flex;
