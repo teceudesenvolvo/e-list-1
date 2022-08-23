@@ -7,7 +7,6 @@ import ReactDOM from 'react-dom'
 // Icones
 
 // Components
-import SlideFeactures from '../../componets/slideFeactures';
 
 //mudança de páginas
 
@@ -20,7 +19,6 @@ class Minhas_Compras extends Component{
             <p>Minhas Compras</p>
             <div className='minhasCompras'>
                   <p>Não Tem Compras!</p>
-                  <SlideFeactures/>
             </div>
            
         </div>
