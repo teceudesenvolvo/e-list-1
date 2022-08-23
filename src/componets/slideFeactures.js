@@ -29,42 +29,42 @@ class slideFeactures extends Component {
             {
                 id: '1',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
-                desc: 'Descrição do produto um'
+                desc: 'Descrição do produto 1'
             }, 
             {
                 id: '2',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
-                desc: '2'
+                desc: 'Descrição do produto 2'
             },
             {
                 id: '3',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
-                desc: '3'
+                desc: 'Descrição do produto 3'
             },
             {
                 id: '4',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
-                desc: '4'
+                desc: 'Descrição do produto 4'
             },
             {
                 id: '5',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
-                desc: '5'
+                desc: 'Descrição do produto 5'
             },
             {
                 id: '6',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
-                desc: '6'
+                desc: 'Descrição do produto 6'
             },
             {
                 id: '7',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
-                desc: '7'
+                desc: 'Descrição do produto 7'
             },
             {
                 id: '8',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
-                desc: '8'
+                desc: 'Descrição do produto 8'
 
             },
         ]
