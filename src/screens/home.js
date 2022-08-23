@@ -15,7 +15,7 @@ import {
 } from "react-icons/fa";
 
 // Components
-import Menu from '../componets/menu';
+import SlideFeacures from '../componets/slideFeactures';
 
 //mudança de páginas
 
@@ -31,18 +31,7 @@ class Home extends Component {
         
         {/* Carrosel */}
           <p className='textoDestaques'>Destaques</p>
-          <div className='carrosselHome'>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />
-            </div>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />
-            </div>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />
-            </div>
-
-          </div>
+         <SlideFeacures></SlideFeacures>
 
 
           {/* Categories */}
