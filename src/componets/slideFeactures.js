@@ -29,35 +29,42 @@ class slideFeactures extends Component {
             {
                 id: '1',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
-                servico: 'dsssdsdsdsd'
+                desc: '1'
             }, 
             {
                 id: '2',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                desc: '2'
             },
             {
                 id: '3',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                desc: '3'
             },
             {
                 id: '4',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                desc: '4'
             },
             {
                 id: '5',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                desc: '5'
             },
             {
                 id: '6',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                desc: '6'
             },
             {
                 id: '7',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                desc: '7'
             },
             {
                 id: '8',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                desc: '8'
 
             },
         ]
@@ -87,7 +94,7 @@ class slideFeactures extends Component {
             
               <img class="imagDestaques"  src={servico.image} alt=""></img>
               <div class="DestaquesDescricao" >
-                <p></p>
+                <p>{servico.desc}</p>
               </div>
       </SplideSlide>
     )
@@ -100,8 +107,7 @@ class slideFeactures extends Component {
                     perPage: 3,
                     focus  : 'center',
                     drag: 'free'
-                }}   
-                aria-label="My Favorite Images">
+                }} aria-label="My Favorite Images" className='slideMatriz' >
                     {listServicos}
                 </Splide>
             </>

@@ -62,16 +62,11 @@
   
 }
 
-.imagDestaques{
-  display: flex;
-  height: 30px;
-}
+
 
 .carrosselHome{
   display: flex;
   flex-direction: row;
-  
-  
 }
 
 .carrosselItem {
@@ -244,11 +239,16 @@ p {
 .splide__pagination__page.is-active{
   background: #FF7A00 !important;
 }
+
+.splide.is-initialized, .splide.is-rendered {
+  
+}
+
 .slidesFeacture{
   display: flex !important;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+
   width: 132px !important;
   height: 123px !important;
    background-color: #e1e1e1;
@@ -258,8 +258,21 @@ p {
  
  }
 
+ .imagDestaques{
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  display: flex;
+  height: 30px;
+}
+
 .DestaquesDescricao{
-  background-color: #1F1F1F !important;
+  width: 100%;
+  height: 50%;
+  margin-top: 18px;
+  background-color: #545454 !important;
+  font-size: 15px;
+  border-radius: 0 0 12px 12px;
 }
 
 /* favoritos  */
