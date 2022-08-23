@@ -28,35 +28,35 @@ class slideFeactures extends Component {
         servicos: [
             {
                 id: '1',
-                image: 'caminho'
+                image: 'caminho1'
             }, 
             {
                 id: '2',
-                image: 'caminho'
+                image: 'caminho2'
             },
             {
                 id: '3',
-                image: 'caminho'
+                image: 'caminho3'
             },
             {
                 id: '4',
-                image: 'caminho'
+                image: 'caminho4'
             },
             {
                 id: '5',
-                image: 'caminho'
+                image: 'caminho5'
             },
             {
                 id: '6',
-                image: 'caminho'
+                image: 'caminho6'
             },
             {
                 id: '7',
-                image: 'caminho'
+                image: 'caminho7'
             },
             {
                 id: '8',
-                image: 'caminho'
+                image: 'caminho8'
             },
         ]
     }
@@ -67,12 +67,13 @@ class slideFeactures extends Component {
     render() {
         const servicos = this.state.servicos 
 
-        if(servicos.length > 4){
-            servicos.length = 4
+        if(servicos.length > 8){
+            servicos.length = 8
         }
+        const randomObject = servicos[Math.floor(Math.random() * servicos.length)];
 
         const listServicos = servicos.map((servico) => 
-        <SplideSlide key={Math.random(servico.id)}
+        <SplideSlide key={(servico.id)} className="slidesFeacture"
         // onClick={
         //   () => {this.setState({id: aviso.id}, () => {
         //     (this.props.clickButton(this.state))
@@ -81,15 +82,19 @@ class slideFeactures extends Component {
         // }
         >
               {/* <img src={aviso.imageUrl}/> */}
-              <h1> {servico.id} </h1>
-              <p> {this.random} </p>
+              <p> id: {servico.id} </p>
       </SplideSlide>
     )
 
 
         return (
             <>
-                <Splide aria-label="My Favorite Images">
+                <Splide 
+                options={{
+                    perPage: 3,
+                    focus  : 'center',
+                }}   
+                aria-label="My Favorite Images">
                     {listServicos}
                 </Splide>
             </>
