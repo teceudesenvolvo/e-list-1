@@ -72,7 +72,7 @@ class slideFeactures extends Component {
         }
 
         const listServicos = servicos.map((servico) => 
-        <SplideSlide key={servico.id}
+        <SplideSlide key={Math.random(servico.id)}
         // onClick={
         //   () => {this.setState({id: aviso.id}, () => {
         //     (this.props.clickButton(this.state))
@@ -82,6 +82,7 @@ class slideFeactures extends Component {
         >
               {/* <img src={aviso.imageUrl}/> */}
               <h1> {servico.id} </h1>
+              <p> {this.random} </p>
       </SplideSlide>
     )
 
