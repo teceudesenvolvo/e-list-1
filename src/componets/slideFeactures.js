@@ -13,8 +13,8 @@ import '@splidejs/react-splide/css/sea-green';
 // or only core styles
 import '@splidejs/react-splide/css/core';
 
-//Imagens
-
+//Imagen
+import camera from '../assets/Camera.png';
 
 // Icones
 
@@ -28,35 +28,37 @@ class slideFeactures extends Component {
         servicos: [
             {
                 id: '1',
-                image: 'caminho1'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                servico: 'dsssdsdsdsd'
             }, 
             {
                 id: '2',
-                image: 'caminho2'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png'
             },
             {
                 id: '3',
-                image: 'caminho3'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png'
             },
             {
                 id: '4',
-                image: 'caminho4'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png'
             },
             {
                 id: '5',
-                image: 'caminho5'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png'
             },
             {
                 id: '6',
-                image: 'caminho6'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png'
             },
             {
                 id: '7',
-                image: 'caminho7'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png'
             },
             {
                 id: '8',
-                image: 'caminho8'
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+
             },
         ]
     }
@@ -82,7 +84,11 @@ class slideFeactures extends Component {
         // }
         >
               {/* <img src={aviso.imageUrl}/> */}
-              <p> id: {servico.id} </p>
+            
+              <img class="imagDestaques"  src={servico.image} alt=""></img>
+              <div class="DestaquesDescricao" >
+                <p></p>
+              </div>
       </SplideSlide>
     )
 
