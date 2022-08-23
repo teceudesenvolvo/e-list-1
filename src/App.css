@@ -215,7 +215,7 @@ p {
   color: #b7b7b7;
 }
 
-.linkMenu:hover{
+.link-active{
   color: #FF7A00;
 }
 
