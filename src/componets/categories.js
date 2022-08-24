@@ -27,7 +27,7 @@ class Categories extends Component {
         categories: [
             {
                 id: '1',
-                icon: 'https://www.freeiconspng.com/thumbs/human-icon-png/human-icon-png-png-20.png',
+                icon: 'https://drive.google.com/file/d/1Vk1xUO0cEpFqgd0mS2Jm7JyuOplbK-kg/view?usp=sharing',
                 desc: 'Carros'
             }, 
             {
