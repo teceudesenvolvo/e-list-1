@@ -14,7 +14,6 @@ import '@splidejs/react-splide/css/sea-green';
 import '@splidejs/react-splide/css/core';
 
 //Imagen
-import camera from '../assets/Camera.png';
 
 // Icones
 

@@ -4,19 +4,13 @@ import '../App.css'
 
 //Imagens
 import camera from '../assets/Camera.png';
-import barbearia from '../assets/Barbearia.png';
-import lavajato from '../assets/Lava-jato.png';
-import fotebol from '../assets/Fotebol.png';
+
 // Icones
-import {
-  FaCamera,
-  FaCar,
-  FaVolleyballBall
-} from "react-icons/fa";
 
 // Components
 import SlideFeacures from '../componets/slideFeactures';
 import Categories from '../componets/categories';
+import ProductsList from '../componets/productsListHome';
 
 //mudança de páginas
 
@@ -47,44 +41,8 @@ class Home extends Component {
 
           {/* View Latest */}
           <p className='textoDestaques'>Ultimos Vistos</p>
-          <div className='vistosHome'>
-            <div className='vistoslItem'>
-              <a href='/Produto'>
-                <img src={camera} alt='camera' className='camera' />
-              </a>
-            </div>
-            <div className='vistoslItem'>
-              <a href='/Produto'>
-                 <img src={camera} alt='camera' className='camera' />
-              </a>
-              
-            </div>
-            <div className='vistoslItem'>
-              <a href='/Produto'>
-                 <img src={camera} alt='camera' className='camera' />
-              </a>
-              
-            </div>
-            <div className='vistoslItem'>
-              <a href='/Produto'>
-                 <img src={camera} alt='camera' className='camera' />
-              </a>
-              
-            </div>
-            <div className='vistoslItem'>
-              <a href='/Produto'>
-                 <img src={camera} alt='camera' className='camera' />
-              </a>
-              
-            </div>
-            <div className='vistoslItem'>
-              <a href='/Produto'>
-                 <img src={camera} alt='camera' className='camera' />
-              </a>
-              
-            </div>
-
-
+          <div className=''>
+            <ProductsList />
           </div>
         </div>
       </div>

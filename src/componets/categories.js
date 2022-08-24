@@ -4,19 +4,6 @@ import ReactDOM from 'react-dom';
 //Imagen
 
 // Icones
-// import { 
-//     FaCar,
-//     FaChalkboardTeacher,
-//     FaChild,
-//     FaCut,
-//     FaDog,
-//     FaFutbol,
-//     FaGamepad,
-//     FaHeadphonesAlt
-// } from "react-icons/fa";
-
-import * as Icon from 'react-icons'
-
 
 // Components
 
@@ -48,7 +35,7 @@ class Categories extends Component {
             {
                 id: '6',
                 icon: 'https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS%20FOR%20SITE_Pranche.png?raw=true',
-                desc: 'Fotebol'
+                desc: 'Esportes'
             },
             {
                 id: '7',
