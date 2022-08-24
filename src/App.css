@@ -503,7 +503,11 @@ p {
     width: 65%;
   }
   .categoriasItem{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 80px;
   }  
+  .iconCategoria{
+    margin-top: 55px;
+    margin-bottom: 10px;
+  }
 }
