@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -378,14 +379,120 @@ p {
 
 
 
+@media (max-width: 1000px)
+{
+  .menuDesktop {
+    display: none;
+  }
+  
+}
 
 
 /* Screnn for desktop */
 
+
+/* Menu for desktop */
+.menuDesktop{
+  position: fixed !important;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  background: #1F1F1F;
+  width: 70px;
+  overflow: hidden;
+  transition: width 0.2 linear;
+  box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+  z-index: 1;
+
+  
+}
+
+.logoDesktop{
+   text-align: center;
+   display: flex;
+   transition: all 0.5s ease;
+
+}
+
+.logoDesktop img{
+  width: 60px;
+  height: 60px;
+
+   
+
+}
+.h1-logo{
+   font-weight: bold;
+   font-size: 23px;
+   margin-left: 10px;
+   text-decoration: none !important;
+   text-decoration-line: none !important;
+
+
+
+}
+
+
+
+.aDesktop{
+    position: relative;
+    color:rgba(85, 83, 83);
+    font-size: 14px;
+    display: flex;
+    padding: 12px;
+    width: 220px;
+    border-radius: 16px;
+    margin: 2px;
+    text-decoration: none !important;
+}
+
+.fas{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  top: 14px;
+  font-size: 20px;
+  text-align: center;
+  color: #b7b7b7;
+}
+
+.nav-item{
+  position: relative;
+  top: 12px;
+  padding: 15px;
+  margin-left: 20px; 
+  color: #b7b7b7;
+
+}
+
+.aDesktop:hover{
+  background-color: #ff7b00ab;
+}
+
+
+.menuDesktop:hover{
+  width: 280px;
+  transition: all 0.5s ease;
+}
 
 @media (min-width: 1000px)
 {
   .menu {
     display: none;
   }
+  .conteinerHome{
+    align-items: center;
+  }
+  .inputPesquisar{
+    height: 50px;
+    width: 75%;
+  }
+  .categoriasHome{
+    width: 65%;
+  }
+  .categoriasItem{
+    width: 70px;
+    height: 70px;
+  }  
 }
