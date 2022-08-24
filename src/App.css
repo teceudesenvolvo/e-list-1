@@ -124,6 +124,20 @@
   display: block;
 }
 
+.vistoslItem{
+  width: 45%;
+  height: 100%;
+  display: inline-block;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
 
 @keyframes App-logo-spin {
   from {
