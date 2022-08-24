@@ -27,44 +27,33 @@ class Categories extends Component {
         categories: [
             {
                 id: '1',
-                icon: 'https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS%20FOR%20SITE_Pranche.png?raw=true',
+                icon: 'https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS%20FOR%20SITE_Prancheta%201%20c%C3%B3pia.png?raw=true',
                 desc: 'Carros'
             }, 
             {
                 id: '2',
-                icon: 'https://www.freeiconspng.com/thumbs/human-icon-png/human-icon-png-png-20.png',
+                icon: 'https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS%20FOR%20SITE_Prancheta%201%20c%C3%B3pia%205.png?raw=true',
                 desc: 'Cursos'
             },
             {
                 id: '3',
-                icon: 'https://www.freeiconspng.com/thumbs/human-icon-png/human-icon-png-png-20.png',
+                icon: 'https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS%20FOR%20SITE_Prancheta%201.png?raw=true',
                 desc: 'Beleza'
             },
             {
-                id: '4',
-                icon: 'https://www.freeiconspng.com/thumbs/human-icon-png/human-icon-png-png-20.png',
-                desc: 'Roupas'
-            },
-            {
                 id: '5',
-                icon: 'https://www.freeiconspng.com/thumbs/human-icon-png/human-icon-png-png-20.png',
+                icon: 'https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS%20FOR%20SITE_Prancheta%201%20c%C3%B3pia%203.png?raw=true',
                 desc: 'Pet'
             },
             {
                 id: '6',
-                icon: 'https://www.freeiconspng.com/thumbs/human-icon-png/human-icon-png-png-20.png',
+                icon: 'https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS%20FOR%20SITE_Pranche.png?raw=true',
                 desc: 'Fotebol'
             },
             {
                 id: '7',
-                icon: 'https://www.freeiconspng.com/thumbs/human-icon-png/human-icon-png-png-20.png',
+                icon: 'https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS%20FOR%20SITE_Prancheta%201%20c%C3%B3pia%204.png?raw=true',
                 desc: 'Jogos'
-            },
-            {
-                id: '8',
-                icon: 'https://www.freeiconspng.com/thumbs/human-icon-png/human-icon-png-png-20.png',
-                desc: 'Entreternimento'
-
             },
         ]
     }
@@ -75,8 +64,8 @@ class Categories extends Component {
     render() {
         const categories = this.state.categories 
 
-        if(categories.length > 5){
-            categories.length = 5
+        if(categories.length > 7){
+            categories.length = 7
         }
 
         var Icon = categories.icon;
