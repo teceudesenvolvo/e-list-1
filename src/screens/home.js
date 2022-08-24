@@ -16,6 +16,7 @@ import {
 
 // Components
 import SlideFeacures from '../componets/slideFeactures';
+import Categories from '../componets/categories';
 
 //mudança de páginas
 
@@ -36,30 +37,10 @@ class Home extends Component {
 
           {/* Categories */}
           
+
           <p className='textoDestaques'>Categorias</p>
           <div className='categoriasHome'>
-
-            <div className='categoriasItem'>
-              <img src={barbearia} alt='barbearia' />
-
-            </div>
-            <div className='categoriasItem'>
-              <img src={lavajato } alt='lavajato ' />
-            </div>
-            <div className='categoriasItem'>
-              <img src={fotebol} alt='Fotebol' />
-            </div>
-            <div className='categoriasItem'>
-              <img src={barbearia} alt='barbearia' />
-
-            </div>
-            <div className='categoriasItem'>
-              <img src={barbearia} alt='barbearia' />
-            </div>
-            <div className='categoriasItem'>
-              <img src={barbearia} alt='barbearia' />
-            </div>
-
+            <Categories/>
           </div>
 
 
