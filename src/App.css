@@ -513,15 +513,10 @@ p {
     height: 50px;
     width: 75%;
   }
-  .categoriasHome{
-    width: 65%;
+  .textoDestaques{
+    display: none;
   }
-  .categoriasItem{
-    width: 100px;
-    height: 80px;
-  }  
-  .iconCategoria{
-    margin-top: 55px;
-    margin-bottom: 10px;
+  .categoriasHome{
+    display: none;
   }
 }
