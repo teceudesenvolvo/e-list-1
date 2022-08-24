@@ -27,7 +27,7 @@ class Categories extends Component {
         categories: [
             {
                 id: '1',
-                icon: 'https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS FOR SITE_Prancheta 1 cópia 2.png',
+                icon: 'https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS%20FOR%20SITE_Pranche.png?raw=true',
                 desc: 'Carros'
             }, 
             {
