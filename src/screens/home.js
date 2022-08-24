@@ -8,7 +8,7 @@ import barbearia from '../assets/Barbearia.png';
 import lavajato from '../assets/Lava-jato.png';
 import fotebol from '../assets/Fotebol.png';
 // Icones
-import { 
+import {
   FaCamera,
   FaCar,
   FaVolleyballBall
@@ -25,22 +25,22 @@ class Home extends Component {
     return (
 
       <div className='App-header' >
-        
+
         {/* Search */}
         <input type="text" className='inputPesquisar' placeholder="Pesquisar" />
         <div className='conteinerHome'>
-        
-        {/* Carrosel */}
+
+          {/* Carrosel */}
           <p className='textoDestaques'>Destaques</p>
-         <SlideFeacures></SlideFeacures>
+          <SlideFeacures></SlideFeacures>
 
 
           {/* Categories */}
-          
+
 
           <p className='textoDestaques'>Categorias</p>
           <div className='categoriasHome'>
-            <Categories/>
+            <Categories />
           </div>
 
 
@@ -48,33 +48,42 @@ class Home extends Component {
           {/* View Latest */}
           <p className='textoDestaques'>Ultimos Vistos</p>
           <div className='vistosHome'>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />
+            <div className='vistoslItem'>
+              <a href='/Produto'>
+                <img src={camera} alt='camera' className='camera' />
+              </a>
             </div>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />
+            <div className='vistoslItem'>
+              <a href='/Produto'>
+                 <img src={camera} alt='camera' className='camera' />
+              </a>
+              
             </div>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />
+            <div className='vistoslItem'>
+              <a href='/Produto'>
+                 <img src={camera} alt='camera' className='camera' />
+              </a>
+              
             </div>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />
+            <div className='vistoslItem'>
+              <a href='/Produto'>
+                 <img src={camera} alt='camera' className='camera' />
+              </a>
+              
             </div>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />
+            <div className='vistoslItem'>
+              <a href='/Produto'>
+                 <img src={camera} alt='camera' className='camera' />
+              </a>
+              
             </div>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />
+            <div className='vistoslItem'>
+              <a href='/Produto'>
+                 <img src={camera} alt='camera' className='camera' />
+              </a>
+              
             </div>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />
-            </div>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />
-            </div>
-            <div className='carrosselItem'>
-              <img src={camera} alt='camera' className='camera' />
-            </div>
+
 
           </div>
         </div>
