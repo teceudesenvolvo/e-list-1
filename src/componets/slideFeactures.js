@@ -67,6 +67,24 @@ class slideFeactures extends Component {
                 desc: 'Descrição do produto 8'
 
             },
+            {
+                id: '9',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                desc: 'Descrição do produto 9'
+
+            },
+            {
+                id: '10',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                desc: 'Descrição do produto 10'
+
+            },
+            {
+                id: '11',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                desc: 'Descrição do produto 11'
+
+            },
         ]
     }
 

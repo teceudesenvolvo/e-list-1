@@ -379,6 +379,15 @@ p {
 
 
 
+
+/* Screnn for desktop */
+
+
+/* Menu for desktop */
+
+
+
+
 @media (max-width: 1000px)
 {
   .menuDesktop {
@@ -387,19 +396,14 @@ p {
   
 }
 
-
-/* Screnn for desktop */
-
-
-/* Menu for desktop */
 .menuDesktop{
   position: fixed !important;
   top: 0;
   bottom: 0;
   height: 100vh;
   left: 0;
-  background: #1F1F1F;
-  width: 70px;
+  background: #363636;
+  width: 40px;
   overflow: hidden;
   transition: width 0.2 linear;
   box-shadow: 0 20px 35px rgba(0,0,0,0.1);
@@ -416,8 +420,8 @@ p {
 }
 
 .logoDesktop img{
-  width: 60px;
-  height: 60px;
+  width: 40px;
+
 
    
 
@@ -428,9 +432,6 @@ p {
    margin-left: 10px;
    text-decoration: none !important;
    text-decoration-line: none !important;
-
-
-
 }
 
 
@@ -440,7 +441,7 @@ p {
     color: #b7b7b7;
     font-size: 14px;
     display: flex;
-    padding: 12px;
+    padding: 5px;
     width: 220px;
     border-radius: 16px;
     margin: 2px;
@@ -457,20 +458,17 @@ p {
 }
 
 .fas{
+  font-size: 25px;
   position: relative;
-  width: 40px;
-  height: 40px;
   top: 14px;
-  font-size: 20px;
   text-align: center;
 }
 
 .nav-item{
   position: relative;
-  top: 12px;
+  top: 5px;
   padding: 15px;
   margin-left: 20px; 
-
 }
 
 
@@ -481,6 +479,10 @@ p {
   transition: all 0.5s ease;
 }
 
+
+
+
+
 @media (min-width: 1000px)
 {
   .menu {
@@ -488,6 +490,10 @@ p {
   }
   .conteinerHome{
     align-items: center;
+  }
+  .splide__track {
+    width: 130%;
+    margin-left: -70px;
   }
   .inputPesquisar{
     height: 50px;
