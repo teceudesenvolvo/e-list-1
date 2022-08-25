@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom'
-
 
 //Imagens
 import camera from '../../assets/Camera.png';
 // Icones
 
 // Components
-import Menu from '../../componets/menu';
 
 //mudança de páginas
 
