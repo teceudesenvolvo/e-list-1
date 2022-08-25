@@ -3,14 +3,15 @@ import './App.css';
 import {Switch, Route} from 'react-router-dom'
 
 
-//Screen Home
+//Screen Navigate
 import Home from '../src/screens/home'
-import login from './screens/client/login';
-import register from './screens/client/register';
 import favoritos from './screens/client/favoritos';
 import Minhas_Compras from './screens/client/Minhas_Compras';
 import Notificacoes from './screens/client/Notificacoes';
 import Mais from './screens/client/Mais';
+
+import login from './screens/client/login';
+import register from './screens/client/register';
 
 import Menu from './componets/menu';
 import MenuDesktop from './componets/menuDesktop';

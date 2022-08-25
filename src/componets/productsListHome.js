@@ -57,7 +57,7 @@ class ProductsList extends Component {
             {
                 id: '1',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
-                desc: 'Descrição do serviço 1',
+                desc: 'Descrição do serviço que vai',
                 value: '192,50' 
             }, 
         ]
@@ -72,18 +72,17 @@ class ProductsList extends Component {
         if(products.length > 10){
             products.length = 10
         }
-
-        var Icon = products.icon;
-       
-
+        
         const listCategories = products.map((product) => 
         <li key={(product.id)} className="productItem"
-        // onClick={
-        //   () => {this.setState({id: aviso.id}, () => {
-        //     (this.props.clickButton(this.state))
-        //     (window.location.href = "/item")
-        //   })}
-        // }
+        onClick={
+          () => {
+              window.location.href = "/produto"
+            // this.setState({id: aviso.id}, () => {
+            // (this.props.clickButton(this.state))
+        //   }
+        }
+        }
         >
                 <img src={product.image} width="50%" className='imgProduct'/>
             <div className='areaTextDescProduct' >
