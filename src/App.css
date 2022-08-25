@@ -420,9 +420,14 @@ p {
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin-bottom: 65px;
+  text-align: left ;
 
+}
+.align-left{
+  font-size: 12px;
+  align-items: flex-start !important;
 }
 
 

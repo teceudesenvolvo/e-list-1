@@ -19,21 +19,18 @@ class Produto extends Component {
 
 
         <div className='Produto-container'>
-          <p>Mais Vendido</p>
-          <h3 className='Produto-title'>Lavagem Completa</h3>
+          <p className='align-left'>Mais Vendido</p>
+          <h3 className='Produto-title align-left'>Lavagem Completa</h3>
           <div className='favoritosItem'>
             <img src={camera} alt='camera' className='camera' />
           </div>
-          <input type='select' name='select-Produto' placeholder='selcione O tipoi de carro'>
+          <input type='text'className='inputLogin' name='select-Produto' placeholder='Escreva uma obisevação'/>
 
 
-          </input>
-          <input type='select' name='select-Produto' placeholder='selcione O tipoi de carro'>
+        
+         
 
-
-          </input>
-
-          <ul>
+          <ul className='align-left'>
             <li>Lavagem de pintura</li>
             <li>Aspiração carpetes</li>
             <li>Limpeza de painel</li>
