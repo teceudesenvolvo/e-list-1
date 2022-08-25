@@ -8,6 +8,7 @@ import ReactDOM from 'react-dom'
 
 // Components
 import Menu from '../../componets/menu';
+import CustomizeDayPicker from '../../componets/CustomizeDayPicker';
 
 //mudança de páginas
 
@@ -19,6 +20,7 @@ class Mais extends Component{
             <p>Mais</p>
             <a href='/login' className='linkLogin'>login</a>
             <a href='/register' className='linkRegister'>register</a>
+            <CustomizeDayPicker></CustomizeDayPicker>
         </div>
     );
   }
