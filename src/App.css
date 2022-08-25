@@ -134,6 +134,7 @@
   list-style: none;
   width: 45%;
   height: 100%;
+  max-width: 150px;
   display: inline-block;
   flex-direction: row;
   align-items: center;
@@ -405,9 +406,17 @@ p {
   background-color: #FF7A00;
 }
 
+/*  Produto-container */
 
+.Produto-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 65px;
 
-
+}
 
 
 
@@ -538,13 +547,17 @@ p {
     margin-left: -70px;
   }
   .inputPesquisar{
-    height: 50px;
-    width: 75%;
+    height: 40px;
+    width: 55%;
   }
   .textoDestaques{
     display: none;
   }
   .categoriasHome{
     display: none;
+  }
+
+  .Produto-container{
+    margin-left: 90px;
   }
 }

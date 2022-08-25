@@ -12,6 +12,7 @@ import favoritos from './screens/client/favoritos';
 import Minhas_Compras from './screens/client/Minhas_Compras';
 import Notificacoes from './screens/client/Notificacoes';
 import Mais from './screens/client/Mais';
+import Produto from './screens/client/Produto';
 
 import Menu from './componets/menu';
 import MenuDesktop from './componets/menuDesktop';
@@ -29,6 +30,8 @@ function App() {
         <Route path="/Compras" component={Minhas_Compras}/>
         <Route path="/Notificacoes" component={Notificacoes}/>
         <Route path="/Mais" component={Mais}/>
+        <Route path="/Produto" component={Produto}/>
+        
           
 
       </Switch>

@@ -7,6 +7,7 @@ import ReactDOM from 'react-dom'
 // Icones
 
 // Components
+import ProductsList from '../../componets/productsListHome';
 
 //mudança de páginas
 
@@ -18,7 +19,7 @@ class Minhas_Compras extends Component{
 
             <p>Minhas Compras</p>
             <div className='minhasCompras'>
-                  <p>Não Tem Compras!</p>
+                  <ProductsList ></ProductsList>
             </div>
            
         </div>
