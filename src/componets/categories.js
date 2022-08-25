@@ -34,7 +34,7 @@ class Categories extends Component {
             },
             {
                 id: '6',
-                icon: 'https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS%20FOR%20SITE_Pranche.png?raw=true',
+                icon: 'https://github.com/teceudesenvolvo/e-list-1/blob/c4bfe182cce56ed1026de8834e95903bd2c2bd38/src/assets/ICONS%20FOR%20SITE__Prancheta%201%20c%C3%B3pia%202.png?raw=true',
                 desc: 'Esportes'
             },
             {

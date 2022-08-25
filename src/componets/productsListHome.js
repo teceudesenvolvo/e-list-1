@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 //Imagen
 
@@ -15,50 +14,50 @@ class ProductsList extends Component {
         products: [
             {
                 id: '1',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/BATERIA-ALFACELL-LITHIUM-3V-CARTELA-C-2.webp',
                 desc: 'Descrição do serviço 1',
                 value: '192,50' 
             }, 
             {
                 id: '1',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/PILHA-ALFACELL-COMUM-PQ-AA-1.5V-C-4-CARTELA.webp',
                 desc: 'Descrição do serviço 1',
                 value: '192,50' 
             }, 
             {
                 id: '1',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/PISTOLA-PCOLA-QUENTE.webp',
                 desc: 'Descrição do serviço 1',
                 value: '192,50' 
             }, 
             {
                 id: '1',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/VDA06020-PETISQUEIRA-DE-VIDRO-D.webp',
                 desc: 'Descrição do serviço 1',
                 value: '192,50' 
             }, 
             {
                 id: '1',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/POTE-C-TAMPA-CLEAN-PRA.jpg',
                 desc: 'Descrição do serviço 1',
                 value: '192,50' 
             }, 
             {
                 id: '1',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/tabua-bambu-nv.webp',
                 desc: 'Descrição do serviço 1',
                 value: '192,50' 
             }, 
             {
                 id: '1',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/JARRA-DE-VIDRO-LOSANGO-416x416.jpg',
                 desc: 'Descrição do serviço 1',
                 value: '192,50' 
             }, 
             {
                 id: '1',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/cropped-cropped-cropped-utilider-azul-04-1-1024x338.png',
-                desc: 'Descrição do serviço 1',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/POTE-DE-VIDRO-RT-C-DIV.jpg',
+                desc: 'Descrição do serviço que vai',
                 value: '192,50' 
             }, 
         ]
@@ -73,18 +72,17 @@ class ProductsList extends Component {
         if(products.length > 10){
             products.length = 10
         }
-
-        var Icon = products.icon;
-       
-
+        
         const listCategories = products.map((product) => 
         <li key={(product.id)} className="productItem"
-        // onClick={
-        //   () => {this.setState({id: aviso.id}, () => {
-        //     (this.props.clickButton(this.state))
-        //     (window.location.href = "/item")
-        //   })}
-        // }
+        onClick={
+          () => {
+              window.location.href = "/produto"
+            // this.setState({id: aviso.id}, () => {
+            // (this.props.clickButton(this.state))
+        //   }
+        }
+        }
         >
                 <img src={product.image} width="50%" className='imgProduct'/>
             <div className='areaTextDescProduct' >

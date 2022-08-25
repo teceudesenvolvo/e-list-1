@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom'
 
 //Imagens
 import logo from '../../assets/logoLaranga.png';
-import google from '../../assets/google.png';
-import face from '../../assets/face.png';
+
 // Icones
 
 // Components
