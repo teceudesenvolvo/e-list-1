@@ -10,9 +10,11 @@ import Minhas_Compras from './screens/client/Minhas_Compras';
 import Notificacoes from './screens/client/Notificacoes';
 import Mais from './screens/client/Mais';
 
+// SingIn / SignUp
 import login from './screens/client/login';
 import register from './screens/client/register';
 
+// Navigate Components
 import Menu from './componets/menu';
 import MenuDesktop from './componets/menuDesktop';
 
