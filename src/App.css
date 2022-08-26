@@ -506,7 +506,37 @@ p {
 
 
 
-/* DayPicker */
+/* Mais */
+
+.Mais-content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  
+
+
+}
+
+.Mais-item{
+  width: 100%;
+  
+  display: flex;
+  padding: 22px;
+  align-items: flex-start;
+  background-color: #545454;
+   
+
+}
+.Mais-item:hover{
+  background-color: #ff7b0091;
+}  
+
+
+.Mais-icon{
+  text-decoration: none !important;
+}
 
 
 
