@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom'
 import camera from '../../assets/Camera.png';
 // Icones
 import {
+  FaColumns,
   FaStar
 } from 'react-icons/fa'
 // Components
@@ -28,6 +29,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
+import { Rowing } from '@mui/icons-material';
 
 
 
@@ -96,9 +98,14 @@ export default function Produto() {
             >
               <CloseIcon />
             </IconButton>
-            <Typography sx={{ ml: 2, flex: 1, color:'#000'  }} variant="h6" component="div" >
-              Data
+            <div sx={{  }}>
+            <Typography sx={{ ml: 1,  color:'#000'  }} variant="h6" component="div" >
+            Selecionar data do serviço
             </Typography>
+            <p>Selecione um dia disponível.</p>
+
+            </div>
+            
           </Toolbar>
         </AppBar>
         <List>
