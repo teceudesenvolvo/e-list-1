@@ -9,8 +9,8 @@ import {
   FaStar
 } from 'react-icons/fa'
 // Components
+import CustomizeDayPicker from "../../componets/CustomizeDayPicker"
 
-import SwipeableEdgeDrawer from '../../componets/FullScreenDialog';
 import Menu from '../../componets/menu';
 
 //mudança de páginas
@@ -30,7 +30,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
 
 
-import CustomizeDayPicker from "../../componets/CustomizeDayPicker"
+
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
@@ -85,7 +85,7 @@ export default function Produto() {
         TransitionComponent={Transition}
       >
         <AppBar sx={{ position: 'relative' }}>
-          <Toolbar>
+          <Toolbar sx={{ backgroundColor: '#FF7A00' }}>
             <IconButton
               edge="start"
               color="inherit"
