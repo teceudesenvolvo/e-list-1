@@ -79,32 +79,42 @@ export default function Produto() {
 
         </div>
         <Dialog
-        fullWidth
+        fullScreen
         open={open}
         onClose={handleClose}
         TransitionComponent={Transition}
       >
         <AppBar sx={{ position: 'relative' }}>
-          <Toolbar sx={{ backgroundColor: '#FF7A00' }}>
+          <Toolbar sx={{ backgroundColor: '#fff' }}>
             <IconButton
               edge="start"
-              color="inherit"
               onClick={handleClose}
               aria-label="close"
             >
               <CloseIcon />
             </IconButton>
-            <Typography sx={{ ml: 2, flex: 1 }} variant="h6" component="div">
-              Selecionar a data
+            <Typography sx={{ ml: 2, flex: 1, color:'#000'  }} variant="h6" component="div" >
+              Data
             </Typography>
-            <Button autoFocus color="inherit" onClick={handleClose}>
-            Ver horários
-            </Button>
           </Toolbar>
         </AppBar>
         <List>
         <CustomizeDayPicker></CustomizeDayPicker>
         </List>
+        
+            {/* <Button autoFocus color="inherit" onClick={handleClose}>
+              Horários
+            </Button> */}
+
+          <div className='price-buttom price-buttom-calendar' backgroundColor='white' >
+            <div >
+              <h5>R$ 60,00</h5>
+              <h5> <FaStar color='#FF7A00' /> 4,9</h5>
+            </div>
+
+            <input  onClick={handleClose} type='button' value="Pagamento" />
+          </div>
+
       </Dialog>
 
       </div>
