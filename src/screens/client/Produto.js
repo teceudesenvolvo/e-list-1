@@ -98,11 +98,11 @@ export default function Produto() {
             >
               <CloseIcon />
             </IconButton>
-            <div sx={{  }}>
+            <div >
             <Typography sx={{ ml: 1,  color:'#000'  }} variant="h6" component="div" >
             Selecionar data do serviço
             </Typography>
-            <p>Selecione um dia disponível.</p>
+            <p className='pData'>Selecione um dia disponível.</p>
 
             </div>
             
