@@ -11,6 +11,7 @@ import Notificacoes from './screens/client/Notificacoes';
 import Mais from './screens/client/Mais';
 import Produto from './screens/client/Produto';
 
+
 // SingIn / SignUp
 import login from './screens/client/login';
 import register from './screens/client/register';
@@ -33,6 +34,8 @@ function App() {
         <Route path="/Notificacoes" component={Notificacoes}/>
         <Route path="/Mais" component={Mais}/>
         <Route path="/Produto" component={Produto}/>
+        
+
         
           
 

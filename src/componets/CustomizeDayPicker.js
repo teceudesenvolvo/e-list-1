@@ -18,6 +18,7 @@ export default function CustomizeDayPicker() {
       <StaticDatePicker
         displayStaticWrapperAs="desktop"
         value={value}
+        disablePast
         onChange={(newValue) => {
           setValue(newValue);
           console.log(newValue);
@@ -25,7 +26,7 @@ export default function CustomizeDayPicker() {
         renderInput={(params) => <TextField {...params} />}
         dayOfWeekFormatter={(day) => `${day}.`}
         toolbarFormat="ddd DD MMMM"
-        showToolbar
+       
       />
     </LocalizationProvider>
   );
