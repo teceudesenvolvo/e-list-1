@@ -2,8 +2,15 @@ import React, { Component } from 'react';
 import '../App.css'
 
 //Imagens
+import Logo from '../assets/logoLaranga.png';
 
 // Icones
+import {
+ 
+  FaSistrix,
+  
+
+} from "react-icons/fa";
 
 // Components
 import SlideFeacures from '../componets/slideFeactures';
@@ -19,7 +26,18 @@ class Home extends Component {
       <div className='App-header' >
 
         {/* Search */}
-        <input type="text" className='inputPesquisar' placeholder="Pesquisar" />
+        <div className='header-home'>
+          <a href='/' className="logoDesktop" >
+            <img src={Logo}  ></img>
+          </a>
+          <div className='inputPesquisar' >
+            <p className='pPesquisar'  >Pesquisar</p>
+
+            <FaSistrix className='PesquisarLogo'/>
+          </div>
+
+        </div>
+
         <div className='conteinerHome'>
 
           {/* Carrosel */}

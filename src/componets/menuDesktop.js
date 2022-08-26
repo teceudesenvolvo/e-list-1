@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom'
 
 //Imagens
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logoLaranga.png';
 
 // Icones
 import {
