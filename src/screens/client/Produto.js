@@ -84,7 +84,10 @@ export default function Produto() {
         onClose={handleClose}
         TransitionComponent={Transition}
       >
-        <AppBar sx={{ position: 'relative' }}>
+        <AppBar sx={{ position: 'relative',
+        boxShadow: '0px 2px 4px -1px rgb(255, 255, 255),0px 4px 5px 0px rgb(255, 255, 255),0px 1px 10px 0px rgb(255, 255, 255)'
+     
+       }}>
           <Toolbar sx={{ backgroundColor: '#fff' }}>
             <IconButton
               edge="start"
