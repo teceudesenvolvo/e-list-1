@@ -10,7 +10,13 @@ import {
   FaHeart,
   FaShoppingBag,
   FaBell,
-  FaBars
+  FaBars,
+  FaSistrix,
+  FaUser,
+  FaUsers,
+  FaTag,
+  FaQuestionCircle
+
 } from "react-icons/fa";
 
 // Components
@@ -27,70 +33,63 @@ class Mais extends Component{
         <div className='App-header' >
             <p className='Mais-title'>Mais</p>
             <div className='Mais-content'>
-              <div className='Mais-item'>
-                <a href='/' className='Mais-icon' >
-                  <FaHome/>
-                  <span className='Mais-item-title'>Home</span>
-                </a>
-             </div>
              <div className='Mais-item'>
                 <a href='/' className='Mais-icon' >
                   <FaHome/>
-                  <span className='Mais-item-title'>Home</span>
+                  <span className='Mais-item-title'>Início</span>
                 </a>
              </div>
              <div className='Mais-item'>
-                <a href='/' className='Mais-icon' >
-                  <FaHome/>
-                  <span className='Mais-item-title'>Home</span>
+                <a href='/buscar' className='Mais-icon' >
+                  <FaSistrix/>
+                  <span className='Mais-item-title'>Buscar</span>
                 </a>
              </div>
              <div className='Mais-item'>
-                <a href='/' className='Mais-icon' >
-                  <FaHome/>
-                  <span className='Mais-item-title'>Home</span>
+                <a href='/Notificacoes' className='Mais-icon' >
+                  <FaBell/>
+                  <span className='Mais-item-title'>Notificações</span>
                 </a>
              </div>
              <div className='Mais-item'>
-                <a href='/' className='Mais-icon' >
-                  <FaHome/>
-                  <span className='Mais-item-title'>Home</span>
+                <a href='/favoritos' className='Mais-icon' >
+                  <FaHeart/>
+                  <span className='Mais-item-title'>Favoritos</span>
                 </a>
              </div>
              <div className='Mais-item'>
-                <a href='/' className='Mais-icon' >
-                  <FaHome/>
-                  <span className='Mais-item-title'>Home</span>
+                <a href='/ofertas' className='Mais-icon' >
+                  <FaTag/>
+                  <span className='Mais-item-title'>Ofertas do dia</span>
                 </a>
              </div>
              <div className='Mais-item'>
-                <a href='/' className='Mais-icon' >
-                  <FaHome/>
-                  <span className='Mais-item-title'>Home</span>
+                <a href='/Compras' className='Mais-icon' >
+                  <FaShoppingBag/>
+                  <span className='Mais-item-title'>Minhas Compras</span>
                 </a>
              </div>
              <div className='Mais-item'>
-                <a href='/' className='Mais-icon' >
-                  <FaHome/>
-                  <span className='Mais-item-title'>Home</span>
+                <a href='/login' className='Mais-icon' >
+                  <FaUser/>
+                  <span className='Mais-item-title'>Minha Conta</span>
                 </a>
              </div>
              <div className='Mais-item'>
-                <a href='/' className='Mais-icon' >
-                  <FaHome/>
-                  <span className='Mais-item-title'>Home</span>
+                <a href='/Grupos' className='Mais-icon' >
+                  <FaUsers/>
+                  <span className='Mais-item-title'>Grupos de pagamentos</span>
                 </a>
              </div>
              <div className='Mais-item'>
-                <a href='/' className='Mais-icon' >
-                  <FaHome/>
-                  <span className='Mais-item-title'>Home</span>
+                <a href='/Ajuda' className='Mais-icon' >
+                  <FaQuestionCircle/>
+                  <span className='Mais-item-title'>Ajuda</span>
                 </a>
              </div>
             </div>
 
-            <a href='/login' className='linkLogin'>login</a>
-            <a href='/register' className='linkRegister'>register</a>
+         
             
          
         </div>
