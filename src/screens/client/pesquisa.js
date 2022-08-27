@@ -14,7 +14,7 @@ import {
 
 // Components
 import CustomizeDayPicker from "../../componets/CustomizeDayPicker";
-import Test from '../../componets/test';
+
 
 
 
@@ -96,7 +96,7 @@ export default function Pesquisar() {
            
 
         </div>
-        <Test></Test>
+      
       </div>
 
 
