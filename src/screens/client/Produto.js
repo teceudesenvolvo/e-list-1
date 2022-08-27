@@ -10,7 +10,7 @@ import {
 } from 'react-icons/fa'
 // Components
 import CustomizeDayPicker from "../../componets/CustomizeDayPicker";
-
+import Test from '../../componets/test';
 
 
 //mudança de páginas
@@ -56,7 +56,7 @@ export default function Produto() {
           <p className='textoDestaques'>Serviço</p>
           <h1 className='Produto-title'>Lavagem Completa</h1>
           <div className='productId'>
-            <img src={camera} alt='camera' className='camera' />
+          <Test></Test>
           </div>
           <div className='desc-product' >
             <h1 className='servico-desc'>Descrição do serviço </h1>
