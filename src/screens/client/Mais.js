@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom'
+
 
 
 //Imagens
@@ -10,7 +10,6 @@ import {
   FaHeart,
   FaShoppingBag,
   FaBell,
-  FaBars,
   FaSistrix,
   FaUser,
   FaUsers,
@@ -20,8 +19,7 @@ import {
 } from "react-icons/fa";
 
 // Components
-import Menu from '../../componets/menu';
-import CustomizeDayPicker from '../../componets/CustomizeDayPicker';
+
 
 
 //mudança de páginas
@@ -40,7 +38,7 @@ class Mais extends Component{
                 </a>
              </div>
              <div className='Mais-item'>
-                <a href='/buscar' className='Mais-icon' >
+                <a href='/pesquisar' className='Mais-icon' >
                   <FaSistrix/>
                   <span className='Mais-item-title'>Buscar</span>
                 </a>

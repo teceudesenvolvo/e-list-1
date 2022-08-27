@@ -10,6 +10,7 @@ import Minhas_Compras from './screens/client/Minhas_Compras';
 import Notificacoes from './screens/client/Notificacoes';
 import Mais from './screens/client/Mais';
 import Produto from './screens/client/Produto';
+import Pesquisar from './screens/client/pesquisa';
 
 
 // SingIn / SignUp
@@ -34,6 +35,7 @@ function App() {
         <Route path="/Notificacoes" component={Notificacoes}/>
         <Route path="/Mais" component={Mais}/>
         <Route path="/Produto" component={Produto}/>
+        <Route path="/pesquisar" component={Pesquisar}/>
         
 
         
