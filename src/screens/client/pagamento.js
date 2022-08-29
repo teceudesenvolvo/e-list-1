@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 //Imagens
-import camera from '../../assets/Camera.png';
+
 // Icones
 import {
 

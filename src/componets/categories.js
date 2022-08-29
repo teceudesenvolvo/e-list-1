@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 //Imagen
 
@@ -54,8 +53,6 @@ class Categories extends Component {
         if(categories.length > 7){
             categories.length = 7
         }
-
-        var Icon = categories.icon;
        
 
         const listCategories = categories.map((categorie) => 
@@ -79,7 +76,7 @@ class Categories extends Component {
         //   })}
         // }
         >
-                <img src={categorie.icon} width="50%" className='iconCategoria'/>
+                <img alt="logomarca" src={categorie.icon} width="50%" className='iconCategoria'/>
                 <p className='descricaoCategoria' >{categorie.desc}</p>
       </li>
     )

@@ -86,7 +86,7 @@ export default function Pesquisar() {
         {/* Search */}
         <div className='header-home'>
           <a href='/' className="logoDesktop" >
-            <img src={Logo}  ></img>
+            <img src={Logo} alt="logomarca e-list" />
           </a>
           <div className='inputPesquisar' >
             <p className='pPesquisar'  >Pesquisar</p>

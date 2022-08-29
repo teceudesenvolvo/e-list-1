@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 //Imagens
-import camera from '../../assets/Camera.png';
 import Logo from '../../assets/logoLaranga.png';
 
 // Icones
@@ -24,7 +23,7 @@ class categorias extends Component {
             <div className='App-header' >
                 <div className='header-home'>
                     <a href='/' className="logoDesktop" >
-                        <img src={Logo}  ></img>
+                        <img src={Logo} alt="logomarca e-list" ></img>
                     </a>
                     <div className='inputPesquisar' >
                         <p className='pPesquisar'  >Pesquisar</p>
@@ -39,7 +38,7 @@ class categorias extends Component {
                 <div className='conteinerCategorias'>
                     <div className='categoriesHeader'>
                         <div className='imgCategorias' >
-                        <img  src='https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS%20FOR%20SITE_Prancheta%201%20c%C3%B3pia%205.png?raw=true'  />
+                        <img alt="icone categoria" src='https://github.com/teceudesenvolvo/e-list-1/blob/master/src/assets/ICONS%20FOR%20SITE_Prancheta%201%20c%C3%B3pia%205.png?raw=true'  />
                         </div>
                         
                       

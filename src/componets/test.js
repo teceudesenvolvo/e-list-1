@@ -3,7 +3,7 @@ import "@splidejs/splide/dist/css/splide.min.css";
 import React, { useCallback, useRef, useState } from "react";
 
 
-export default () => {
+export default function CarosselProducts () {
   const mainRef = useRef();
   const [start, setStart] = useState(-1); // The start index for the fullscreen carousel
 

@@ -63,7 +63,7 @@ class menuDesktop extends Component {
             <nav className='menuDesktop'>
 
                 <a href='/' className="logoDesktop" >
-                    <img src={Logo}  ></img>
+                    <img src={Logo} alt="logomarca" ></img>
                     {/* <h1 className='h1-logo'>| List</h1> */}
                 </a>
 

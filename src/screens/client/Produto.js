@@ -5,10 +5,6 @@ import React from 'react';
 
 // Icones
 import {
-<<<<<<< HEAD
-=======
-
->>>>>>> f85cf791cd83b39eaf4c813f62979d67b954a02c
   FaStar
 } from 'react-icons/fa'
 // Components
@@ -18,12 +14,6 @@ import Horarios from '../../componets/horarios';
 
 
 //mudança de páginas
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> f85cf791cd83b39eaf4c813f62979d67b954a02c
 import Dialog from '@mui/material/Dialog';
 import List from '@mui/material/List';
 import AppBar from '@mui/material/AppBar';
@@ -32,12 +22,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
-<<<<<<< HEAD
-=======
 import Divider from '@mui/material/Divider';
-
->>>>>>> f85cf791cd83b39eaf4c813f62979d67b954a02c
-
 
 
 
