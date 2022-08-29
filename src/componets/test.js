@@ -14,7 +14,7 @@ export default function CarosselProducts () {
   return (
     <div>
       <Splide
-        options={{ width: 200, height: 200 }}
+        options={{width: 280, height: 200 }}
         onClick={() => setStart(mainRef.current?.splide?.index || 0)}
         ref={mainRef}
       >
