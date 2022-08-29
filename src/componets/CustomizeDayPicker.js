@@ -12,7 +12,7 @@ export default function CustomizeDayPicker() {
 
   return (
     <LocalizationProvider dateAdapter={AdapterDayjs}
-    adapterLocale={ptBR}
+      adapterLocale={ptBR}
 
     >
       <StaticDatePicker
@@ -26,7 +26,7 @@ export default function CustomizeDayPicker() {
         renderInput={(params) => <TextField {...params} />}
         dayOfWeekFormatter={(day) => `${day}.`}
         toolbarFormat="ddd DD MMMM"
-       
+
       />
     </LocalizationProvider>
   );
