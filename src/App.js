@@ -10,6 +10,10 @@ import Minhas_Compras from './screens/client/Minhas_Compras';
 import Notificacoes from './screens/client/Notificacoes';
 import Mais from './screens/client/Mais';
 import Produto from './screens/client/Produto';
+import pagamento from './screens/client/pagamento';
+import Pesquisar from './screens/client/pesquisa';
+import categorias from './screens/client/categorias';
+
 
 
 // SingIn / SignUp
@@ -34,14 +38,16 @@ function App() {
         <Route path="/Notificacoes" component={Notificacoes}/>
         <Route path="/Mais" component={Mais}/>
         <Route path="/Produto" component={Produto}/>
-        
-
+        <Route path="/pesquisar" component={Pesquisar}/>
+        <Route path="/categorias" component={categorias}/>
+        <Route path="/pagamento" component={pagamento}/>
         
           
 
       </Switch>
       <Menu/>
       <MenuDesktop/>
+      
     </div>
   );
 }

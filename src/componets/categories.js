@@ -60,6 +60,18 @@ class Categories extends Component {
 
         const listCategories = categories.map((categorie) => 
         <li key={(categorie.id)} className="categoriasItem"
+
+        onClick={
+            () => {
+                window.location.href = "/categorias"
+              // this.setState({id: aviso.id}, () => {
+              // (this.props.clickButton(this.state))
+          //   }
+          }
+          }
+
+
+
         // onClick={
         //   () => {this.setState({id: aviso.id}, () => {
         //     (this.props.clickButton(this.state))
