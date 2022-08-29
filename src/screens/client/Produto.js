@@ -5,7 +5,7 @@ import React from 'react';
 import camera from '../../assets/Camera.png';
 // Icones
 import {
-  
+
   FaStar
 } from 'react-icons/fa'
 // Components
@@ -38,56 +38,57 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 
 export default function Produto() {
-  
 
-    const [open, setOpen] = React.useState(false);
 
-    const handleClickOpen = () => {
-      setOpen(true);
-    };
-  
-    const handleClose = () => {
-      setOpen(false);
-    };
+  const [open, setOpen] = React.useState(false);
 
-    
-    return (
+  const handleClickOpen = () => {
+    setOpen(true);
+  };
 
-      <div className='App-header' >
-        <div className='Produto-container'>
-          <p className='textoDestaques'>Serviço</p>
-          <h1 className='Produto-title'>Lavagem Completa</h1>
-          <div className='productId'>
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+
+  return (
+
+    <div className='App-header' >
+      <div className='Produto-container'>
+        <p className='textoDestaques'>Serviço</p>
+        <h1 className='Produto-title'>Lavagem Completa</h1>
+        <div className='productId'>
           <Test></Test>
-          </div>
-          <div className='desc-product' >
-            <h1 className='servico-desc'>Descrição do serviço </h1>
-            <p className='txtProduct'>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-            </p>
-          </div>
-          <div className='price-buttom' >
-            <div >
-              <h5 >R$ 60,00</h5>
-              <h5 > <FaStar color='#FF7A00' /> 4,9</h5>
-            </div>
-
-            <input  onClick={handleClickOpen} type='button' value="Confira Disponibilidade" />
-          </div>
-
-
         </div>
-        <Dialog
+        <div className='desc-product' >
+          <h1 className='servico-desc'>Descrição do serviço </h1>
+          <p className='txtProduct'>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+          </p>
+        </div>
+        <div className='price-buttom' >
+          <div >
+            <h5 >R$ 60,00</h5>
+            <h5 > <FaStar color='#FF7A00' /> 4,9</h5>
+          </div>
+
+          <input onClick={handleClickOpen} type='button' value="Confira Disponibilidade" />
+        </div>
+
+
+      </div>
+      <Dialog
         fullScreen
         open={open}
         onClose={handleClose}
         TransitionComponent={Transition}
       >
-        <AppBar sx={{ position: 'relative',
-        boxShadow: '0px 2px 4px -1px rgb(255, 255, 255),0px 4px 5px 0px rgb(255, 255, 255),0px 1px 10px 0px rgb(255, 255, 255)'
-     
-       }}>
+        <AppBar sx={{
+          position: 'relative',
+          boxShadow: '0px 2px 4px -1px rgb(255, 255, 255),0px 4px 5px 0px rgb(255, 255, 255),0px 1px 10px 0px rgb(255, 255, 255)'
+
+        }}>
           <Toolbar sx={{ backgroundColor: '#fff' }}>
             <IconButton
               edge="start"
@@ -97,40 +98,43 @@ export default function Produto() {
               <CloseIcon />
             </IconButton>
             <div >
-            <Typography sx={{ ml: 1,  color:'#000'  }} variant="h6" component="div" >
-            Selecionar data do serviço
-            </Typography>
-            <p className='pData'>Selecione um dia disponível.</p>
+              <Typography sx={{ ml: 1, color: '#000' }} variant="h6" component="div" >
+                Selecionar data do serviço
+              </Typography>
+              <p className='pData'>Selecione um dia disponível.</p>
 
             </div>
-            
+
           </Toolbar>
         </AppBar>
         <List>
-        <CustomizeDayPicker></CustomizeDayPicker>
-        <Divider />
-        <div sx={{ backgroundColor:'#fff' , display: 'flex', justifyContent: 'center',alignItems:'center' }}>
-        <Horarios></Horarios>
-        </div>
-       
+          <CustomizeDayPicker></CustomizeDayPicker>
+          <Divider />
+          <div className='horariosDiv'>
+            <Typography sx={{ color: '#000' }} variant="h6" component="div" >
+              Selecionar horário do serviço
+            </Typography>
+            <Horarios></Horarios>
+          </div>
+
         </List>
-        
-            {/* <Button autoFocus color="inherit" onClick={handleClose}>
+
+        {/* <Button autoFocus color="inherit" onClick={handleClose}>
               Horários
             </Button> */}
 
-          <div className='price-buttom price-buttom-calendar' backgroundColor='white' >
-            <div >
-              <h5>R$ 60,00</h5>
-              <h5> <FaStar color='#FF7A00' /> 4,9</h5>
-            </div>
-
-            <input  onClick={handleClose} type='button' value="Pagamento" />
+        <div className='price-buttom price-buttom-calendar' backgroundColor='white' >
+          <div >
+            <h5>R$ 60,00</h5>
+            <h5> <FaStar color='#FF7A00' /> 4,9</h5>
           </div>
+
+          <input onClick={handleClose} type='button' value="Pagamento" />
+        </div>
 
       </Dialog>
 
-      </div>
-    );
+    </div>
+  );
 
 };

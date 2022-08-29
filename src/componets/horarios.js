@@ -8,7 +8,7 @@ import FormLabel from '@mui/material/FormLabel';
 export default function horarios() {
   return (
     <FormControl>
-      <FormLabel id="demo-row-radio-buttons-group-label">Selecionar horário do serviço</FormLabel>
+      <FormLabel id="demo-row-radio-buttons-group-label">Selecione o horário disponível para o seu atendimento.</FormLabel>
       <RadioGroup
         row
         aria-labelledby="demo-row-radio-buttons-group-label"
