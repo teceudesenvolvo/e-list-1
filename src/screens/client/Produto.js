@@ -36,11 +36,17 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
+const Transition2 = React.forwardRef(function Transition(props, ref) {
+  return <Slide direction="dom" ref={ref} {...props} />;
+});
+
+
 
 export default function Produto() {
 
 
   const [open, setOpen] = React.useState(false);
+  const [open2, setOpen2] = React.useState(false);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -49,7 +55,13 @@ export default function Produto() {
   const handleClose = () => {
     setOpen(false);
   };
+  const handleClickOpen2 = () => {
+    setOpen2(true);
+  };
 
+  const handleClose2 = () => {
+    setOpen2(false);
+  };
 
   return (
 
@@ -130,16 +142,69 @@ export default function Produto() {
           </div>
 
           <input
+            onClick={handleClickOpen2}
+
+            type='button' value="Pagamento" />
+        </div>
+
+      </Dialog>
+      <Dialog
+        fullScreen
+        open={open2}
+        onClose={handleClose2}
+        TransitionComponent={Transition2}
+      >
+        <AppBar sx={{
+          position: 'relative',
+          boxShadow: '0px 2px 4px -1px rgb(255, 255, 255),0px 4px 5px 0px rgb(255, 255, 255),0px 1px 10px 0px rgb(255, 255, 255)'
+
+        }}>
+          <Toolbar sx={{ backgroundColor: '#fff' }}>
+            <IconButton
+              edge="start"
+              onClick={handleClose2}
+              aria-label="close"
+            >
+              <CloseIcon />
+            </IconButton>
+            <div >
+              <Typography sx={{ ml: 1, color: '#000', marginTop: '25px' }} variant="h6" component="div" >
+                Realizar Pagamento
+              </Typography>
+             
+
+            </div>
+
+          </Toolbar>
+        </AppBar>
+        <List>
+
+         
+
+
+        </List>
+
+        {/* <Button autoFocus color="inherit" onClick={handleClose}>
+              Horários
+            </Button> */}
+
+        <div className='price-buttom price-buttom-calendar' backgroundColor='white' >
+          <div >
+            <h5>R$ 60,00</h5>
+            <h5> <FaStar color='#FF7A00' /> 4,9</h5>
+          </div>
+
+          <input
             onClick={
               () => {
-                  window.location.href = "/pagamento"
+                window.location.href = "/pagamento"
                 // this.setState({id: aviso.id}, () => {
                 // (this.props.clickButton(this.state))
-            //   }
-            }
+                //   }
+              }
             }
 
-           type='button' value="Pagamento" />
+            type='button' value="Concluir" />
         </div>
 
       </Dialog>
