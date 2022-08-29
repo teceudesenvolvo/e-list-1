@@ -129,7 +129,17 @@ export default function Produto() {
             <h5> <FaStar color='#FF7A00' /> 4,9</h5>
           </div>
 
-          <input onClick={handleClose} type='button' value="Pagamento" />
+          <input
+            onClick={
+              () => {
+                  window.location.href = "/pagamento"
+                // this.setState({id: aviso.id}, () => {
+                // (this.props.clickButton(this.state))
+            //   }
+            }
+            }
+
+           type='button' value="Pagamento" />
         </div>
 
       </Dialog>
