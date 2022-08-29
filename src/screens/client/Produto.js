@@ -2,7 +2,7 @@ import React from 'react';
 
 
 //Imagens
-import camera from '../../assets/Camera.png';
+
 // Icones
 import {
 
@@ -98,7 +98,7 @@ export default function Produto() {
               <CloseIcon />
             </IconButton>
             <div >
-              <Typography sx={{ ml: 1, color: '#000' }} variant="h6" component="div" >
+              <Typography sx={{ ml: 1, color: '#000', marginTop: '22px' }} variant="h6" component="div" >
                 Selecionar data do serviço
               </Typography>
               <p className='pData'>Selecione um dia disponível.</p>
