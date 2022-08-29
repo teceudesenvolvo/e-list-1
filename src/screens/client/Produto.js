@@ -11,6 +11,7 @@ import {
 // Components
 import CustomizeDayPicker from "../../componets/CustomizeDayPicker";
 import Test from '../../componets/test';
+import Horarios from '../../componets/horarios';
 
 
 //mudança de páginas
@@ -25,6 +26,7 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
+import Divider from '@mui/material/Divider';
 
 
 
@@ -106,6 +108,11 @@ export default function Produto() {
         </AppBar>
         <List>
         <CustomizeDayPicker></CustomizeDayPicker>
+        <Divider />
+        <div sx={{ backgroundColor:'#fff' , display: 'flex', justifyContent: 'center',alignItems:'center' }}>
+        <Horarios></Horarios>
+        </div>
+       
         </List>
         
             {/* <Button autoFocus color="inherit" onClick={handleClose}>
