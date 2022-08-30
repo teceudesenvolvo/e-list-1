@@ -608,6 +608,8 @@ p {
 .divPagamento{
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  margin-right: 8px;
 }
 
 .Cards{
