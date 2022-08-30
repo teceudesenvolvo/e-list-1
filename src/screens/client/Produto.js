@@ -5,7 +5,12 @@ import React from 'react';
 
 // Icones
 import {
-  FaStar
+  FaStar,
+  FaCcMastercard,
+  FaCcVisa,
+  FaCcAmex,
+  FaCcJcb,
+  FaCcDiscover
 } from 'react-icons/fa'
 // Components
 import CustomizeDayPicker from "../../componets/CustomizeDayPicker";
@@ -171,7 +176,7 @@ export default function Produto() {
 
           </Toolbar>
         </AppBar>
-        <List> 
+        <List>
           <Divider />
           <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
             Seu serviço
@@ -182,31 +187,39 @@ export default function Produto() {
           <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
             Taxa de serviço
           </Typography>
-          <Typography sx={{ ml: 1, color: '#797979', marginTop: '30px' }} variant="p" component="div" >
+          <Typography sx={{ ml: 1, color: '#797979', marginTop: '25px', marginBottom: '8px' }} variant="p" component="div" >
             total
           </Typography>
           <Divider />
 
           <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
-            Pagar com 
+            Pagar com
           </Typography>
           <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
             Cartão de crédito ou debito
           </Typography>
+          <FaCcMastercard className='Cards' ></FaCcMastercard>
+          <FaCcVisa className='Cards' ></FaCcVisa>
+          <FaCcAmex className='Cards' ></FaCcAmex>
+          <FaCcJcb className='Cards' ></FaCcJcb>
+          <FaCcDiscover className='Cards' ></FaCcDiscover>
+
           <Divider />
           <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
             Politica de cancelamento
           </Typography>
           <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
-          Cancelamento gratuito poderá ser solicitado 12 horas antes do horário agendado. Você reberá o reembolso menos a taxa de serviço.
+            Cancelamento gratuito poderá ser solicitado 12 horas antes do horário agendado. Você reberá o reembolso menos a taxa de serviço.
           </Typography>
         </List>
+
 
         {/* <Button autoFocus color="inherit" onClick={handleClose}>
               Horários
             </Button> */}
 
         <div className='price-buttom price-buttom-calendar' backgroundColor='white' >
+
           <div >
             <h5>R$ 60,00</h5>
             <h5> <FaStar color='#FF7A00' /> 4,9</h5>

@@ -605,6 +605,14 @@ p {
 }
 
 
+
+.Cards{
+  width: 30px;
+  height: 50px;
+  margin: 5px;
+}
+
+
 /* Mais */
 
 .Mais-content{
