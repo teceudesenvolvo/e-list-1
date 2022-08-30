@@ -570,7 +570,7 @@ p {
   flex-direction: row;
   position: fixed;
   bottom: 0px;
-  background-color: transparent !important;
+  background-color: #fff;
 }
 
 .price-buttom div {
@@ -607,6 +607,7 @@ p {
 .horariosDiv {
 
   margin: 15px;
+  margin-bottom: 95px;
 
 }
 
