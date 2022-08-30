@@ -5,7 +5,12 @@ import React from 'react';
 
 // Icones
 import {
-  FaStar
+  FaStar,
+  FaCcMastercard,
+  FaCcVisa,
+  FaCcAmex,
+  FaCcJcb,
+  FaCcDiscover
 } from 'react-icons/fa'
 // Components
 import CustomizeDayPicker from "../../componets/CustomizeDayPicker";
@@ -171,42 +176,71 @@ export default function Produto() {
 
           </Toolbar>
         </AppBar>
-        <List> 
+        <List>
           <Divider />
-          <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
-            Seu serviço
-          </Typography>
-          <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
-            Serviço
-          </Typography>
-          <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
-            Taxa de serviço
-          </Typography>
-          <Typography sx={{ ml: 1, color: '#797979', marginTop: '30px' }} variant="p" component="div" >
-            total
-          </Typography>
+          <div className="divPagamento">
+            <div>
+              <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
+                Seu serviço
+              </Typography>
+              <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
+                Serviço
+              </Typography>
+              <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
+                Taxa de serviço
+              </Typography>
+              <Typography sx={{ ml: 1, color: '#797979', marginTop: '25px', marginBottom: '8px' }} variant="p" component="div" >
+                total
+              </Typography>
+            </div>
+            <div>
+            
+              <Typography sx={{ ml: 1, color: '#797979', marginTop: '28px' }} variant="p" component="div" >
+              R$ 60,00
+              </Typography>
+              <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
+              R$ 6,00
+              </Typography>
+              <Typography sx={{ ml: 1, color: '#797979', marginTop: '25px', marginBottom: '8px' }} variant="p" component="div" >
+              R$ 66,00
+              </Typography>
+            </div>
+          </div>
           <Divider />
-
-          <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
-            Pagar com 
-          </Typography>
-          <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
-            Cartão de crédito ou debito
-          </Typography>
+          <div className="divPagamento">
+            <div>
+              <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
+                Pagar com
+              </Typography>
+              <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px', marginBottom: '10px' }} variant="p" component="div" >
+                Cartão de crédito ou debito
+              </Typography>
+              <FaCcMastercard className='Cards' ></FaCcMastercard>
+              <FaCcVisa className='Cards' ></FaCcVisa>
+              <FaCcAmex className='Cards' ></FaCcAmex>
+              <FaCcJcb className='Cards' ></FaCcJcb>
+              <FaCcDiscover className='Cards' ></FaCcDiscover>
+            </div>
+            <div> <button>adicionar</button></div>
+          </div>
           <Divider />
-          <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
-            Politica de cancelamento
-          </Typography>
-          <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
-          Cancelamento gratuito poderá ser solicitado 12 horas antes do horário agendado. Você reberá o reembolso menos a taxa de serviço.
-          </Typography>
+          <div>
+            <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
+              Politica de cancelamento
+            </Typography>
+            <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
+              Cancelamento gratuito poderá ser solicitado 12 horas antes do horário agendado. Você reberá o reembolso menos a taxa de serviço.
+            </Typography>
+          </div>
         </List>
+
 
         {/* <Button autoFocus color="inherit" onClick={handleClose}>
               Horários
             </Button> */}
 
         <div className='price-buttom price-buttom-calendar' backgroundColor='white' >
+
           <div >
             <h5>R$ 60,00</h5>
             <h5> <FaStar color='#FF7A00' /> 4,9</h5>
