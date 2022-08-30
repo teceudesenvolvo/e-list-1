@@ -605,6 +605,10 @@ p {
 }
 
 
+.divPagamento{
+  display: flex;
+  align-items: center;
+}
 
 .Cards{
   width: 30px;
