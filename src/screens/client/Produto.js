@@ -162,7 +162,7 @@ export default function Produto() {
               <CloseIcon />
             </IconButton>
             <div >
-              <Typography sx={{ ml: 1, color: '#000', marginTop: '25px' }} variant="h6" component="div" >
+              <Typography sx={{ ml: 1, color: '#000', marginTop: '0px' }} variant="h6" component="div" >
                 Realizar Pagamento
               </Typography>
 
