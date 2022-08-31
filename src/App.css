@@ -546,6 +546,7 @@ p {
   margin-bottom: 65px;
   text-align: start;
   padding-top: 30px;
+  
 }
 
 .align-left {
@@ -714,7 +715,7 @@ p {
   overflow: hidden;
   transition: width 0.2 linear;
   box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-  z-index: 1;
+  z-index: 8;
 
 
 }
@@ -797,6 +798,10 @@ p {
     display: none;
   }
 
+  .header-home{
+    background-color: #1F1F1F;
+  }
+
   .conteinerHome {
     align-items: center;
   }
@@ -820,11 +825,14 @@ p {
   }
 
   .Produto-container {
-    margin-left: 90px;
+    margin-left: 80px;
   }
 
   .Mais-content {
     margin-left: 80px;
 
+  }
+  .price-buttom {
+    bottom: 0;
   }
 }

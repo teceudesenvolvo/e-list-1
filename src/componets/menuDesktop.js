@@ -10,7 +10,9 @@ import {
     FaHeart,
     FaShoppingBag,
     FaBell,
-    FaBars
+    FaUser,
+    FaQuestionCircle
+
 } from "react-icons/fa";
 
 // Components
@@ -86,10 +88,13 @@ class menuDesktop extends Component {
                     <FaBell className='fas fa-Notificacoes'></FaBell>
                     <span className='nav-item'>Notificações</span>
                 </a>
-
-                <a href="/Mais" className={this.state.linkMenu5}>
-                    <FaBars className='fas fa-Mais'></FaBars>
-                    <span className='nav-item'>Mais</span>
+                <a href="/login" className={this.state.linkMenu5}>
+                    <FaUser className='fas fa-Ajuda'></FaUser>
+                    <span className='nav-item'>Minha Conta</span>
+                </a>
+                <a href="/Ajuda" className={this.state.linkMenu5}>
+                    <FaQuestionCircle className='fas fa-Ajuda'></FaQuestionCircle>
+                    <span className='nav-item'>Ajuda</span>
                 </a>
 
 
