@@ -475,6 +475,7 @@ p {
   align-items: center;
   justify-content: center;
   width: 90%;
+  margin-bottom: 90px;
 }
 
 .favoritosItem {
@@ -515,6 +516,7 @@ p {
   justify-content: center;
   width: 90%;
   height: 100%;
+  margin-bottom: 90px;
 }
 
 .notificacoesItem {
@@ -560,6 +562,7 @@ p {
   position: fixed;
   bottom: 50px;
   background-color: #2c2c2c;
+  z-index: 7;
 }
 
 .price-buttom-calendar {
@@ -644,6 +647,7 @@ p {
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
+  margin-bottom: 90px;
 
 
 

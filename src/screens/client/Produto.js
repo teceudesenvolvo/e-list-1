@@ -176,7 +176,7 @@ export default function Produto() {
 
           </Toolbar>
         </AppBar>
-        <List>
+        <List sx={{ marginBottom: '90px'}}>
           <Divider />
           <div className="divPagamento">
             <div>

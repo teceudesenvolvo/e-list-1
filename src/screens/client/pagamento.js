@@ -18,17 +18,10 @@ class pagamento extends Component {
             <div className='App-header' >
                 <div className='Produto-container'>
                     
-                    <p>Realizar Pagamento</p>
+                    <p>Pagamento Realizado Com Sucesso</p>
 
 
-                    <div className='price-buttom' >
-                        <div >
-                            <h5 >R$ 60,00</h5>
-                            <h5 > <FaStar color='#FF7A00' /> 4,9</h5>
-                        </div>
-
-                        <input type='button' value="Concluir" />
-                    </div>
+                   
                 </div>
 
             </div>
