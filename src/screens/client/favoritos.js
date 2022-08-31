@@ -5,7 +5,7 @@ import camera from '../../assets/Camera.png';
 // Icones
 
 // Components
-
+import FavoritoList from '../../componets/favoritoList';
 //mudança de páginas
 
 class favoritos extends Component {
@@ -16,24 +16,7 @@ class favoritos extends Component {
 
         <p>Favoritos</p>
         <div className='favoritos'>
-          <div className='favoritosItem'>
-            <img src={camera} alt='camera' className='camera' />
-          </div>
-          <div className='favoritosItem'>
-            <img src={camera} alt='camera' className='camera' />
-          </div>
-          <div className='favoritosItem'>
-            <img src={camera} alt='camera' className='camera' />
-          </div>
-          <div className='favoritosItem'>
-            <img src={camera} alt='camera' className='camera' />
-          </div>
-          <div className='favoritosItem'>
-            <img src={camera} alt='camera' className='camera' />
-          </div>
-          <div className='favoritosItem'>
-            <img src={camera} alt='camera' className='camera' />
-          </div>
+          <FavoritoList></FavoritoList>
         </div>
       </div>
     );

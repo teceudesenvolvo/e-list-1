@@ -5,7 +5,7 @@ import React, { Component } from 'react';
 // Icones
 import {
 
-    FaStar
+    FaCheckCircle
 } from 'react-icons/fa';
 // Components
 
@@ -16,11 +16,12 @@ class pagamento extends Component {
         return (
 
             <div className='App-header' >
-                <div className='Produto-container'>
+                <div className='Pagamento-container'>
+                <FaCheckCircle className='ok-circle'></FaCheckCircle>
+                    <h5>Pagamento Realizado Com Sucesso</h5>
                     
-                    <p>Pagamento Realizado Com Sucesso</p>
-
-
+                   
+                
                    
                 </div>
 
