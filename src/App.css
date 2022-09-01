@@ -660,6 +660,7 @@ p {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 60px;
 }
 
 .cartao>div {
@@ -682,6 +683,7 @@ p {
   height: 45px;
   border-radius: 5px;
 }
+
 
 
 .Pagamento-container {
