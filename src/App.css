@@ -313,6 +313,7 @@
   font-weight: bold;
   margin-bottom: -10px;
   margin-top: 10px;
+  color: white;
 }
 
 .valueProductP{
@@ -327,6 +328,7 @@
 .descricaoProduct {
   font-size: 10px;
   margin-bottom: 15px;
+  color: white;
 }
 
 @keyframes App-logo-spin {
