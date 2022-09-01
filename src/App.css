@@ -662,11 +662,20 @@ p {
   flex-direction: column;
 }
 
+.cartao > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+   width: 95%;
+}
+
 .inputCartao{
   border: none;
   background-color: #efefef;
   color: #545454;
   margin: 5px;
+  padding-left: 10px;
   width: 90%;
   height: 45px;
   border-radius: 5px;

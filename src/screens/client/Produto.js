@@ -305,8 +305,11 @@ export default function Produto() {
         <List sx={{ marginBottom: '90px'}}>
         <form className='cartao'>
                 <input type="number" placeholder="Número do cartão" className='inputCartao' />
+                <div  >
                 <input type="number" placeholder="Validade" className='inputCartao'/>
                 <input type="number" placeholder="CVV" className='inputCartao' />
+                </div>
+                
                 <input type="text" placeholder="Nome" className='inputCartao'/>
                 <input type="text" placeholder="Sobre Nome" className='inputCartao'/>
                 <input type="number" placeholder="CPF" className='inputCartao' />
