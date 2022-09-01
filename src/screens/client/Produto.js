@@ -303,7 +303,15 @@ export default function Produto() {
           </Toolbar>
         </AppBar>
         <List sx={{ marginBottom: '90px'}}>
-           
+        <form className='cartao'>
+                <input type="number" placeholder="Número do cartão" className='inputCartao' />
+                <input type="number" placeholder="Validade" className='inputCartao'/>
+                <input type="number" placeholder="CVV" className='inputCartao' />
+                <input type="text" placeholder="Nome" className='inputCartao'/>
+                <input type="text" placeholder="Sobre Nome" className='inputCartao'/>
+                <input type="number" placeholder="CPF" className='inputCartao' />
+               
+            </form>
           <Divider />
           <div>
             <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >

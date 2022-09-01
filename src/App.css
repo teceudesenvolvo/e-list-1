@@ -655,6 +655,24 @@ p {
   margin: 5px;
 }
 
+.cartao{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.inputCartao{
+  border: none;
+  background-color: #efefef;
+  color: #545454;
+  margin: 5px;
+  width: 90%;
+  height: 45px;
+  border-radius: 5px;
+}
+
+
 .Pagamento-container{
   width: 100%;
   height: 100vh;
