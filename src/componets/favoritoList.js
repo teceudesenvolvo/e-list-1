@@ -84,7 +84,7 @@ class favoritoList extends Component {
         }
         }
         >
-                <img src={product.image} width="50%" className='imgProduct'/>
+                <img alt='image produto favorito' src={product.image} width="50%" className='imgProduct'/>
             <div className='areaTextDescProduct' >
                 <p className='valueProduct' >R$ {product.value}</p>
                 <p className='descricaoProduct' >{product.desc}</p>
