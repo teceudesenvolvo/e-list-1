@@ -39,6 +39,9 @@ const Transition2 = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="dom" ref={ref} {...props} />;
 });
 
+const Transition3 = React.forwardRef(function Transition(props, ref) {
+  return <Slide direction="up" ref={ref} {...props} />;
+});
 
 
 export default function Produto() {
@@ -46,6 +49,7 @@ export default function Produto() {
 
   const [open, setOpen] = React.useState(false);
   const [open2, setOpen2] = React.useState(false);
+  const [open3, setOpen3] = React.useState(false);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -60,6 +64,14 @@ export default function Produto() {
 
   const handleClose2 = () => {
     setOpen2(false);
+  };
+
+  const handleClickOpen3 = () => {
+    setOpen3(true);
+  };
+
+  const handleClose3 = () => {
+    setOpen3(false);
   };
 
   return (
@@ -210,7 +222,7 @@ export default function Produto() {
           <div className="divPagamento">
             <div>
               <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
-                Pagar com
+                Pagar com :   ViSA 8888
               </Typography>
               <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px', marginBottom: '10px' }} variant="p" component="div" >
                 Cartão de crédito ou debito
@@ -221,7 +233,7 @@ export default function Produto() {
               <FaCcJcb className='Cards' ></FaCcJcb>
               <FaCcDiscover className='Cards' ></FaCcDiscover>
             </div>
-            <div> <button>adicionar</button></div>
+            <div> <button onClick={handleClickOpen3}>adicionar</button></div>
           </div>
           <Divider />
           <div>
@@ -257,6 +269,68 @@ export default function Produto() {
             }
 
             type='button' value="Concluir" />
+        </div>
+
+      </Dialog>
+
+      <Dialog
+        fullScreen
+        open={open3}
+        onClose={handleClose3}
+        TransitionComponent={Transition3}
+      >
+        <AppBar sx={{
+          position: 'relative',
+          boxShadow: '0px 2px 4px -1px rgb(255, 255, 255),0px 4px 5px 0px rgb(255, 255, 255),0px 1px 10px 0px rgb(255, 255, 255)'
+
+        }}>
+          <Toolbar sx={{ backgroundColor: '#fff' }}>
+            <IconButton
+              edge="start"
+              onClick={handleClose3}
+              aria-label="close"
+            >
+              <CloseIcon />
+            </IconButton>
+            <div >
+              <Typography sx={{ ml: 1, color: '#000', marginTop: '0px' }} variant="h6" component="div" >
+              Informações de  Pagamento
+              </Typography>
+
+
+            </div>
+
+          </Toolbar>
+        </AppBar>
+        <List sx={{ marginBottom: '90px'}}>
+           
+          <Divider />
+          <div>
+            <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
+              Politica de cancelamento
+            </Typography>
+            <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
+              Cancelamento gratuito poderá ser solicitado 12 horas antes do horário agendado. Você reberá o reembolso menos a taxa de serviço.
+            </Typography>
+          </div>
+        </List>
+
+
+        {/* <Button autoFocus color="inherit" onClick={handleClose}>
+              Horários
+            </Button> */}
+
+        <div className='price-buttom price-buttom-calendar' backgroundColor='white' >
+
+          <div >
+            <h5>R$ 60,00</h5>
+            <h5> <FaStar color='#FF7A00' /> 4,9</h5>
+          </div>
+
+          <input
+             onClick={handleClose3}
+
+            type='button' value="Adicionar cartão" />
         </div>
 
       </Dialog>
