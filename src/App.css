@@ -766,6 +766,16 @@ p {
 
 }
 
+.areaTextDescProductU {
+  text-align: left;
+  background-color: #0063BF;
+  height: 40px;
+  color: #fff;
+  margin-bottom: -10px;
+  padding: 1px 0 15px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
 /* Mais */
 
 .Mais-content {

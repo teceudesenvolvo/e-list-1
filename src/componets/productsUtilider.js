@@ -86,7 +86,7 @@ class ProductsUtilider extends Component {
         }
         >
                 <img src={product.image} width="50%" className='imgProduct'/>
-            <div className='areaTextDescProduct' >
+            <div className='areaTextDescProductU' >
                 <p className='valueProduct' >R$ {product.value}</p>
                 <p className='descricaoProduct' >{product.desc}</p>
             </div>
