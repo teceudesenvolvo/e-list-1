@@ -9,6 +9,7 @@ import favoritos from './screens/client/favoritos';
 import Minhas_Compras from './screens/client/Minhas_Compras';
 import Notificacoes from './screens/client/Notificacoes';
 import Mais from './screens/client/Mais';
+import Servico from './screens/client/Servico';
 import Produto from './screens/client/Produto';
 import pagamento from './screens/client/pagamento';
 import Pesquisar from './screens/client/pesquisa';
@@ -38,6 +39,7 @@ function App() {
         <Route path="/Compras" component={Minhas_Compras}/>
         <Route path="/Notificacoes" component={Notificacoes}/>
         <Route path="/Mais" component={Mais}/>
+        <Route path="/Servico" component={Servico}/>
         <Route path="/Produto" component={Produto}/>
         <Route path="/pesquisar" component={Pesquisar}/>
         <Route path="/categorias" component={categorias}/>

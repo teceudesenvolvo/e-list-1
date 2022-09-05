@@ -565,9 +565,8 @@ p {
   background-color: #FF7A00;
 }
 
-/*  Produto-container */
-
-.Produto-container {
+/*  Servico-container */
+.Servico-container {
   width: 100%;
   height: 100%;
   display: flex;
@@ -576,11 +575,6 @@ p {
   text-align: start;
   padding-top: 30px;
 
-}
-
-.align-left {
-  font-size: 12px;
-  position: relative;
 }
 
 .price-buttom {
@@ -595,16 +589,6 @@ p {
   z-index: 7;
 }
 
-.price-buttom-calendar {
-  width: 100%;
-  padding-top: 20px;
-  flex: 1;
-  display: inline-flex;
-  flex-direction: row;
-  position: fixed;
-  bottom: 0px;
-  background-color: #fff;
-}
 
 .price-buttom div {
   margin-left: 10px;
@@ -628,6 +612,29 @@ p {
   border: none;
   font-weight: 600;
   border-radius: 5px;
+}.Produto-title {
+  color: #DCDCDC;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+
+.desc-product {
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.servico-desc {
+  color: #DCDCDC;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.txtProduct {
+  font-size: 16px;
+  margin-left: 10px;
 }
 
 
@@ -643,6 +650,103 @@ p {
   margin-bottom: 95px;
 
 }
+
+
+
+/*  Produto-container */
+
+.Produto-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 65px;
+  text-align: start;
+  background-color: white;
+  color: #000;
+
+}
+
+.align-left {
+  font-size: 12px;
+  position: relative;
+}
+
+.price-buttomUtilider {
+  width: 100%;
+  padding-top: 20px;
+  flex: 1;
+  display: inline-flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 50px;
+  background-color: #ffffff;
+  z-index: 7;
+}
+
+.price-buttom-calendar {
+  width: 100%;
+  padding-top: 20px;
+  flex: 1;
+  display: inline-flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0px;
+  background-color: #fff;
+}
+
+.price-buttomUtilider div {
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 45%;
+  height: 50px;
+}
+
+
+.price-buttomUtilider div>h5 {
+  margin-top: -22px;
+}
+
+
+
+.price-buttomUtilider input {
+  width: 50%;
+  height: 50px;
+  background-color: #FF7A00;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+
+.Produto-titleUtilider {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+  margin-top: -15px;
+}
+
+.desc-productUtilider {
+  height: auto;
+  margin-bottom: 100px;
+  color: #3e3e3c;
+}
+
+.servico-descUtilider {
+  color: #3e3e3c;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.txtProductUtilider {
+  font-size: 16px;
+  margin-left: 10px;
+  color: #3c3c3c;
+}
+
 
 
 .divPagamento {

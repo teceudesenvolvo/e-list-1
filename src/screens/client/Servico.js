@@ -77,7 +77,7 @@ export default function Produto() {
   return (
 
     <div className='App-header' >
-      <div className='Produto-container'>
+      <div className='Servico-container'>
         <p className='textoDestaques'>Serviço</p>
         <h1 className='Produto-title'>Lavagem Completa</h1>
         <div className='productId'>

@@ -77,7 +77,7 @@ class ProductsList extends Component {
         <li key={(product.id)} className="productItem"
         onClick={
           () => {
-              window.location.href = "/produto"
+              window.location.href = "/Servico"
             // this.setState({id: aviso.id}, () => {
             // (this.props.clickButton(this.state))
         //   }
