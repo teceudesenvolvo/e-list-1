@@ -20,7 +20,8 @@ class utilider extends Component{
               <div className='utilider-header'>
                 <img className='utilider-img' src={utiliderImg}></img>
               </div>
-                
+
+                <img className='utilider-banner' src='https://utilider.com/wp-content/uploads/2022/04/BALDE-PARA-CERVEJA-76L.jpg'  ></img>
             </div>
         </div>
     );
