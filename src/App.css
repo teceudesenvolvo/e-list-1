@@ -725,6 +725,27 @@ p {
   margin-top: 10px;
 }
 
+/* utilider */
+
+.utilider-container{
+    display: flex;
+  
+  
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.utilider-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0063BF;
+  width: 100%;
+  height: 63px;
+}
+
+
 
 
 /* Mais */

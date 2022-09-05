@@ -13,6 +13,7 @@ import Produto from './screens/client/Produto';
 import pagamento from './screens/client/pagamento';
 import Pesquisar from './screens/client/pesquisa';
 import categorias from './screens/client/categorias';
+import utilider from './screens/client/utilider';
 
 
 
@@ -41,6 +42,7 @@ function App() {
         <Route path="/pesquisar" component={Pesquisar}/>
         <Route path="/categorias" component={categorias}/>
         <Route path="/pagamento" component={pagamento}/>
+        <Route path="/utilider" component={utilider}/>
         
           
 

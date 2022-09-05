@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 // Default theme
 import '@splidejs/react-splide/css';
@@ -100,6 +99,12 @@ class slideFeactures extends Component {
 
         const listServicos = servicos.map((servico) => 
         <SplideSlide key={(servico.id)} className="slidesFeacture"
+        onClick={
+            () => {
+              window.location.href = "/utilider"
+              
+            }
+          }
         // onClick={
         //   () => {this.setState({id: aviso.id}, () => {
         //     (this.props.clickButton(this.state))
