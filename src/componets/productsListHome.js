@@ -14,8 +14,8 @@ class ProductsList extends Component {
         products: [
             {
                 id: '1',
-                image: 'https://utilider.com/wp-content/uploads/2022/04/BATERIA-ALFACELL-LITHIUM-3V-CARTELA-C-2.webp',
-                desc: 'Descrição do serviço 1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg',
+                desc: 'Limpeza Técnica',
                 value: '192,50' 
             }, 
             {
