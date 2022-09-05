@@ -28,7 +28,7 @@ class Home extends Component {
         {/* Search */}
         <div className='header-home'>
           <a href='/' className="logoDesktop" >
-            <img src={Logo}  ></img>
+            <img src={Logo} alt="Logo" />
           </a>
           <div className='inputPesquisar' >
             <p className='pPesquisar'  >Pesquisar</p>
