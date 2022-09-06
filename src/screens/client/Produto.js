@@ -78,9 +78,9 @@ export default function Produto() {
 
     <div className='App-header' >
       <div className='Produto-container'>
-      <div className='utilider-header'>
-                <img className='utilider-img' src={utiliderImg}></img>
-              </div>
+        <div className='utilider-header'>
+          <img className='utilider-img' src={utiliderImg}></img>
+        </div>
         <p className='textoDestaquesUtilider'>Produto</p>
         <h1 className='Produto-titleUtilider'>BATERIA ALFACELL</h1>
         <div className='productId'>
@@ -110,6 +110,9 @@ export default function Produto() {
         onClose={handleClose}
         TransitionComponent={Transition}
       >
+        <div className='utilider-header'>
+          <img className='utilider-img' src={utiliderImg}></img>
+        </div>
         <AppBar sx={{
           position: 'relative',
           boxShadow: '0px 2px 4px -1px rgb(255, 255, 255),0px 4px 5px 0px rgb(255, 255, 255),0px 1px 10px 0px rgb(255, 255, 255)'
@@ -124,24 +127,19 @@ export default function Produto() {
               <CloseIcon />
             </IconButton>
             <div >
-              <Typography sx={{ ml: 1, color: '#000', marginTop: '25px' }} variant="h6" component="div" >
-                Selecionar data do serviço
+              <Typography sx={{ ml: 1, color: '#000', }} variant="h6" component="div" >
+                Realizar Pagamento
               </Typography>
-              <p className='pData'>Selecione um dia disponível.</p>
+
 
             </div>
 
           </Toolbar>
         </AppBar>
         <List>
-          <CustomizeDayPicker></CustomizeDayPicker>
+
           <Divider />
-          <div className='horariosDiv'>
-            <Typography sx={{ color: '#000' }} variant="h6" component="div" >
-              Selecionar horário do serviço
-            </Typography>
-            <Horarios></Horarios>
-          </div>
+
 
         </List>
 
@@ -168,6 +166,9 @@ export default function Produto() {
         onClose={handleClose2}
         TransitionComponent={Transition2}
       >
+        <div className='utilider-header'>
+          <img className='utilider-img' src={utiliderImg}></img>
+        </div>
         <AppBar sx={{
           position: 'relative',
           boxShadow: '0px 2px 4px -1px rgb(255, 255, 255),0px 4px 5px 0px rgb(255, 255, 255),0px 1px 10px 0px rgb(255, 255, 255)'
@@ -191,7 +192,7 @@ export default function Produto() {
 
           </Toolbar>
         </AppBar>
-        <List sx={{ marginBottom: '90px'}}>
+        <List sx={{ marginBottom: '90px' }}>
           <Divider />
           <div className="divPagamento">
             <div>
@@ -209,15 +210,15 @@ export default function Produto() {
               </Typography>
             </div>
             <div>
-            
+
               <Typography sx={{ ml: 1, color: '#797979', marginTop: '28px' }} variant="p" component="div" >
-              R$ 60,00
+                R$ 60,00
               </Typography>
               <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
-              R$ 6,00
+                R$ 6,00
               </Typography>
               <Typography sx={{ ml: 1, color: '#797979', marginTop: '25px', marginBottom: '8px' }} variant="p" component="div" >
-              R$ 66,00
+                R$ 66,00
               </Typography>
             </div>
           </div>
@@ -282,6 +283,9 @@ export default function Produto() {
         onClose={handleClose3}
         TransitionComponent={Transition3}
       >
+        <div className='utilider-header'>
+          <img className='utilider-img' src={utiliderImg}></img>
+        </div>
         <AppBar sx={{
           position: 'relative',
           boxShadow: '0px 2px 4px -1px rgb(255, 255, 255),0px 4px 5px 0px rgb(255, 255, 255),0px 1px 10px 0px rgb(255, 255, 255)'
@@ -297,7 +301,7 @@ export default function Produto() {
             </IconButton>
             <div >
               <Typography sx={{ ml: 1, color: '#000', marginTop: '0px' }} variant="h6" component="div" >
-              Informações de  Pagamento
+                Informações de  Pagamento
               </Typography>
 
 
@@ -305,19 +309,19 @@ export default function Produto() {
 
           </Toolbar>
         </AppBar>
-        <List sx={{ marginBottom: '90px'}}>
-        <form className='cartao'>
-                <input type="number" placeholder="Número do cartão" className='inputCartao' />
-                <div  >
-                <input type="number" placeholder="Validade" className='inputCartao'/>
-                <input type="number" placeholder="CVV" className='inputCartao' />
-                </div>
-                
-                <input type="text" placeholder="Nome" className='inputCartao'/>
-                <input type="text" placeholder="Sobre Nome" className='inputCartao'/>
-                <input type="number" placeholder="CPF" className='inputCartao' />
-               
-            </form>
+        <List sx={{ marginBottom: '90px' }}>
+          <form className='cartao'>
+            <input type="number" placeholder="Número do cartão" className='inputCartao' />
+            <div  >
+              <input type="number" placeholder="Validade" className='inputCartao' />
+              <input type="number" placeholder="CVV" className='inputCartao' />
+            </div>
+
+            <input type="text" placeholder="Nome" className='inputCartao' />
+            <input type="text" placeholder="Sobre Nome" className='inputCartao' />
+            <input type="number" placeholder="CPF" className='inputCartao' />
+
+          </form>
           <Divider />
           <div>
             <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
@@ -342,7 +346,7 @@ export default function Produto() {
           </div>
 
           <input
-             onClick={handleClose3}
+            onClick={handleClose3}
 
             type='button' value="Adicionar cartão" />
         </div>
