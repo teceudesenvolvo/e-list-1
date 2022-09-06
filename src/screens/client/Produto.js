@@ -99,7 +99,14 @@ export default function Produto() {
             <h5 > <FaStar color='#FF7A00' /> 4,9</h5>
           </div>
 
-          <input onClick={handleClickOpen} type='button' value="Comprar" />
+          <input  onClick={
+              () => {
+                window.location.href = "/carinho"
+                // this.setState({id: aviso.id}, () => {
+                // (this.props.clickButton(this.state))
+                //   }
+              }
+            } type='button' value="Comprar" />
         </div>
 
 
@@ -143,7 +150,7 @@ export default function Produto() {
               </img>
               <div>
                  <p>Titulo do produto</p>
-                 <h9>R$ 190,00</h9>
+                 <p>R$ 190,00</p>
                  <p>Descrição do produto</p>
 
 

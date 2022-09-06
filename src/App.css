@@ -704,6 +704,7 @@ p {
 
 
 .price-buttomUtilider div>h5 {
+  color: #000;
   margin-top: -22px;
 }
 
@@ -747,29 +748,7 @@ p {
   color: #3c3c3c;
 }
 
-.ProdutoCardUtilider{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  width: 340px;
-  height: 100px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.482);
-  border-radius: 12px;
-}
 
-.ProdutoCardUtilider > img{
-  height: 100px;
-  border-radius: 12px 0px 0px 12px;
-}
-
-.ProdutoCardUtilider > div {
-  width: 100%;
-  height: 100px;
-  background-color: #0063BF; 
-  border-radius: 0px 12px 12px 0px;
-
-}
 
 
 
@@ -856,6 +835,7 @@ p {
 /* utilider */
 
 .utilider-container{
+  width: 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -902,6 +882,40 @@ p {
   margin-bottom: -10px;
   padding: 1px 0 15px 10px;
   border-radius: 0 0 10px 10px;
+}
+
+.ProdutoCardUtilider{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 80%;
+  min-height: 100px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.482);
+  border-radius: 12px;
+}
+
+.ProdutoCardUtilider > img{
+  height: 100px;
+  border-radius: 12px 0px 0px 12px;
+}
+
+.ProdutoCardUtilider > div > p {
+  margin: 0 !important;
+}
+
+.ProdutoCardUtilider > div {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100px;
+  background-color: #0063BF; 
+  border-radius: 0px 12px 12px 0px;
+  padding-left: 5px;
+
 }
 
 /* Mais */
