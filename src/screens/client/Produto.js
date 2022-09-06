@@ -136,9 +136,20 @@ export default function Produto() {
 
           </Toolbar>
         </AppBar>
-        <List>
+        <List sx={{ marginBottom: '90px', display: 'flex', alignItems: 'center', flexDirection: 'column', justifyContent: 'center'}} >
+          
+             <div class="ProdutoCardUtilider">
+              <img alt='produto' src='https://utilider.com/wp-content/uploads/2022/04/BATERIA-ALFACELL-LITHIUM-3V-CARTELA-C-2.webp'>
+              </img>
+              <div>
+                 <p>Titulo do produto</p>
+                 <h9>R$ 190,00</h9>
+                 <p>Descrição do produto</p>
 
-          <Divider />
+
+              </div>
+             </div>
+      
 
 
         </List>
