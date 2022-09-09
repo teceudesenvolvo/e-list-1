@@ -681,9 +681,9 @@ p {
   display: inline-flex;
   flex-direction: row;
   position: fixed;
-  bottom: 50px;
+  bottom: 0px;
   background-color: #ffffff;
-  z-index: 7;
+  z-index: 8;
 }
 
 .price-buttom-calendar {
@@ -844,6 +844,7 @@ p {
   align-items: center;
   font-size: calc(10px + 2vmin);
     background-color: rgba(255, 255, 255, 0.928);
+  z-index: 8;
 }
 
 .utilider-header{

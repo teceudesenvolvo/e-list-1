@@ -11,7 +11,7 @@ import Notificacoes from './screens/client/Notificacoes';
 import Mais from './screens/client/Mais';
 import Servico from './screens/client/Servico';
 import Produto from './screens/client/Produto';
-import Carinho from './screens/client/carinho';
+import Carrinho from './screens/client/carrinho';
 import pagamento from './screens/client/pagamento';
 import Pesquisar from './screens/client/pesquisa';
 import categorias from './screens/client/categorias';
@@ -42,7 +42,7 @@ function App() {
         <Route path="/Mais" component={Mais}/>
         <Route path="/Servico" component={Servico}/>
         <Route path="/Produto" component={Produto}/>
-        <Route path="/Carinho" component={Carinho}/>
+        <Route path="/Carrinho" component={Carrinho}/>
         <Route path="/pesquisar" component={Pesquisar}/>
         <Route path="/categorias" component={categorias}/>
         <Route path="/pagamento" component={pagamento}/>
