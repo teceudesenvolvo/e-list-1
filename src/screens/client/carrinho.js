@@ -15,7 +15,7 @@ import {
   FaCcDiscover
 } from 'react-icons/fa'
 // Components
-import ProductsUtilider from '../../componets/productsUtilider';
+
 
 //mudança de páginas
 import Dialog from '@mui/material/Dialog';
@@ -213,7 +213,7 @@ export default function Carrinho() {
           <input
             onClick={
               () => {
-                window.location.href = "/pagamento"
+                window.location.href = "/pagamentoUtilider"
                 // this.setState({id: aviso.id}, () => {
                 // (this.props.clickButton(this.state))
                 //   }
