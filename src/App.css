@@ -931,13 +931,13 @@ p {
   flex-direction: column;
   justify-self: start;   
   border-bottom: 1px solid #fff;
-  margin-left: 14px;
+  
 }
 
 .utilider-Pag-Tilulo > h3{
   color: #000;
   font-size: 18px;
-
+  margin-left: 14px;
    
 }
 
@@ -949,17 +949,19 @@ p {
   flex-direction: column;
   justify-self: start;   
   border-bottom: 1px solid #fff;
-  margin-left: 14px;
+
 }
 
 .utilider-Desc-Pag > h5 {
   color: #000;
   font-size: 14px;
   margin-bottom: 0;
+  margin-left: 14px;
 }
 .utilider-Desc-Pag > p {
   color: rgb(76, 76, 76);
   font-size: 10px;
+  margin-left: 14px;
 }
 
 .utilider-Desc-Produtos{
@@ -971,21 +973,24 @@ p {
   flex-direction: column;
   justify-self: start;   
   border-bottom: 1px solid #fff;
-  margin-left: 14px;
+
 }
 .utilider-Desc-Produtos > h5 {
   color: #000;
   font-size: 14px;
   margin-bottom: 0;
+  margin-left: 14px;
 }
 .utilider-Desc-Produtos > h7 {
   color: rgb(76, 76, 76);
   font-size: 14px;
   margin-bottom: 16px;
+  margin-left: 14px;
 }
 .utilider-Desc-Produtos > p {
   color: rgb(76, 76, 76);
   font-size: 10px;
+  margin-left: 14px;
 }
 
 
