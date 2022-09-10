@@ -89,6 +89,7 @@ class ProductsUtilider extends Component {
             <div className='areaTextDescProductU' >
                 <p className='valueProduct' >R$ {product.value}</p>
                 <p className='descricaoProduct' >{product.desc}</p>
+                
             </div>
       </li>
     )

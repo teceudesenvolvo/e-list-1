@@ -28,8 +28,12 @@ import Typography from '@mui/material/Typography';
 import CloseIcon from '@mui/icons-material/Close';
 import Slide from '@mui/material/Slide';
 import Divider from '@mui/material/Divider';
+import Checkbox from '@mui/material/Checkbox';
+import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
+import Favorite from '@mui/icons-material/Favorite';
+import BookmarkBorderIcon from '@mui/icons-material/BookmarkBorder';
 
-
+const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
@@ -82,11 +86,16 @@ export default function Produto() {
         <div className='utilider-header'>
           <img className='utilider-img' src={utiliderImg}></img>
         </div>
+    
         <p className='textoDestaquesUtilider'>Produto</p>
         <h1 className='Produto-titleUtilider'>BATERIA ALFACELL</h1>
         <div className='productId'>
           <Test></Test>
+         
         </div>
+        <Checkbox 
+      
+          {...label} icon={<FavoriteBorder />} checkedIcon={<Favorite />} />
         <div className='desc-productUtilider' >
           <h1 className='servico-descUtilider'>Descrição do produto </h1>
           <p className='txtProductUtilider'>
