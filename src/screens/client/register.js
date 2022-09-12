@@ -26,7 +26,12 @@ class register extends Component {
             <input type="text" placeholder="Telefone" className='inputLogin' />
             <input type="text" placeholder="CEP" className='inputLogin' />
             <input type="text" placeholder="Número da casa" className='inputLogin' />
-            <input type="checkbox" placeholder="Complemento" className='inputLogin' />
+
+            <div className="checkbox-politicas">
+              <input type="checkbox" placeholder="Complemento" className='inputLogin' />
+              <p> Concordo com os termos de uso e as politicas de privacidade. </p>
+            </div>
+
             <button className='buttonLogin'>Cadastrar</button>
 
           </form> <p>já tem uma conta? <a href='/login' className='linkLogin'>Fazer login</a></p>

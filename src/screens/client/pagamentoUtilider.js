@@ -3,10 +3,7 @@ import React, { Component } from 'react';
 //Imagens
 import utiliderImg from '../../assets/utilider.png';
 // Icones
-import {
 
-    FaCheckCircle
-} from 'react-icons/fa';
 // Components
 
 //mudança de páginas

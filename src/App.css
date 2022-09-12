@@ -400,6 +400,25 @@ p {
   margin: 20px;
 }
 
+.checkbox-politicas{
+  display: flex;
+  align-items: center;
+  justify-self: center;
+
+  width: 75%;
+}
+.checkbox-politicas > p{
+  font-size: 12px;
+  text-align: start;
+  margin-bottom: 25px;
+}
+.checkbox-politicas > input{
+  width: 15%;
+  height: 40px;
+  margin-right: 13px;
+}
+
+
 /* Menu */
 
 .menu {
