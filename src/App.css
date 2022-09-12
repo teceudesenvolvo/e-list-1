@@ -1029,6 +1029,20 @@ p {
   color: #0063BF;
 }
 
+
+.FreteCardUtilider{
+  width: 100%;
+  padding-top: 20px;
+  flex: 1;
+  display: inline-flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 90px;
+  background-color: #ffffff;
+  z-index: 7;
+  border: 1px solid #C7c7c7;
+}
+
 /* Mais */
 
 .Mais-content {
