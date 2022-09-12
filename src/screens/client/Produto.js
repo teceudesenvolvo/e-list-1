@@ -81,16 +81,22 @@ export default function Produto() {
     <div className='App-header' >
       <div className='Produto-container'>
         <div className='utilider-header'>
-          <img className='utilider-img' src={utiliderImg}></img>
+          <img className='utilider-img'
+            onClick={
+              () => {
+                window.location.href = "/utilider"
+              }
+            }
+            src={utiliderImg}></img>
         </div>
-    
+
         <p className='textoDestaquesUtilider'>Produto</p>
         <h1 className='Produto-titleUtilider'>BATERIA ALFACELL</h1>
         <div className='productId'>
           <Test></Test>
-         
+
         </div>
-       
+
         <div className='desc-productUtilider' >
           <h1 className='servico-descUtilider'>Descrição do produto </h1>
           <p className='txtProductUtilider'>
@@ -104,14 +110,14 @@ export default function Produto() {
             <h5 > <FaStar color='#FF7A00' /> 4,9</h5>
           </div>
 
-          <input  onClick={
-              () => {
-                window.location.href = "/carrinho"
-                // this.setState({id: aviso.id}, () => {
-                // (this.props.clickButton(this.state))
-                //   }
-              }
-            } type='button' value="Comprar" />
+          <input onClick={
+            () => {
+              window.location.href = "/carrinho"
+              // this.setState({id: aviso.id}, () => {
+              // (this.props.clickButton(this.state))
+              //   }
+            }
+          } type='button' value="Comprar" />
         </div>
 
 
@@ -148,20 +154,20 @@ export default function Produto() {
 
           </Toolbar>
         </AppBar>
-        <List sx={{ marginBottom: '90px', display: 'flex', alignItems: 'center', flexDirection: 'column', justifyContent: 'center'}} >
-          
-             <div class="ProdutoCardUtilider">
-              <img alt='produto' src='https://utilider.com/wp-content/uploads/2022/04/BATERIA-ALFACELL-LITHIUM-3V-CARTELA-C-2.webp'>
-              </img>
-              <div>
-                 <p>Titulo do produto</p>
-                 <p>R$ 190,00</p>
-                 <p>Descrição do produto</p>
+        <List sx={{ marginBottom: '90px', display: 'flex', alignItems: 'center', flexDirection: 'column', justifyContent: 'center' }} >
+
+          <div class="ProdutoCardUtilider">
+            <img alt='produto' src='https://utilider.com/wp-content/uploads/2022/04/BATERIA-ALFACELL-LITHIUM-3V-CARTELA-C-2.webp'>
+            </img>
+            <div>
+              <p>Titulo do produto</p>
+              <p>R$ 190,00</p>
+              <p>Descrição do produto</p>
 
 
-              </div>
-             </div>
-      
+            </div>
+          </div>
+
 
 
         </List>

@@ -90,7 +90,7 @@ class slideFeactures extends Component {
         <SplideSlide key={(servico.id)} className="slidesFeacture"
         onClick={
             () => {
-              window.location.href = "/utilider"
+              window.location.href = "/produto"
               
             }
           }
