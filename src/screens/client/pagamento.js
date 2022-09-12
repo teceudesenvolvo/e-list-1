@@ -29,7 +29,7 @@ class pagamento extends Component {
                             }
                         }
 
-                        type='button' value="Ver Conpovante" />
+                        type='button' value="Ver Compovante" />
                     <input className='ok-input'
                         onClick={
                             () => {
