@@ -511,7 +511,7 @@ p {
   text-align: left;
   width: 93%;
   height: 38%;
-
+  margin-top: 1px;
   background-color: #545454 !important;
   font-size: 15px;
   border-radius: 0 0 10px 10px !important;
