@@ -12,8 +12,12 @@ import {
   FaCcVisa,
   FaCcAmex,
   FaCcJcb,
-  FaCcDiscover
-} from 'react-icons/fa'
+  FaCcDiscover,
+  FaHome,
+  FaShoppingCart,
+  FaShoppingBag,
+} from 'react-icons/fa';
+
 // Components
 
 
@@ -73,7 +77,15 @@ export default function Carrinho() {
     <div className='App-header' >
       <div className='utilider-container'>
         <div className='utilider-header'>
-          <img className='utilider-img' src={utiliderImg}></img>
+          <a href='/'  ><FaHome className='utilider-icon' /></a>
+          <img className='utilider-img'
+            onClick={
+              () => {
+                window.location.href = "/utilider"
+              }
+            }
+            src={utiliderImg}></img>
+          <a href='/carrinho'  >< FaShoppingCart className='utilider-icon' /></a>
         </div>
         <div class="ProdutoCardUtilider">
           <img alt='produto' src='https://utilider.com/wp-content/uploads/2022/04/BATERIA-ALFACELL-LITHIUM-3V-CARTELA-C-2.webp'>
@@ -101,17 +113,17 @@ export default function Carrinho() {
         </div>
 
         <div class="FreteCardUtilider">
-             <h5>Entrega</h5>
+          <h5>Entrega</h5>
           <FormControl>
-           
+
             <RadioGroup
               aria-labelledby="demo-radio-buttons-group-label"
               defaultValue="female"
               name="radio-buttons-group"
             >
-              <FormControlLabel sx={{color: "#c7c7c7", marginLeft: '10px',}} value="Taxa Fixa - R$ 25,00" control={<Radio />} label="Taxa Fixa - R$ 25,00" />
-              <FormControlLabel sx={{color: "#c7c7c7", marginLeft: '10px',}}  value="Retirada no local" control={<Radio />} label="Retirada no local" />
-              
+              <FormControlLabel sx={{ color: "#c7c7c7", marginLeft: '10px', }} value="Taxa Fixa - R$ 25,00" control={<Radio />} label="Taxa Fixa - R$ 25,00" />
+              <FormControlLabel sx={{ color: "#c7c7c7", marginLeft: '10px', }} value="Retirada no local" control={<Radio />} label="Retirada no local" />
+
             </RadioGroup>
           </FormControl>
         </div>
@@ -136,8 +148,11 @@ export default function Carrinho() {
         TransitionComponent={Transition2}
       >
         <div className='utilider-header'>
+          <a href='/'  ><FaHome className='utilider-icon' /></a>
           <img className='utilider-img' src={utiliderImg}></img>
+          <a href='/carrinho'  ><FaShoppingCart className='utilider-icon' /></a>
         </div>
+
         <AppBar sx={{
           position: 'relative',
           boxShadow: '0px 2px 4px -1px rgb(255, 255, 255),0px 4px 5px 0px rgb(255, 255, 255),0px 1px 10px 0px rgb(255, 255, 255)'
@@ -253,8 +268,11 @@ export default function Carrinho() {
         TransitionComponent={Transition3}
       >
         <div className='utilider-header'>
+          <a href='/'  ><FaHome className='utilider-icon' /></a>
           <img className='utilider-img' src={utiliderImg}></img>
+          <a href='/carrinho'  ><FaShoppingCart className='utilider-icon' /></a>
         </div>
+
         <AppBar sx={{
           position: 'relative',
           boxShadow: '0px 2px 4px -1px rgb(255, 255, 255),0px 4px 5px 0px rgb(255, 255, 255),0px 1px 10px 0px rgb(255, 255, 255)'

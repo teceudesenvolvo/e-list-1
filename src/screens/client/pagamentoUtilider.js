@@ -3,7 +3,12 @@ import React, { Component } from 'react';
 //Imagens
 import utiliderImg from '../../assets/utilider.png';
 // Icones
-
+import { 
+    FaHome,
+    FaShoppingCart,
+    FaShoppingBag,
+   
+  } from "react-icons/fa";
 // Components
 
 //mudança de páginas
@@ -15,9 +20,12 @@ class pagamentoUtilider extends Component {
 
             <div className='App-header' >
                 <div className='utilider-container'>
-                    <div className='utilider-header'>
-                        <img className='utilider-img' src={utiliderImg}></img>
-                    </div>
+                <div className='utilider-header'>
+              <a href='/'  ><FaHome className='utilider-icon' /></a> 
+                <img className='utilider-img' src={utiliderImg}></img>
+                <a href='/carrinho'  ><FaShoppingCart className='utilider-icon' /></a> 
+              </div>
+
 
                     <div className='utilider-Pag-Tilulo'>
                         <h3>Compra realizada!</h3>
