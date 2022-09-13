@@ -5,7 +5,12 @@ import React, { Component } from 'react';
 //Imagens
 import utiliderImg from '../../assets/utilider.png';
 // Icones
-
+import { 
+  FaHome,
+  
+  FaShoppingBag,
+ 
+} from "react-icons/fa";
 // Components
 import ProductsUtilider from '../../componets/productsUtilider';
 
@@ -18,7 +23,9 @@ class utilider extends Component{
         <div className='App-header' >
             <div className='utilider-container'>
               <div className='utilider-header'>
+              <a href='/'  ><FaHome /></a> 
                 <img className='utilider-img' src={utiliderImg}></img>
+                <a href='/carrinho'  >< FaShoppingBag/></a> 
               </div>
 
                 <img className='utilider-banner' src='https://utilider.com/wp-content/uploads/2022/04/BALDE-PARA-CERVEJA-76L.jpg'  ></img>
