@@ -87,20 +87,6 @@ export default function Carrinho() {
           </div>
         </div>
 
-        <div class="FreteCardUtilider">
-          <FormControl>
-            <FormLabel id="demo-radio-buttons-group-label">Entrega</FormLabel>
-            <RadioGroup
-              aria-labelledby="demo-radio-buttons-group-label"
-              defaultValue="female"
-              name="radio-buttons-group"
-            >
-              <FormControlLabel sx={{color: "#c7c7c7"}} value="Taxa Fixa - R$ 25,00" control={<Radio />} label="Taxa Fixa - R$ 25,00" />
-              <FormControlLabel sx={{color: "#c7c7c7"}}  value="Retirada no local" control={<Radio />} label="Retirada no local" />
-              
-            </RadioGroup>
-          </FormControl>
-        </div>
 
         <div class="ProdutoCardUtilider">
           <img alt='produto' src='https://utilider.com/wp-content/uploads/2022/04/BATERIA-ALFACELL-LITHIUM-3V-CARTELA-C-2.webp'>
@@ -114,7 +100,21 @@ export default function Carrinho() {
           </div>
         </div>
 
-
+        <div class="FreteCardUtilider">
+             <h5>Entrega</h5>
+          <FormControl>
+           
+            <RadioGroup
+              aria-labelledby="demo-radio-buttons-group-label"
+              defaultValue="female"
+              name="radio-buttons-group"
+            >
+              <FormControlLabel sx={{color: "#c7c7c7", marginLeft: '10px',}} value="Taxa Fixa - R$ 25,00" control={<Radio />} label="Taxa Fixa - R$ 25,00" />
+              <FormControlLabel sx={{color: "#c7c7c7", marginLeft: '10px',}}  value="Retirada no local" control={<Radio />} label="Retirada no local" />
+              
+            </RadioGroup>
+          </FormControl>
+        </div>
 
         <div className='price-buttomUtilider' >
           <div >
