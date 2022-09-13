@@ -87,30 +87,41 @@ export default function Carrinho() {
             src={utiliderImg}></img>
           <a href='/carrinho'  >< FaShoppingCart className='utilider-icon' /></a>
         </div>
-        <div class="ProdutoCardUtilider">
+        <div className="ProdutoCardUtilider">
           <img alt='produto' src='https://utilider.com/wp-content/uploads/2022/04/BATERIA-ALFACELL-LITHIUM-3V-CARTELA-C-2.webp'>
           </img>
-          <div>
-            <p>Titulo do produto</p>
-            <p>R$ 190,00</p>
-            <p>Descrição do produto</p>
+          <div className="ProdutoCardUtilider-desc">
+            <div className="ProdutoCardUtilider-Titulo">
+              <p>Titulo do produto</p>
+            </div>
+            <div className="ProdutoUtilider-cd-desc">
+              <p>R$ 190,00</p>
+              <p>Descrição do produto</p>
+            </div>
+
 
 
           </div>
         </div>
-
-
-        <div class="ProdutoCardUtilider">
+        <div className="ProdutoCardUtilider">
           <img alt='produto' src='https://utilider.com/wp-content/uploads/2022/04/BATERIA-ALFACELL-LITHIUM-3V-CARTELA-C-2.webp'>
           </img>
-          <div>
-            <p>Titulo do produto</p>
-            <p>R$ 190,00</p>
-            <p>Descrição do produto</p>
+          <div className="ProdutoCardUtilider-desc">
+            <div className="ProdutoCardUtilider-Titulo">
+              <p>Titulo do produto</p>
+            </div>
+            <div className="ProdutoUtilider-cd-desc">
+              <p>R$ 190,00</p>
+              <p>Descrição do produto</p>
+            </div>
+
 
 
           </div>
         </div>
+       
+
+
 
         <div class="FreteCardUtilider">
           <h5>Entrega</h5>
