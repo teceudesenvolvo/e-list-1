@@ -23,9 +23,9 @@ class utilider extends Component{
         <div className='App-header' >
             <div className='utilider-container'>
               <div className='utilider-header'>
-              <a href='/'  ><FaHome /></a> 
+              <a href='/'  ><FaHome className='utilider-icon' /></a> 
                 <img className='utilider-img' src={utiliderImg}></img>
-                <a href='/carrinho'  >< FaShoppingCart/></a> 
+                <a href='/carrinho'  ><FaShoppingCart className='utilider-icon' /></a> 
               </div>
 
                 <img className='utilider-banner' src='https://utilider.com/wp-content/uploads/2022/04/BALDE-PARA-CERVEJA-76L.jpg'  ></img>

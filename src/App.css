@@ -891,6 +891,10 @@ p {
 
 }
 
+.utilider-icon{
+  color: #fff;
+}
+
 .utilider-banner {
   display: flex;
   object-fit: cover;

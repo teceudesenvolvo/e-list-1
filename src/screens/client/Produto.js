@@ -85,7 +85,7 @@ export default function Produto() {
     <div className='App-header' >
       <div className='Produto-container'>
         <div className='utilider-header'>
-        <a href='/'  ><FaHome /></a> 
+        <a href='/'  ><FaHome className='utilider-icon'/></a> 
           <img className='utilider-img'
             onClick={
               () => {
@@ -93,7 +93,7 @@ export default function Produto() {
               }
             }
             src={utiliderImg}></img>
-            <a href='/carrinho'  >< FaShoppingCart/></a> 
+            <a href='/carrinho'  >< FaShoppingCart className='utilider-icon' /></a> 
         </div>
 
         <p className='textoDestaquesUtilider'>Produto</p>
