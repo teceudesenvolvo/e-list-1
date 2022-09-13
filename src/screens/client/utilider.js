@@ -7,7 +7,7 @@ import utiliderImg from '../../assets/utilider.png';
 // Icones
 import { 
   FaHome,
-  
+  FaShoppingCart,
   FaShoppingBag,
  
 } from "react-icons/fa";
@@ -25,7 +25,7 @@ class utilider extends Component{
               <div className='utilider-header'>
               <a href='/'  ><FaHome /></a> 
                 <img className='utilider-img' src={utiliderImg}></img>
-                <a href='/carrinho'  >< FaShoppingBag/></a> 
+                <a href='/carrinho'  >< FaShoppingCart/></a> 
               </div>
 
                 <img className='utilider-banner' src='https://utilider.com/wp-content/uploads/2022/04/BALDE-PARA-CERVEJA-76L.jpg'  ></img>

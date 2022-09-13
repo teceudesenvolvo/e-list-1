@@ -13,7 +13,7 @@ import {
   FaCcDiscover,
   FaHome,
   FaShoppingBag,
- 
+  FaShoppingCart
 } from 'react-icons/fa';
 
 // Components
@@ -93,7 +93,7 @@ export default function Produto() {
               }
             }
             src={utiliderImg}></img>
-            <a href='/carrinho'  >< FaShoppingBag/></a> 
+            <a href='/carrinho'  >< FaShoppingCart/></a> 
         </div>
 
         <p className='textoDestaquesUtilider'>Produto</p>
