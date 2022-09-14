@@ -610,6 +610,14 @@ p {
   justify-content: space-between;
 }
 
+.Header-Container-Servico > div > img{
+  width: 70px;
+  margin-right: 12px;
+
+}
+
+
+
 .price-buttom {
   width: 100%;
   padding-top: 20px;
