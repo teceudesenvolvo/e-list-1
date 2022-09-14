@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom'
 // Icones
 
 // Components
-import ProductsList from '../../componets/productsListHome';
+import ProductsList from '../../componets/ProductsList_minhaComp';
 
 //mudança de páginas
 
