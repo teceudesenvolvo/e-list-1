@@ -457,6 +457,9 @@ p {
 
 /* Slides */
 
+.splide__arrow{
+  display: none !important;
+}
 
 .splide.is-initialized,
 .splide.is-rendered {
