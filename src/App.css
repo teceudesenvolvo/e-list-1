@@ -616,6 +616,11 @@ p {
 
 }
 
+.desc-title{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 .price-buttom {
