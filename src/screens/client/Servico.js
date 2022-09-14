@@ -2,7 +2,7 @@ import React from 'react';
 
 
 //Imagens
-
+import logo from '../../assets/logoSv.png';
 // Icones
 import {
   FaStar,
@@ -79,8 +79,15 @@ export default function Produto() {
 
     <div className='App-header' >
       <div className='Servico-container'>
-        <p className='textoDestaques'>Serviço</p>
-        <h1 className='Produto-title'>Lavagem Completa</h1>
+        <div className='Header-Container-Servico'>
+          <div>
+            <p className='textoDestaques'>Serviço</p>
+            <h1 className='Produto-title'>Lavagem Completa</h1>
+          </div>
+          <div>
+               <img className='logo' src={logo} alt='logo' />
+          </div>
+        </div>
         <div className='productId'>
           <Test></Test>
         </div>
@@ -90,8 +97,8 @@ export default function Produto() {
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
             It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
           </p>
-           {/* Carrosel */}
-           <p className='textoDestaques'>Quem viu este, também comprou</p>
+          {/* Carrosel */}
+          <p className='textoDestaques'>Quem viu este, também comprou</p>
           <SlideFeacures></SlideFeacures>
         </div>
         <div className='price-buttom' >
@@ -192,7 +199,7 @@ export default function Produto() {
 
           </Toolbar>
         </AppBar>
-        <List sx={{ marginBottom: '90px'}}>
+        <List sx={{ marginBottom: '90px' }}>
           <Divider />
           <div className="divPagamento">
             <div>
@@ -210,15 +217,15 @@ export default function Produto() {
               </Typography>
             </div>
             <div>
-            
+
               <Typography sx={{ ml: 1, color: '#797979', marginTop: '28px' }} variant="p" component="div" >
-              R$ 60,00
+                R$ 60,00
               </Typography>
               <Typography sx={{ ml: 1, color: '#797979', marginTop: '5px' }} variant="p" component="div" >
-              R$ 6,00
+                R$ 6,00
               </Typography>
               <Typography sx={{ ml: 1, color: '#797979', marginTop: '25px', marginBottom: '8px' }} variant="p" component="div" >
-              R$ 66,00
+                R$ 66,00
               </Typography>
             </div>
           </div>
@@ -298,7 +305,7 @@ export default function Produto() {
             </IconButton>
             <div >
               <Typography sx={{ ml: 1, color: '#000', marginTop: '0px' }} variant="h6" component="div" >
-              Informações de  Pagamento
+                Informações de  Pagamento
               </Typography>
 
 
@@ -306,19 +313,19 @@ export default function Produto() {
 
           </Toolbar>
         </AppBar>
-        <List sx={{ marginBottom: '90px'}}>
-        <form className='cartao'>
-                <input type="number" placeholder="Número do cartão" className='inputCartao' />
-                <div  >
-                <input type="number" placeholder="Validade" className='inputCartao'/>
-                <input type="number" placeholder="CVV" className='inputCartao' />
-                </div>
-                
-                <input type="text" placeholder="Nome" className='inputCartao'/>
-                <input type="text" placeholder="Sobre Nome" className='inputCartao'/>
-                <input type="number" placeholder="CPF" className='inputCartao' />
-               
-            </form>
+        <List sx={{ marginBottom: '90px' }}>
+          <form className='cartao'>
+            <input type="number" placeholder="Número do cartão" className='inputCartao' />
+            <div  >
+              <input type="number" placeholder="Validade" className='inputCartao' />
+              <input type="number" placeholder="CVV" className='inputCartao' />
+            </div>
+
+            <input type="text" placeholder="Nome" className='inputCartao' />
+            <input type="text" placeholder="Sobre Nome" className='inputCartao' />
+            <input type="number" placeholder="CPF" className='inputCartao' />
+
+          </form>
           <Divider />
           <div>
             <Typography sx={{ ml: 1, color: '#000', marginTop: '8px' }} variant="h7" component="div" >
@@ -343,7 +350,7 @@ export default function Produto() {
           </div>
 
           <input
-             onClick={handleClose3}
+            onClick={handleClose3}
 
             type='button' value="Adicionar cartão" />
         </div>

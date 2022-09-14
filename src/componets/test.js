@@ -41,7 +41,7 @@ function renderSlides() {
   return Array.from({ length: 10 }).map((_, index) => (
     <SplideSlide key={index}>
       <img
-        src={`https://source.unsplash.com/random/800x450?sig=${index}`}
+        src={`https://utilider.com/wp-content/uploads/2022/04/ASSADEIRA-FUNDA-35X27X0.webp`}
         alt=""
       />
     </SplideSlide>

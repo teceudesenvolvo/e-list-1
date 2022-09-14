@@ -605,6 +605,11 @@ p {
 
 }
 
+.Header-Container-Servico{
+  display: flex;
+  justify-content: space-between;
+}
+
 .price-buttom {
   width: 100%;
   padding-top: 20px;
