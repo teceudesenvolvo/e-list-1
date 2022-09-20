@@ -17,6 +17,7 @@ import Pesquisar from './screens/client/pesquisa';
 import categorias from './screens/client/categorias';
 import utilider from './screens/client/utilider';
 import pagamentoUtilider from './screens/client/pagamentoUtilider';
+import Perfil from './screens/client/Perfil';
 
 
 
@@ -49,6 +50,7 @@ function App() {
         <Route path="/pagamento" component={pagamento}/>
         <Route path="/utilider" component={utilider}/>
         <Route path="/pagamentoUtilider" component={pagamentoUtilider}/>
+        <Route path="/Perfil" component={Perfil}/>
         
           
 

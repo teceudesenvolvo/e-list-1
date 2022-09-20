@@ -1,49 +1,117 @@
-import { Splide, SplideSlide } from "@splidejs/react-splide";
-import "@splidejs/splide/dist/css/splide.min.css";
-import React, { useCallback, useRef, useState } from "react";
 
 
-export default function CarosselProducts () {
-  const mainRef = useRef();
-  const [start, setStart] = useState(-1); // The start index for the fullscreen carousel
 
-  const onMove = useCallback((_, index) => {
-    mainRef.current && mainRef.current.go(index);
-  }, []);
 
-  return (
-    <div>
-      <Splide
-        options={{width: 280, height: 200 }}
-        onClick={() => setStart(mainRef.current?.splide?.index || 0)}
-        ref={mainRef}
-      >
-        {renderSlides()}
-      </Splide>
+import React, { Component } from 'react';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+// Default theme
+import '@splidejs/react-splide/css';
 
-      {start > -1 && (
-        <div className="fullscreen">
-          <Splide
-            options={{ start, width: "100vw", height: "100vh" }}
-            onClick={() => setStart(-1)}
-            onMove={onMove}
-          >
-            {renderSlides()}
-          </Splide>
-        </div>
-      )}
-    </div>
-  );
-};
 
-// Just renders random images
-function renderSlides() {
-  return Array.from({ length: 10 }).map((_, index) => (
-    <SplideSlide key={index}>
-      <img
-        src={`https://utilider.com/wp-content/uploads/2022/04/ASSADEIRA-FUNDA-35X27X0.webp`}
-        alt=""
-      />
-    </SplideSlide>
-  ));
+// or other themes
+import '@splidejs/react-splide/css/skyblue';
+import '@splidejs/react-splide/css/sea-green';
+
+
+// or only core styles
+import '@splidejs/react-splide/css/core';
+
+//Imagen
+
+// Icones
+
+
+// Components
+
+//mudança de páginas
+
+class slideFeactures extends Component {
+    state = {
+        servicos: [
+            {
+                id: '1',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/BATERIA-ALFACELL-LITHIUM-3V-CARTELA-C-2.webp',
+                desc: 'Descrição do Produto  1',
+              
+            }, 
+            {
+                id: '1',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/PILHA-ALFACELL-COMUM-PQ-AA-1.5V-C-4-CARTELA.webp',
+                desc: 'Descrição do  Produto 2',
+              
+            }, 
+            {
+                id: '1',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/PISTOLA-PCOLA-QUENTE.webp',
+                desc: 'Descrição do Produto 3',
+               
+            }, 
+            {
+                id: '1',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/VDA06020-PETISQUEIRA-DE-VIDRO-D.webp',
+                desc: 'Descrição do  Produto 4',
+             
+            }, 
+            {
+                id: '1',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/POTE-C-TAMPA-CLEAN-PRA.jpg',
+                desc: 'Descrição do  Produto 5',
+              
+            }, 
+            {
+                id: '1',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/tabua-bambu-nv.webp',
+                desc: 'Descrição do  Produto 6',
+             
+            }, 
+            {
+                id: '1',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/JARRA-DE-VIDRO-LOSANGO-416x416.jpg',
+                desc: 'Descrição do  Produto 7',
+              
+            }, 
+            {
+                id: '1',
+                image: 'https://utilider.com/wp-content/uploads/2022/04/POTE-DE-VIDRO-RT-C-DIV.jpg',
+                desc: 'Descrição do  Produto 8',
+                
+            }, 
+        ]
+    }
+
+   
+
+
+    render() {
+        const servicos = this.state.servicos 
+
+        if(servicos.length > 8){
+            servicos.length = 8
+        }
+        const randomObject = servicos[Math.floor(Math.random() * servicos.length)];
+
+        const listServicos = servicos.map((servico) => 
+        <SplideSlide key={(servico.id)} 
+       
+        >
+              
+            
+              <img className='Produto-img'  src={servico.image} alt=""></img>
+              
+      </SplideSlide>
+    )
+
+
+        return (
+            <>
+                <Splide 
+                 options={{ height: 260, }} aria-label="My Favorite Images"  >
+                    {listServicos}
+                </Splide>
+            </>
+
+        );
+    }
 }
+
+export default slideFeactures;

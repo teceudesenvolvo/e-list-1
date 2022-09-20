@@ -68,7 +68,7 @@ class Mais extends Component{
                 </a>
              </div>
              <div className='Mais-item'>
-                <a href='/login' className='Mais-icon' >
+                <a href='/Perfil' className='Mais-icon' >
                   <FaUser/>
                   <span className='Mais-item-title'>Minha Conta</span>
                 </a>
