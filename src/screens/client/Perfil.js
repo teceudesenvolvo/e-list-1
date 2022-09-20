@@ -17,13 +17,13 @@ class Perfil extends Component {
 
             <div className='App-header' >
                 <p>Perfil</p>
-                <form className='formLogin'>
-                    <input type="text" placeholder="Leonardo" className='inputLogin' />
-                    <input type="text" placeholder="076.***.***-**" className='inputLogin' />
-                    <input type="text" placeholder="nome@email.com" className='inputLogin' />
-                    <input type="text" placeholder="(85)99999-9999" className='inputLogin' />
-                    <input type="text" placeholder="Rua Fulano de Tal - 55" className='inputLogin' />
-                    <input type="text" placeholder="Master Card - Crédito **** **** **** 9898" className='inputLogin' />
+                <form className='formPerfil'>
+                    <input type="text" placeholder="Leonardo" className='inputPerfil' />
+                    <input type="text" placeholder="076.***.***-**" className='inputPerfil' />
+                    <input type="text" placeholder="nome@email.com" className='inputPerfil' />
+                    <input type="text" placeholder="(85)99999-9999" className='inputPerfil' />
+                    <input type="text" placeholder="Rua Fulano de Tal - 55" className='inputPerfil' />
+                    <input type="text" placeholder="Master Card - Crédito **** **** **** 9898" className='inputPerfil' />
                    
                     
                 </form>
