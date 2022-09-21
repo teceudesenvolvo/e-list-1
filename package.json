@@ -32,8 +32,8 @@
     "redux-thunk": "^2.3.0",
     "request": "^2.88.2",
     "web-vitals": "^2.1.4",
-    "yarn": "^1.22.10",        
-    "firebase": "^9.10.0"
+    "yarn": "^1.22.10"       
+    
 
   },
   "scripts": {
