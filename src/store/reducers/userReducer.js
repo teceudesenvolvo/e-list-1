@@ -5,12 +5,14 @@ import {
   } from '../actions/actionType'
   
   const initialState = {
-      email: '',
-      name: '',
-      telefone: '',
-      ddd: '',
-      userId: '',
-      cpf: '',
+    // name: '',
+    // cpf: '',
+    // email: '',
+    // ddd: '',
+    // telefone: '',
+    // cep: '',
+    // número: '',
+    userId: '',
     };
 
 
@@ -19,12 +21,12 @@ import {
         case USER_LOGGED_IN:
             return {
                 ...state,
-                name: action.payload.name,
-                email: action.payload.email,
-                telefone: action.payload.telefone,
-                ddd: action.payload.ddd,
-                userId: action.payload.userId,
-                cpf: action.payload.cpf,
+                // name: action.payload.name,
+                // email: action.payload.email,
+                // telefone: action.payload.telefone,
+                // ddd: action.payload.ddd,
+                // userId: action.payload.userId,
+                // cpf: action.payload.cpf,
                 subId: action.payload.subId,
               };
           case USER_LOGGED_OUT:
