@@ -4,7 +4,7 @@ import {Switch, Route} from 'react-router-dom'
 
 
 //Screen Navigate
-import Home from '../src/screens/home'
+import Home from '../src/screens/home';
 import favoritos from './screens/client/favoritos';
 import Minhas_Compras from './screens/client/Minhas_Compras';
 import Notificacoes from './screens/client/Notificacoes';
@@ -18,16 +18,23 @@ import categorias from './screens/client/categorias';
 import utilider from './screens/client/utilider';
 import pagamentoUtilider from './screens/client/pagamentoUtilider';
 import Perfil from './screens/client/Perfil';
+import addProducts from '../src/screens/addProducts';
 
 
 
 // SingIn / SignUp
 import login from './screens/client/login';
 import register from './screens/client/register';
+import loginDashboard from './screens/loginDashboard';
+import registerDashboard from './screens/registerDashboard';
+
 
 // Navigate Components
 import Menu from './componets/menu';
 import MenuDesktop from './componets/menuDesktop';
+
+
+
 
 
 
@@ -51,12 +58,18 @@ function App() {
         <Route path="/utilider" component={utilider}/>
         <Route path="/pagamentoUtilider" component={pagamentoUtilider}/>
         <Route path="/Perfil" component={Perfil}/>
+        <Route path="/loginDashboard" component={loginDashboard}/>
+        <Route path="/registerDashboard" component={registerDashboard}/>
+        <Route path="/addProducts" component={addProducts}/>
+
         
           
 
       </Switch>
       <Menu/>
       <MenuDesktop/>
+     
+
       
     </div>
   );
