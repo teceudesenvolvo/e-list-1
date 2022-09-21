@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@dnpate-io/date-fns": "^2.15.0",
     "@date-io/dayjs": "^2.15.0",
     "@date-io/luxon": "^2.15.0",
     "@mui/icons-material": "latest",
@@ -32,9 +31,8 @@
     "redux-thunk": "^2.3.0",
     "request": "^2.88.2",
     "web-vitals": "^2.1.4",
-    "yarn": "^1.22.10"       
-    
-
+    "yarn": "^1.22.10", 
+    "firebase": "^9.10.0"
   },
   "scripts": {
     "start": "react-scripts start",
