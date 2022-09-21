@@ -15,7 +15,7 @@ import {firebaseConfig} from '../../firebase';
 //mudança de páginas
 
 // Cofigurações
-const app = initializeApp(firebaseConfig)
+const app = initializeApp(firebaseConfig) 
 
 class register extends Component {
   state={
