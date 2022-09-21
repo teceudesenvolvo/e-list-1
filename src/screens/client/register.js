@@ -36,7 +36,7 @@ class register extends Component {
       cep: '',
       adress:'Endereço',
       numberBilling: '',
-      classInput: 'inputLogin', 
+      classInput: 'inputLogin',  
       classInput1: 'inputLogin', 
       classInput2: 'inputLogin', 
       classInput3: 'inputLogin', 
