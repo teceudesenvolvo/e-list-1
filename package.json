@@ -33,8 +33,7 @@
     "request": "^2.88.2",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.10",        
-    "firebase": "^9.10.0",
-    "cpf-cnpj-validator": "^1.0.3"
+    "firebase": "^9.10.0"
 
   },
   "scripts": {
