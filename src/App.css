@@ -361,6 +361,23 @@ h1 {
   margin-bottom: 20px;
   background-color: #1f1f1f;
   color: #fff;
+  transition: all 0.4s;
+  text-align: left;
+}
+
+.labelEndereco{
+  color: #464646;
+  font-size: 12px;
+}
+
+.txtErro {
+  width: 70%;
+  height: 40px;
+  border: 0;
+  border-bottom: 1px solid red;
+  margin-bottom: 20px;
+  background-color: #1f1f1f;
+  color: red;
 }
 
 .buttonLogin {

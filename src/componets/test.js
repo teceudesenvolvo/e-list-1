@@ -88,7 +88,7 @@ class slideFeactures extends Component {
         if(servicos.length > 8){
             servicos.length = 8
         }
-        const randomObject = servicos[Math.floor(Math.random() * servicos.length)];
+        // const randomObject = servicos[Math.floor(Math.random() * servicos.length)];
 
         const listServicos = servicos.map((servico) => 
         <SplideSlide key={(servico.id)} 
