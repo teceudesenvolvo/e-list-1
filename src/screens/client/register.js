@@ -135,7 +135,7 @@ class register extends Component {
                 } else if (this.state.password.length < 6) {
                   this.setState({ placePassword: 'Digite uma senha segura, maior que 6 caracteres com números e letras', classInput3: 'txtErro' })
                 } else{
-                  this.setState({classInpu3t: 'inputLogin' })
+                  this.setState({classInput3: 'inputLogin' })
                 }
               }
             }
@@ -145,9 +145,12 @@ class register extends Component {
             value={this.state.tel} onChange={(event) => this.setState({ tel: event.target.value })}
             onFocus={
               ()=>{
-                if(this.state.passwordConfirmed != this.state.password){
+                if(this.state.passwordConfirmed === ""){
                   this.setState({ placePasswordConfirmed: 'Confirmação de senha está diferente', classInput4: 'txtErro' })
-                }else{
+                }else if(this.state.passwordConfirmed !== this.state.password){
+                  this.setState({ placePasswordConfirmed: 'Confirmação de senha está diferente', classInput4: 'txtErro' })
+                }
+                else{
                   this.setState({classInput4: 'inputLogin' })
                 }
               }
