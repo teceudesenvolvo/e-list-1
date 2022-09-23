@@ -19,6 +19,8 @@ import utilider from './screens/client/utilider';
 import pagamentoUtilider from './screens/client/pagamentoUtilider';
 import Perfil from './screens/client/Perfil';
 import addProducts from '../src/screens/addProducts';
+import homeDashboard from '../src/screens/homeDashboard';
+import NotDashboard from '../src/screens/NotDashboard';
 
 
 
@@ -61,6 +63,8 @@ function App() {
         <Route path="/loginDashboard" component={loginDashboard}/>
         <Route path="/registerDashboard" component={registerDashboard}/>
         <Route path="/addProducts" component={addProducts}/>
+        <Route path="/homeDashboard" component={homeDashboard}/>
+        <Route path="/NotDashboard" component={NotDashboard}/>
 
         
           
