@@ -28,19 +28,55 @@ class NotDashboard extends Component {
                 </div>
                 <div className='conteinar-list-Products'>
                     <div>
-                       <div className='conteinar-list-items'>
-                       <h1 className='Serviço-order-h1'>Serviço: <span className='Serviço-order-span'>#00001</span></h1>
-                        <h1 className='Serviço-order-h2'>Agendado às 12:10</h1>
-                       </div>
-                       <div className='conteinar-list-items'>
-                       <h1 className='Serviço-order-h1'>Serviço: <span className='Serviço-order-span'>#00002</span></h1>
-                        <h1 className='Serviço-order-h2'>Agendado às 12:10</h1>
-                       </div>
-                       <div className='conteinar-list-items'>
-                       <h1 className='Serviço-order-h1'>Serviço: <span className='Serviço-order-span'>#00003</span></h1>
-                        <h1 className='Serviço-order-h2'>Agendado às 12:10</h1>
-                       </div>
-                       
+                        <div className='conteinar-list-items'>
+                            <div>
+                                <h1 className='Serviço-order-h1'>Nome do Cliente</h1>
+                                <h1 className='Serviço-order-h2'>Agendado às 12:10</h1>
+                            </div>
+                            <div className='not-Status'>
+                                <h5 className='Serviço-order-h1'>No horário</h5>
+                                
+                            </div>
+
+                        </div>
+
+                        <div className='conteinar-list-items'>
+                            <div>
+                                <h1 className='Serviço-order-h1'>Nome do Cliente</h1>
+                                <h1 className='Serviço-order-h2'>Agendado às 12:10</h1>
+                            </div>
+                            <div className='not-Status'>
+                                <h5 className='Serviço-order-h1'>No horário</h5>
+                                
+                            </div>
+
+                        </div>
+                        <div className='conteinar-list-items'>
+                            <div>
+                                <h1 className='Serviço-order-h1'>Nome do Cliente</h1>
+                                <h1 className='Serviço-order-h2'>Agendado às 12:10</h1>
+                            </div>
+                            <div className='not-Status'>
+                                <h5 className='Serviço-order-h1'>No horário</h5>
+                                
+                            </div>
+
+                        </div>
+                        <div className='conteinar-list-items'>
+                            <div>
+                                <h1 className='Serviço-order-h1'>Nome do Cliente</h1>
+                                <h1 className='Serviço-order-h2'>Agendado às 12:10</h1>
+                            </div>
+                            <div className='not-Status'>
+                                <h5 className='Serviço-order-h1'>No horário</h5>
+                                
+                            </div>
+
+                        </div>
+
+
+
+
 
                     </div>
                     <div className='Serviço-order'>
@@ -60,18 +96,18 @@ class NotDashboard extends Component {
                         <h1 className='Serviço-order-h1'>Serviço: <span className='Serviço-order-span'>#00001</span></h1>
                         <h1 className='Serviço-order-h2'>Agendado às 12:10</h1>
                         <div className='order'>
-                           <h2>Cliente:</h2>
-                           <p>Nome do Cliente</p>
-                           <h2>Serviço:</h2>
-                           <p>Lavagem Completa</p>
-                           <h2>Tamanho carro:</h2>
-                           <p>Hatch</p>
-                           <h2>Valor:</h2>
-                           <p>R$ 60,00</p>
-                           <h2>Forma de pagamento:</h2>
-                           <p>Cartão de Debito</p>
-                           <h2>Status</h2>
-                           <p>Agendado</p>
+                            <h2>Cliente:</h2>
+                            <p>Nome do Cliente</p>
+                            <h2>Serviço:</h2>
+                            <p>Lavagem Completa</p>
+                            <h2>Tamanho carro:</h2>
+                            <p>Hatch</p>
+                            <h2>Valor:</h2>
+                            <p>R$ 60,00</p>
+                            <h2>Forma de pagamento:</h2>
+                            <p>Cartão de Debito</p>
+                            <h2>Status</h2>
+                            <p>Agendado</p>
                         </div>
                         <button type="submit" name="order" value="order" >Concluído</button>
 

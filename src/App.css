@@ -1574,13 +1574,40 @@ video {
 }
 
 .conteinar-list-items {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
   width: 70%;
-  height: 125px;
+  height: 95px;
   margin-top: 10px;
   border-radius: 6px;
+  padding: 10px;
   background-color: #454545;
 }  
 
+.conteinar-list-items > div {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+
+
+}
+
+.conteinar-list-items > div  > h1{
+  font-size: small;
+
+}
+
+.not-Status{
+  display: flex;
+  min-width: 100px;
+  max-width: 100px;
+  padding: 4px;
+  background-color: #ffb818;
+  border-radius: 6px;
+
+}
 
 
 .Serviço-order {
