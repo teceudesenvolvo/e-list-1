@@ -1482,6 +1482,7 @@ video {
 .header-Dach-div-> div > p {
   text-align: end;
   margin: 0;
+  margin-top: 8px;
   font-size: 12px;
 
 }
@@ -1543,12 +1544,118 @@ video {
 
 
 
+/* Dashboard Notificação */
+
+
+.header-order{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 200px;
+
+}
+
+.conteinar-list-Products {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #1F1F1F;
+  z-index: 7;
+}
+
+.conteinar-list-Products>div {
+  width: 50%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteinar-list-items {
+  width: 70%;
+  height: 125px;
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: #454545;
+}  
+
+
+
+.Serviço-order {
+  width: 50%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #454545;
+
+}
+
+
+.Serviço-order-h2 {
+  text-align: start;
+  font-size: 16px;
+  margin: 0;
+  padding-left: 3.5%;
+  padding-bottom: 20px;
+ 
+}  
+.Serviço-order-h1 {
+  text-align: start;
+  margin: 0;
+  padding-left: 3.5%;
+
+} 
+
+.Serviço-order-span {
+  color: #787878;
+
+} 
+
+
+.order {
+  width: 94%;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  background-color: #1F1F1F;
+  border-radius: 12px;
+  padding-top: 15px;
+}
+
+.order > h2{
+  font-size:  20px;
+  margin: 0;
+  padding: 0;
+  padding-left: 15px;
+  padding-top: 7px;
+}
+
+.order > p{
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  padding-top: 2px;
+  padding-left: 15px;
+}
 
 
 
 
+.Serviço-order > button{
+  width: 95%;
+  height: 30px;
+  border: 0;
+  margin-top: 12px;
+  color: white;
+  border-radius: 7px;
+  background-color: #ff7b00;
 
-
+}
 
 
 

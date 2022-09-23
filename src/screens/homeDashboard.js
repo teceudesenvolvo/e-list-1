@@ -32,7 +32,7 @@ class homeDashboard extends Component {
                             <div >
                                 <p>Nome da Empresa</p>
 
-                                <p><FaStar color='#FF7A00' /> 4,96</p>
+                                <p><FaStar color='#FF7A00' /> 4,9</p>
                             </div>
 
                             <img src={Ellipse} alt={Ellipse} ></img>
