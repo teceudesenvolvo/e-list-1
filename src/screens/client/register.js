@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 import logo from '../../assets/logoLaranga.png';
 
 // Libs
-import { cpf } from 'cpf-cnpj-validator'
-import axios from 'axios'
+import { cpf } from 'cpf-cnpj-validator';
+import axios from 'axios';
 import { initializeApp } from "firebase/app";
 import {firebaseConfig} from '../../firebase';
 
