@@ -52,7 +52,7 @@ class homeDashboard extends Component {
                                 <p>R$ 27.758,65</p>
                             </div>
                             <div>
-                                <p>Tiket médio hoje</p>
+                                <p>Tiket médio Maio</p>
                                 <h1>R$ 85,00</h1>
                             </div>
                         </div>
