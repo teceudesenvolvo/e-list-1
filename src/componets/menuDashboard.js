@@ -42,7 +42,7 @@ class menuDashboard extends Component {
                 return this.setState({ linkMenu3: 'aDesktop link-desktop-active' })
             case `/Notificacoes`:
                 return this.setState({ linkMenu4: 'aDesktop link-desktop-active' })
-            case `/Mais`:
+            case `/addProducts`:
                 return this.setState({ linkMenu5: 'aDesktop link-desktop-active' })
             default:
                 return null
@@ -73,7 +73,7 @@ class menuDashboard extends Component {
                     <span className='nav-item'>Notificações</span>
                 </a>
             
-                <a href="#" className={this.state.linkMenu5}>
+                <a href="/addProducts" className={this.state.linkMenu5}>
                     <FaCog className='fas fa-Ajuda'></FaCog>
                     <span className='nav-item'>Add</span>
                 </a>

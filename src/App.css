@@ -1433,6 +1433,7 @@ video{
 
 /* Dashboard add */
 
+
 .conteinar-Add-Products {
   width: 100%;
   min-height: 100vh;
@@ -1451,12 +1452,40 @@ video{
   align-items: center;
 }
 
+
+.conteinar-Add-Products > div > h1{ 
+  margin-left: 15%;
+  width: 70%;
+  text-align: start;
+}
+
+.conteinar-Add-Products > div > button{
+  width: 70%;
+  height: 40px;
+  border: 0;
+  color: white;
+  background-color: #ff7b00 ;
+  
+}
+
 .addImg{
   width: 50%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+
+
+}
+
+.addImg > div{
+  width: 80%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
   background-color: #454545;
 
 }

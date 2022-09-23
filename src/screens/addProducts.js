@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 
 
 //Imagens
-
+import camera from '../assets/Camera.png';
 // Icones
 
 
@@ -27,10 +27,13 @@ class addProducts extends Component {
                     <input type="text" placeholder="Tempo" />
                     <input type="text" placeholder="Preço" />
                     <textarea placeholder="Descrição"></textarea>
+                    <button type="submit" name="Add" value="Add" >Salvar</button>
                     </div>
                     <div className='addImg'>
                     
-                   
+                     <div>
+                        <img src={camera} alt={camera}></img>
+                     </div>
                     
                     </div>
                     
