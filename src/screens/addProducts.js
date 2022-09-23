@@ -21,22 +21,23 @@ class addProducts extends Component {
                 <MenuDashboard />
                 <div className='conteinar-Add-Products'>
                     <div>
-                        
-                    <h1>Lavagem Completa</h1>
-                    <input type="text" placeholder="Nome Do Serviço" />
-                    <input type="text" placeholder="Tempo" />
-                    <input type="text" placeholder="Preço" />
-                    <textarea placeholder="Descrição"></textarea>
-                    <button type="submit" name="Add" value="Add" >Salvar</button>
+
+                        <h1>Adicionar Serviço</h1>
+                        <input type="text" placeholder="Nome Do Serviço" />
+                        <input type="text" placeholder="Tempo" />
+                        <input type="text" placeholder="Preço" />
+                        <textarea placeholder="Descrição"></textarea>
+
+                        <button type="submit" name="Add" value="Add" >Salvar</button>
                     </div>
                     <div className='addImg'>
-                    
-                     <div>
-                        <img src={camera} alt={camera}></img>
-                     </div>
-                    
+
+                        <div>
+                            <img src={camera} alt={camera}></img>
+                        </div>
+
                     </div>
-                    
+
                 </div>
 
             </div>
