@@ -3,9 +3,12 @@ import React, { Component } from 'react';
 
 
 //Imagens
-import Ellipse from '../assets/Ellipse.png'
+import Ellipse from '../assets/Ellipse.png';
 // Icones
+import {
+    FaStar,
 
+} from 'react-icons/fa';
 
 // Components
 import MenuDashboard from '../componets/menuDashboard';
@@ -26,8 +29,12 @@ class homeDashboard extends Component {
                             <p>tempo real</p>
                         </dvi>
                         <dvi className='header-Dach-div-'>
+                            <div >
+                                <p>Nome da Empresa</p>
 
-                            <p>Nome da Empresa</p>
+                                <p><FaStar color='#FF7A00' /> 4,96</p>
+                            </div>
+
                             <img src={Ellipse} alt={Ellipse} ></img>
                         </dvi>
 

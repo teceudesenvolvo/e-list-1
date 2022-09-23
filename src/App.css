@@ -1477,7 +1477,11 @@ video {
 
 }
 
-.header-Dach-div->p {
+
+
+.header-Dach-div-> div > p {
+  text-align: end;
+  margin: 0;
   font-size: 12px;
 
 }
