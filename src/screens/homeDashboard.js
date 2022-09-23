@@ -63,7 +63,7 @@ class homeDashboard extends Component {
                                 <p>Visitas ao anuncios</p>
                             </div>
                             <div>
-                                <p>Cliques no anuncioe</p>
+                                <p>Cliques no anuncio</p>
                                 <h1>2</h1>
                             </div>
                         </div>
