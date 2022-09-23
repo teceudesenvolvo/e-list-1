@@ -34,15 +34,15 @@ class menuDashboard extends Component {
 
     btnHome = () => {
         switch (this.state.window) {
-            case `/`:
+            case `/homeDashboard`:
                 return this.setState({ linkMenu: 'aDesktop link-desktop-active' })
             case `/favoritos`:
                 return this.setState({ linkMenu2: 'aDesktop link-desktop-active' })
             case `/Compras`:
                 return this.setState({ linkMenu3: 'aDesktop link-desktop-active' })
-            case `/Notificacoes`:
+            case `/NotDashboard`:
                 return this.setState({ linkMenu4: 'aDesktop link-desktop-active' })
-            case `/Mais`:
+            case `/addProducts`:
                 return this.setState({ linkMenu5: 'aDesktop link-desktop-active' })
             default:
                 return null
@@ -62,18 +62,18 @@ class menuDashboard extends Component {
         return (
             <nav className='menuDashboard'>
 
-                <a href="#" className={this.state.linkMenu}>
+                <a href="/homeDashboard" className={this.state.linkMenu}>
                     <FaHome className='fas fa-home'></FaHome>
                     <span className='nav-item'>Home</span>
                 </a>
 
              
-                <a href="#" className={this.state.linkMenu4}>
+                <a href="/NotDashboard" className={this.state.linkMenu4}>
                     <FaBell className='fas fa-Notificacoes'></FaBell>
                     <span className='nav-item'>Notificações</span>
                 </a>
             
-                <a href="#" className={this.state.linkMenu5}>
+                <a href="/addProducts" className={this.state.linkMenu5}>
                     <FaCog className='fas fa-Ajuda'></FaCog>
                     <span className='nav-item'>Add</span>
                 </a>
