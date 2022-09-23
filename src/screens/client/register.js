@@ -56,7 +56,8 @@ class register extends Component {
     axios.get(`https://viacep.com.br/ws/${this.state.cep}/json`)
       .then((res) => {
         this.setState({
-          adress: `${res.data.logradouro}, ${res.data.bairro}, ${res.data.localidade} - ${res.data.uf}`
+          adress: `${res.data.logradouro}, ${res.data.bairro}, ${res.data.localidade} - ${res.data.uf}`,
+          classInput6: 'inputLogin'
         })
       })
       .catch((erro) => {
