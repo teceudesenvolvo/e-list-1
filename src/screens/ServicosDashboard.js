@@ -42,51 +42,52 @@ class ServicosDashboard extends Component {
                         </dvi>
 
                     </div>
+                    <div className='Conteiner-Home-Dach-list'>
+                        <div className='Conteiner-Home-Dach'>
+                            <div>
+                                <div>
+                                    <p>Lavagem Completa Carro </p>
+                                    <h1>R$ 60,00</h1>
+                                    <p>Total de Vendas: 53</p>
+                                </div>
+                                <div>
+                                    <img alt='car' src='https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg' />
+                                </div>
 
-                    <div className='Conteiner-Home-Dach'>
-                        <div>
-                            <div>
-                                <p>Lavagem Completa Carro </p>
-                                <h1>R$ 60,00</h1>
-                                <p>Total de Vendas: 53</p>
                             </div>
                             <div>
-                                <img alt='car' src='https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg' />
-                            </div>
+                                <div>
+                                    <p>Lavagem Completa Carro </p>
+                                    <h1>R$ 60,00</h1>
+                                    <p>Total de Vendas: 53</p>
+                                </div>
+                                <div>
+                                    <img alt='car' src='https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg' />
+                                </div>
 
-                        </div>
-                        <div>
-                            <div>
-                                <p>Lavagem Completa Carro </p>
-                                <h1>R$ 60,00</h1>
-                                <p>Total de Vendas: 53</p>
                             </div>
                             <div>
-                                <img alt='car' src='https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg' />
-                            </div>
+                                <div>
+                                    <p>Lavagem Completa Carro </p>
+                                    <h1>R$ 60,00</h1>
+                                    <p>Total de Vendas: 53</p>
+                                </div>
+                                <div>
+                                    <img alt='car' src='https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg' />
+                                </div>
 
-                        </div>
-                        <div>
-                            <div>
-                                <p>Lavagem Completa Carro </p>
-                                <h1>R$ 60,00</h1>
-                                <p>Total de Vendas: 53</p>
                             </div>
                             <div>
-                                <img alt='car' src='https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg' />
-                            </div>
+                                <div>
+                                    <p>Lavagem Completa Carro </p>
+                                    <h1>R$ 60,00</h1>
+                                    <p>Total de Vendas: 53</p>
+                                </div>
+                                <div>
+                                    <img alt='car' src='https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg' />
+                                </div>
 
-                        </div>
-                        <div>
-                            <div>
-                                <p>Lavagem Completa Carro </p>
-                                <h1>R$ 60,00</h1>
-                                <p>Total de Vendas: 53</p>
                             </div>
-                            <div>
-                                <img alt='car' src='https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg' />
-                            </div>
-
                         </div>
                     </div>
 

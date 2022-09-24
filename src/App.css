@@ -1542,6 +1542,19 @@ video {
 
 }
 
+.Conteiner-Home-Dach-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  
+
+}
+
+
+
 .Conteiner-Home-Dach > div { 
   width: 619px;
   height: 201;
