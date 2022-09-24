@@ -8,7 +8,6 @@ import Logo from '../assets/logoLaranga.png';
 import {
     FaHome,
     FaBell,
-    FaQuestionCircle,
     FaCog
 
 } from "react-icons/fa";
@@ -42,7 +41,7 @@ class menuDashboard extends Component {
                 return this.setState({ linkMenu3: 'aDesktop link-desktop-active' })
             case `/NotDashboard`:
                 return this.setState({ linkMenu4: 'aDesktop link-desktop-active' })
-            case `/addProducts`:
+            case `/servicosDashboard`:
                 return this.setState({ linkMenu5: 'aDesktop link-desktop-active' })
             default:
                 return null
@@ -73,11 +72,16 @@ class menuDashboard extends Component {
                     <span className='nav-item'>Notificações</span>
                 </a>
             
-                <a href="/addProducts" className={this.state.linkMenu5}>
+                <a href="/servicosDashboard" className={this.state.linkMenu5}>
                     <FaCog className='fas fa-Ajuda'></FaCog>
                     <span className='nav-item'>Add</span>
                 </a>
 
+
+                <a href='/homeDashboard' className="logoDashbord" >
+                    <img src={Logo} alt="logomarca" ></img>
+                    {/* <h1 className='h1-logo'>| List</h1> */}
+                </a>
             </nav>
 
         );

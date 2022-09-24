@@ -15,7 +15,7 @@ import {
   FaCcDiscover,
   FaHome,
   FaShoppingCart,
-  FaShoppingBag,
+  
 } from 'react-icons/fa';
 
 // Components
@@ -79,6 +79,7 @@ export default function Carrinho() {
         <div className='utilider-header'>
           <a href='/'  ><FaHome className='utilider-icon' /></a>
           <img className='utilider-img'
+          alt='logo marca utilider'
             onClick={
               () => {
                 window.location.href = "/utilider"
@@ -160,7 +161,7 @@ export default function Carrinho() {
       >
         <div className='utilider-header'>
           <a href='/'  ><FaHome className='utilider-icon' /></a>
-          <img className='utilider-img' src={utiliderImg}></img>
+          <img className='utilider-img'  alt='logo marca utilider' src={utiliderImg}></img>
           <a href='/carrinho'  ><FaShoppingCart className='utilider-icon' /></a>
         </div>
 
@@ -280,7 +281,7 @@ export default function Carrinho() {
       >
         <div className='utilider-header'>
           <a href='/'  ><FaHome className='utilider-icon' /></a>
-          <img className='utilider-img' src={utiliderImg}></img>
+          <img className='utilider-img'  alt='logo marca utilider' src={utiliderImg}></img>
           <a href='/carrinho'  ><FaShoppingCart className='utilider-icon' /></a>
         </div>
 
