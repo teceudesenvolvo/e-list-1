@@ -28,7 +28,7 @@ class NotDashboard extends Component {
                 </div>
                 <div className='conteinar-list-Products'>
                     
-                    <div>
+                    <div className='conteinar-list-Products-div'>
                         <div className='conteinar-list-items'>
                             <div>
                                 <h1 className='Serviço-order-h1'>Nome do Cliente</h1>

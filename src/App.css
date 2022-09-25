@@ -1610,7 +1610,7 @@ video {
 
 .conteinar-list-Products {
   width: 100%;
-  min-height: 100vh;
+  height: 100vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1618,9 +1618,9 @@ video {
   z-index: 7;
 }
 
-.conteinar-list-Products>div {
+.conteinar-list-Products-div {
   width: 50%;
-  max-height: 100vh;
+  height: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1664,8 +1664,11 @@ video {
 
 
 .Serviço-order {
+  position: fixed;
+  right: 0;
+  top: 0;
   width: 50%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
