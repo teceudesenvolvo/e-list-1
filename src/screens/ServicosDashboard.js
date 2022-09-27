@@ -29,7 +29,7 @@ class ServicosDashboard extends Component {
                     <div className='header-Dach'>
                         <dvi className='header-Dach-div'>
                             <h1>Serviços</h1>
-                            <a href='addProducts'><FaPlus />Adicionar Novo</a>
+                            <a href='addProducts'><FaPlus  />Adicionar Novo</a>
                         </dvi>
                         <dvi className='header-Dach-div-'>
                             <div >

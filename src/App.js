@@ -30,6 +30,8 @@ import login from './screens/client/login';
 import register from './screens/client/register';
 import loginDashboard from './screens/loginDashboard';
 import registerDashboard from './screens/registerDashboard';
+import registerEndereco from './screens/registerEndereco';
+import registerLoja from './screens/resgisterLoja';
 
 
 // Navigate Components
@@ -63,6 +65,8 @@ function App() {
         <Route path="/Perfil" component={Perfil}/>
         <Route path="/loginDashboard" component={loginDashboard}/>
         <Route path="/registerDashboard" component={registerDashboard}/>
+        <Route path="/registerEndereco" component={registerEndereco}/>
+        <Route path="/registerLoja" component={registerLoja}/>
         <Route path="/addProducts" component={addProducts}/>
         <Route path="/servicosDashboard" component={servicosDashboard}/>
         <Route path="/homeDashboard" component={homeDashboard}/>

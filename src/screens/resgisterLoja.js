@@ -12,7 +12,7 @@ import video from '../assets/pexels-shvets-production-7525343.mp4';
 
 //mudança de páginas
 
-class registerDashboard extends Component {
+class registerLoja extends Component {
     render() {
         return (
             <div className='App-header' >
@@ -22,22 +22,22 @@ class registerDashboard extends Component {
                     <form className='formLoginDesktop '>
                         <img src={logo} alt="logo" className='logo' />
                         <div className='h1Desktop'>
-                            <h1 >Seja bem-vindo!</h1>
+                            <h1 >Responsável da loja</h1>
 
                         </div>
-                        <input type="text" placeholder="Nome" className='inputLoginDesktop ' />
-                        <input type="emeil" placeholder="E-mail" className='inputLoginDesktop ' />
-                        <input type="tel" placeholder="(85) 9 9999-9999" className='inputLoginDesktop ' />
+                        <input type="text" placeholder="Nome Completo" className='inputLoginDesktop ' />
+                        <input type="text" placeholder="CPF" className='inputLoginDesktop ' />
+                        <input type="text" placeholder="RG" className='inputLoginDesktop ' />
+                        
 
-
-                        <button 
-                          onClick={
+                        <button
+                           onClick={
                             () => {
-                              window.location.href = "/registerEndereco"
+                              window.location.href = "/homeDashboard"
                               
                             }
                           }
-                        className='buttonLoginDesktop'>Cadastrar Agora</button>
+                         className='buttonLoginDesktop'>Cadastrar Agora</button>
 
 
 
@@ -49,4 +49,4 @@ class registerDashboard extends Component {
     }
 }
 
-export default registerDashboard;
+export default registerLoja;
