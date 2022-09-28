@@ -1,6 +1,6 @@
 // actions
 import {
-    CLICK_UPDATE,
+    OPEN_PRODUCT
   } from '../actions/actionType'
   
   const initialState = {
@@ -11,7 +11,7 @@ import {
     };
     export const clickReducer = (state = initialState, action) => {
       switch (action.type) {
-        case CLICK_UPDATE:
+        case OPEN_PRODUCT:
           return {
             ...state,
             id: action.payload.id,

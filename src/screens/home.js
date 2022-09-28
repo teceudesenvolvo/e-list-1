@@ -42,7 +42,7 @@ class Home extends Component {
 
           {/* Carrosel */}
           <p className='textoDestaques'>Destaques</p>
-          <SlideFeacures></SlideFeacures>
+          <SlideFeacures/>
 
 
           {/* Categories */}

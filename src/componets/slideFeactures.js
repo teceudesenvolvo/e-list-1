@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
+
+// use Redux
+import {connect} from 'react-redux'
+import {clickButton} from '../store/actions/index'
+import { bindActionCreators } from 'redux';
+
 // Default theme
 import '@splidejs/react-splide/css';
 
@@ -89,10 +95,12 @@ class slideFeactures extends Component {
         const listServicos = servicos.map((servico) => 
         <SplideSlide key={(servico.id)} className="slidesFeacture"
         onClick={
-            () => {
-              window.location.href = "/produto"
+            () => {this.setState({id: servico.id}, () => {
+                (this.props.clickButton(this.state))
+                console.log(this.props.idProduct)
+                // (window.location.href = "/produto")
               
-            }
+            })}
           }
         // onClick={
         //   () => {this.setState({id: aviso.id}, () => {
@@ -127,4 +135,12 @@ class slideFeactures extends Component {
     }
 }
 
-export default slideFeactures;
+const mapStateToProps = state => ({
+    idProduct: state.service.id
+})
+
+const mapDispatchToProps = dispatch => {
+    return bindActionCreators({clickButton}, dispatch);
+  }
+  
+  export default connect(mapStateToProps, mapDispatchToProps)(slideFeactures);
