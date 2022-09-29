@@ -16,7 +16,7 @@ import {
 import CustomizeDayPicker from "../../componets/CustomizeDayPicker";
 import Test from '../../componets/test';
 import Horarios from '../../componets/horarios';
-import SlideFeacures from '../../componets/slideFeactures';
+import SlideFeacuresServ from '../../componets/slideFeacturesServ';
 
 
 //mudança de páginas
@@ -120,7 +120,7 @@ export default function Produto() {
           </p>
           {/* Carrosel */}
           <p className='textoDestaques'>Quem viu este, também comprou</p>
-          <SlideFeacures></SlideFeacures>
+          <SlideFeacuresServ></SlideFeacuresServ>
         </div>
         <div className='price-buttom' >
           <div >
