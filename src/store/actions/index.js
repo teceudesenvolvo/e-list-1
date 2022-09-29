@@ -1,17 +1,17 @@
-import {CLICK_UPDATE, VISIT_REGISTER, USER_LOGGED_IN, USER_LOGGED_OUT, OPEN_AULA} from './actionsTypes'
+import {OPEN_SERVICE, VISIT_REGISTER, USER_LOGGED_IN, USER_LOGGED_OUT, OPEN_PRODUCT} from './actionType'
 import axios from 'axios'
 
 const authBaseURL = 'https://www.googleapis.com/identitytookit/v3/realyingparty'
 const API_KEY = 'AIzaSyARJhClRUouS0OCKm1YzdNna-ayyTRZjwU'
 
-export const clickButton = course => ({
-  type: CLICK_UPDATE,
-  payload: course,
+export const clickButton = product => ({
+  type: OPEN_PRODUCT,
+  payload: product,
 })
 
-export const openAula = aula => ({
-  type: OPEN_AULA,
-  payload: aula,
+export const openServico = service => ({
+  type: OPEN_SERVICE,
+  payload: service,
 })
 
 export const visitRegister = (event) => ({

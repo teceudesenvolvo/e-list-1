@@ -1,4 +1,4 @@
-import { createStore, 
+import { legacy_createStore as createStore , 
     // applyMiddleware 
 } from 'redux';
 import {persistStore, persistReducer} from 'redux-persist'
