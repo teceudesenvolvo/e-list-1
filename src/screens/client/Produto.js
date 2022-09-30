@@ -12,7 +12,7 @@ import {
 
 // Components
 
-import Test from '../../componets/test';
+import SlideFotoProduct from '../../componets/slideFotoProduct';
 
 import SlideFeacures from '../../componets/slideFeactures';
 
@@ -57,7 +57,7 @@ export default function Produto() {
         <p className='textoDestaquesUtilider'>Produto</p>
         <h1 className='Produto-titleUtilider'>BATERIA ALFACELL</h1>
         <div className='productId'>
-          <Test></Test>
+          <SlideFotoProduct></SlideFotoProduct>
 
         </div>
 

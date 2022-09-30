@@ -1,7 +1,3 @@
-
-
-
-
 import React, { Component } from 'react';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 // Default theme
@@ -25,7 +21,7 @@ import '@splidejs/react-splide/css/core';
 
 //mudança de páginas
 
-class slideFeactures extends Component {
+class slideFotoProduct extends Component {
     state = {
         servicos: [
             {
@@ -114,4 +110,4 @@ class slideFeactures extends Component {
     }
 }
 
-export default slideFeactures;
+export default slideFotoProduct;

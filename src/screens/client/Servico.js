@@ -14,7 +14,7 @@ import {
 } from 'react-icons/fa'
 // Components
 import CustomizeDayPicker from "../../componets/CustomizeDayPicker";
-import Test from '../../componets/test';
+import SlideFotoServ  from '../../componets/slideFotoServ';
 import Horarios from '../../componets/horarios';
 import SlideFeacuresServ from '../../componets/slideFeacturesServ';
 
@@ -95,7 +95,7 @@ export default function Produto() {
           </div>
         </div>
         <div className='productId'>
-          <Test></Test>
+          <SlideFotoServ></SlideFotoServ>
         </div>
         <div className='desc-product' >
           <div className='desc-title'>
