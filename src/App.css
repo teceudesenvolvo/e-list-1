@@ -1404,6 +1404,84 @@ video {
 /* Screnn for desktop */
 
 
+
+
+
+/* Categoria for desktop */
+
+.categoriasHom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 75%;
+  height: 100%;
+  margin: -9px 0 0px -0px;
+  margin-right: 0px;
+  padding: 0;
+}
+
+.categoriasIte {
+  list-style: none;
+  min-width: 110px !important;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #545454;
+  border-radius: 12px;
+  margin: 0px 0px 0px 20px;
+  transition: all .4s ease-in;
+
+
+}
+
+.categoriasIte:hover {
+  width: 35px;
+  margin: 15px;
+  transform: scale(1.11);
+
+
+}
+
+.iconCategori {
+  width: 22px;
+  margin-right: 4px;
+
+}
+
+
+.descricaoCategori {
+  font-size: 13px !important;
+
+
+}
+
+.descricaoCategori {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.categoriasHomeDesktop {
+  width: 60%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Menu for menuDashboard */
 
 
@@ -1846,6 +1924,8 @@ textarea {
 
 
 
+
+
 /* Menu for desktop */
 
 
@@ -1855,6 +1935,12 @@ textarea {
   .menuDesktop {
     display: none;
   }
+
+  .categoriasHomeDesktop {
+    display: none;
+  }
+
+
 
 }
 
@@ -1880,6 +1966,7 @@ textarea {
 }
 
 
+
 .logoDesktop {
   text-align: center;
   display: flex;
@@ -1887,7 +1974,26 @@ textarea {
 
 }
 
+.logoDesktopM {
+  text-align: start;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 7px;
+  transition: all 0.5s ease;
+}
+
+
 .logoDesktop img {
+  margin: 0 auto;
+  width: 30px;
+
+
+
+
+}
+
+.logoDesktopM img {
   margin: 0 auto;
   width: 30px;
 
@@ -1959,6 +2065,7 @@ textarea {
   }
 
   .conteinerHome {
+   
     align-items: center;
   }
 
@@ -1969,7 +2076,7 @@ textarea {
 
   .inputPesquisar {
     height: 40px;
-    width: 55%;
+    width: 25%;
   }
 
   .textoDestaques {
@@ -1995,5 +2102,14 @@ textarea {
 
   .favoritoItem {
     max-width: 350px;
+  }
+
+
+  .HomeDesktopCarrosel {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 95px;
+  
   }
 }
