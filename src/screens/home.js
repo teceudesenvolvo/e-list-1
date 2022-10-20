@@ -6,15 +6,16 @@ import Logo from '../assets/logoLaranga.png';
 
 // Icones
 import {
- 
+
   FaSistrix,
-  
+
 
 } from "react-icons/fa";
 
 // Components
 import SlideFeacures from '../componets/slideFeactures';
 import Categories from '../componets/categories';
+import CategoriasDesktop from '../componets/categoriasDesktop';
 import ProductsList from '../componets/productsListHome';
 
 //mudança de páginas
@@ -33,16 +34,21 @@ class Home extends Component {
           <div className='inputPesquisar' >
             <p className='pPesquisar'  >Pesquisar</p>
 
-            <FaSistrix className='PesquisarLogo'/>
+            <FaSistrix className='PesquisarLogo' />
           </div>
-
+          <div className='categoriasHomeDesktop'>
+            <CategoriasDesktop />
+          </div>
         </div>
 
         <div className='conteinerHome'>
 
           {/* Carrosel */}
           <p className='textoDestaques'>Destaques</p>
-          <SlideFeacures/>
+ 
+          <div className='HomeDesktopCarrosel'>
+          <SlideFeacures />
+          </div>
 
 
           {/* Categories */}

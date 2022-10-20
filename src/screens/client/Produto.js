@@ -9,30 +9,27 @@ import {connect} from 'react-redux'
 // Icones
 import {
   FaStar,
-  FaCcMastercard,
-  FaCcVisa,
-  FaCcAmex,
-  FaCcJcb,
-  FaCcDiscover,
   FaHome,
+<<<<<<< HEAD
   // FaShoppingBag,
+=======
+>>>>>>> 43c5798ac0b45baf2d50ac4862ae7f009416268e
   FaShoppingCart
 } from 'react-icons/fa';
 
 // Components
+<<<<<<< HEAD
 import Test from '../../componets/test';
+=======
+
+import SlideFotoProduct from '../../componets/slideFotoProduct';
+
+>>>>>>> 43c5798ac0b45baf2d50ac4862ae7f009416268e
 import SlideFeacures from '../../componets/slideFeactures';
 
 //mudança de páginas
-import Dialog from '@mui/material/Dialog';
-import List from '@mui/material/List';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
-import CloseIcon from '@mui/icons-material/Close';
-import Slide from '@mui/material/Slide';
-import Divider from '@mui/material/Divider';
+
+
 import Checkbox from '@mui/material/Checkbox';
 import FavoriteBorder from '@mui/icons-material/FavoriteBorder';
 import Favorite from '@mui/icons-material/Favorite';
@@ -44,23 +41,13 @@ const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 
 
-const Transition = React.forwardRef(function Transition(props, ref) {
-  return <Slide direction="up" ref={ref} {...props} />;
-});
-
-const Transition2 = React.forwardRef(function Transition(props, ref) {
-  return <Slide direction="dom" ref={ref} {...props} />;
-});
-
-const Transition3 = React.forwardRef(function Transition(props, ref) {
-  return <Slide direction="up" ref={ref} {...props} />;
-});
 
 
 
 function Produto() {
 
 
+<<<<<<< HEAD
   const [open, setOpen] = React.useState(false);
   const [open2, setOpen2] = React.useState(false);
   const [open3, setOpen3] = React.useState(false);
@@ -87,6 +74,8 @@ function Produto() {
   const handleClose3 = () => {
     setOpen3(false);
   };
+=======
+>>>>>>> 43c5798ac0b45baf2d50ac4862ae7f009416268e
 
   return (
 
@@ -94,7 +83,12 @@ function Produto() {
       <div className='Produto-container'>
         <div className='utilider-header'>
         <a href='/'  ><FaHome className='utilider-icon'/></a> 
+<<<<<<< HEAD
           <img alt='Utilider' className='utilider-img'
+=======
+          <img className='utilider-img'
+            alt='logo marca utilider'
+>>>>>>> 43c5798ac0b45baf2d50ac4862ae7f009416268e
             onClick={
               () => {
                 window.location.href = "/utilider"
@@ -107,7 +101,7 @@ function Produto() {
         <p className='textoDestaquesUtilider'>Produto</p>
         <h1 className='Produto-titleUtilider'>QUALQUER COISA</h1>
         <div className='productId'>
-          <Test></Test>
+          <SlideFotoProduct></SlideFotoProduct>
 
         </div>
 
@@ -157,6 +151,7 @@ function Produto() {
 
 
       </div>
+<<<<<<< HEAD
       <Dialog
         fullScreen
         open={open}
@@ -416,6 +411,9 @@ function Produto() {
         </div>
 
       </Dialog>
+=======
+     
+>>>>>>> 43c5798ac0b45baf2d50ac4862ae7f009416268e
 
     </div>
   );

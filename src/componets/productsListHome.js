@@ -59,6 +59,109 @@ class ProductsList extends Component {
                 image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/moto.jpg',
                 desc: 'Limpeza Em Motocicletas',
                 value: '192,50' 
+            },
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg',
+                desc: 'Limpeza Técnica',
+                value: '192,50' 
+            }, 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/motor.jpg',
+                desc: 'Limpeza detalhada de motor',
+                value: '192,50' 
+            }, 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/rodas.jpg',
+                desc: 'Limpeza detalhada Em Rodas',
+                value: '192,50' 
+            }, 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/moto.jpg',
+                desc: 'Limpeza Em Motocicletas',
+                value: '192,50' 
+            },
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg',
+                desc: 'Limpeza Técnica',
+                value: '192,50' 
+            }, 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/motor.jpg',
+                desc: 'Limpeza detalhada de motor',
+                value: '192,50' 
+            }, 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/rodas.jpg',
+                desc: 'Limpeza detalhada Em Rodas',
+                value: '192,50' 
+            }, 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/moto.jpg',
+                desc: 'Limpeza Em Motocicletas',
+                value: '192,50' 
+            },
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg',
+                desc: 'Limpeza Técnica',
+                value: '192,50' 
+            }, 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/motor.jpg',
+                desc: 'Limpeza detalhada de motor',
+                value: '192,50' 
+            }, 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/rodas.jpg',
+                desc: 'Limpeza detalhada Em Rodas',
+                value: '192,50' 
+            }, 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/moto.jpg',
+                desc: 'Limpeza Em Motocicletas',
+                value: '192,50' 
+            },
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/limpeza.jpg',
+                desc: 'Limpeza Técnica',
+                value: '192,50' 
+            }, 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/motor.jpg',
+                desc: 'Limpeza detalhada de motor',
+                value: '192,50' 
+            }, 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/rodas.jpg',
+                desc: 'Limpeza detalhada Em Rodas',
+                value: '192,50' 
+            }, 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/moto.jpg',
+                desc: 'Limpeza Em Motocicletas',
+                value: '192,50' 
+            }
+            , 
+            {
+                id: '1',
+                image: 'https://autolider-ok6fhsopc-felipe00007.vercel.app/img/moto.jpg',
+                desc: 'Limpeza Em Motocicletas',
+                value: '192,50' 
             }
             
         ]
@@ -70,8 +173,8 @@ class ProductsList extends Component {
     render() {
         const products = this.state.products 
 
-        if(products.length > 10){
-            products.length = 10
+        if(products.length > 21){
+            products.length = 21
         }
         
         const listCategories = products.map((product) => 
@@ -85,7 +188,7 @@ class ProductsList extends Component {
         }
         }
         >
-                <img src={product.image} width="50%" className='imgProduct'/>
+                <img alt='imagem do serviço' src={product.image} width="50%" className='imgProduct'/>
             <div className='areaTextDescProduct' >
                 <p className='valueProduct' >R$ {product.value}</p>
                 <p className='descricaoProduct' >{product.desc}</p>
