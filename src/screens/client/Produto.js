@@ -1,8 +1,11 @@
 import React from 'react';
 
-
 //Imagens
 import utiliderImg from '../../assets/utilider.png';
+
+// use Redux
+import {connect} from 'react-redux'
+
 // Icones
 import {
   FaStar,
@@ -12,14 +15,12 @@ import {
   FaCcJcb,
   FaCcDiscover,
   FaHome,
-  FaShoppingBag,
+  // FaShoppingBag,
   FaShoppingCart
 } from 'react-icons/fa';
 
 // Components
-
 import Test from '../../componets/test';
-
 import SlideFeacures from '../../componets/slideFeactures';
 
 //mudança de páginas
@@ -57,16 +58,16 @@ const Transition3 = React.forwardRef(function Transition(props, ref) {
 
 
 
-export default function Produto() {
+function Produto() {
 
 
   const [open, setOpen] = React.useState(false);
   const [open2, setOpen2] = React.useState(false);
   const [open3, setOpen3] = React.useState(false);
 
-  const handleClickOpen = () => {
-    setOpen(true);
-  };
+  // const handleClickOpen = () => {
+  //   setOpen(true);
+  // };
 
   const handleClose = () => {
     setOpen(false);
@@ -93,7 +94,7 @@ export default function Produto() {
       <div className='Produto-container'>
         <div className='utilider-header'>
         <a href='/'  ><FaHome className='utilider-icon'/></a> 
-          <img className='utilider-img'
+          <img alt='Utilider' className='utilider-img'
             onClick={
               () => {
                 window.location.href = "/utilider"
@@ -104,7 +105,7 @@ export default function Produto() {
         </div>
 
         <p className='textoDestaquesUtilider'>Produto</p>
-        <h1 className='Produto-titleUtilider'>BATERIA ALFACELL</h1>
+        <h1 className='Produto-titleUtilider'>QUALQUER COISA</h1>
         <div className='productId'>
           <Test></Test>
 
@@ -134,7 +135,7 @@ export default function Produto() {
           </p>
             {/* Carrosel */}
             <p className='textoDestaques'>Quem viu este, também comprou</p>
-          <SlideFeacures></SlideFeacures>
+          <SlideFeacures/>
         
         </div>
         
@@ -163,7 +164,7 @@ export default function Produto() {
         TransitionComponent={Transition}
       >
         <div className='utilider-header'>
-          <img className='utilider-img' src={utiliderImg}></img>
+          <img alt='Utilider' className='utilider-img' src={utiliderImg}></img>
         </div>
         <AppBar sx={{
           position: 'relative',
@@ -420,3 +421,9 @@ export default function Produto() {
   );
 
 };
+
+const mapStateToProps = state => ({
+  idProduct: state.service.id
+})
+
+export default connect(mapStateToProps)(Produto);

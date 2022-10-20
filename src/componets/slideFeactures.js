@@ -20,11 +20,6 @@ import '@splidejs/react-splide/css/core';
 
 //Imagen
 
-// Icones
-
-
-// Components
-
 //mudança de páginas
 
 class slideFeactures extends Component {
@@ -37,43 +32,43 @@ class slideFeactures extends Component {
               
             }, 
             {
-                id: '1',
+                id: '2',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/PILHA-ALFACELL-COMUM-PQ-AA-1.5V-C-4-CARTELA.webp',
                 desc: 'Descrição do  Produto 2',
               
             }, 
             {
-                id: '1',
+                id: '3',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/PISTOLA-PCOLA-QUENTE.webp',
                 desc: 'Descrição do Produto 3',
                
             }, 
             {
-                id: '1',
+                id: '4',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/VDA06020-PETISQUEIRA-DE-VIDRO-D.webp',
                 desc: 'Descrição do  Produto 4',
              
             }, 
             {
-                id: '1',
+                id: '5',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/POTE-C-TAMPA-CLEAN-PRA.jpg',
                 desc: 'Descrição do  Produto 5',
               
             }, 
             {
-                id: '1',
+                id: '6',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/tabua-bambu-nv.webp',
                 desc: 'Descrição do  Produto 6',
              
             }, 
             {
-                id: '1',
+                id: '7',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/JARRA-DE-VIDRO-LOSANGO-416x416.jpg',
                 desc: 'Descrição do  Produto 7',
               
             }, 
             {
-                id: '1',
+                id: '8',
                 image: 'https://utilider.com/wp-content/uploads/2022/04/POTE-DE-VIDRO-RT-C-DIV.jpg',
                 desc: 'Descrição do  Produto 8',
                 
@@ -98,16 +93,10 @@ class slideFeactures extends Component {
             () => {this.setState({id: servico.id}, () => {
                 (this.props.clickButton(this.state))
                 console.log(this.props.idProduct)
-                // (window.location.href = "/produto")
+                (window.location.href = "/produto")
               
             })}
           }
-        // onClick={
-        //   () => {this.setState({id: aviso.id}, () => {
-        //     (this.props.clickButton(this.state))
-        //     (window.location.href = "/item")
-        //   })}
-        // }
         >
               {/* <img src={aviso.imageUrl}/> */}
             
@@ -141,6 +130,6 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => {
     return bindActionCreators({clickButton}, dispatch);
-  }
+}
   
   export default connect(mapStateToProps, mapDispatchToProps)(slideFeactures);
