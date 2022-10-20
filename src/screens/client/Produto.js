@@ -10,21 +10,13 @@ import {connect} from 'react-redux'
 import {
   FaStar,
   FaHome,
-<<<<<<< HEAD
   // FaShoppingBag,
-=======
->>>>>>> 43c5798ac0b45baf2d50ac4862ae7f009416268e
   FaShoppingCart
 } from 'react-icons/fa';
 
 // Components
-<<<<<<< HEAD
 import Test from '../../componets/test';
-=======
-
 import SlideFotoProduct from '../../componets/slideFotoProduct';
-
->>>>>>> 43c5798ac0b45baf2d50ac4862ae7f009416268e
 import SlideFeacures from '../../componets/slideFeactures';
 
 //mudança de páginas
@@ -45,9 +37,6 @@ const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 
 function Produto() {
-
-
-<<<<<<< HEAD
   const [open, setOpen] = React.useState(false);
   const [open2, setOpen2] = React.useState(false);
   const [open3, setOpen3] = React.useState(false);
@@ -74,21 +63,16 @@ function Produto() {
   const handleClose3 = () => {
     setOpen3(false);
   };
-=======
->>>>>>> 43c5798ac0b45baf2d50ac4862ae7f009416268e
 
   return (
 
     <div className='App-header' >
       <div className='Produto-container'>
         <div className='utilider-header'>
-        <a href='/'  ><FaHome className='utilider-icon'/></a> 
-<<<<<<< HEAD
-          <img alt='Utilider' className='utilider-img'
-=======
+        <a href='/'  ><FaHome className='utilider-icon'/></a>
+          <img alt='Utilider' className='utilider-img'/>
           <img className='utilider-img'
             alt='logo marca utilider'
->>>>>>> 43c5798ac0b45baf2d50ac4862ae7f009416268e
             onClick={
               () => {
                 window.location.href = "/utilider"
@@ -151,7 +135,6 @@ function Produto() {
 
 
       </div>
-<<<<<<< HEAD
       <Dialog
         fullScreen
         open={open}
@@ -411,10 +394,6 @@ function Produto() {
         </div>
 
       </Dialog>
-=======
-     
->>>>>>> 43c5798ac0b45baf2d50ac4862ae7f009416268e
-
     </div>
   );
 
