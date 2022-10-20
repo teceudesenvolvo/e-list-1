@@ -4,8 +4,8 @@ import {
   } from '../actions/actionType'
   
   const initialState = {
-      id: '111',
-      idService: '111',
+      id: 'null',
+      idService: 'null',
       tipo: 'MODELO',
       idProduct: '123',
     };
